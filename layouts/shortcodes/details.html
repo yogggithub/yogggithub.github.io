@@ -1,0 +1,9 @@
+{{- $title := .Get "title" | default "点击展开" -}}
+{{- $open := .Get "open" | default false -}}
+
+<details class="custom-details" {{ if $open }}open{{ end }}>
+  <summary>{{ $title }}</summary>
+  <div class="details-content">
+    {{- .Inner | markdownify -}}
+  </div>
+</details>

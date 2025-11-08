@@ -1,0 +1,4 @@
+{{- $type := .Get "type" | default "default" -}}
+{{- $text := .Get "text" | default .Inner -}}
+
+<span class="badge badge-{{ $type }}">{{ $text }}</span>

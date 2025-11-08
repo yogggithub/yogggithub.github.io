@@ -1,0 +1,27 @@
+# Hugo 构建文件
+/public/
+/resources/_gen/
+/.hugo_build.lock
+hugo.exe
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.log
+*.tmp
+
+# Node.js (如果使用)
+node_modules/
+package-lock.json
+
+
+/docs/

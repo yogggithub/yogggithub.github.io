@@ -1,0 +1,5 @@
+{{- $index := .Get "index" | default "0" -}}
+
+<div class="tab-pane {{ if eq $index "0" }}active{{ end }}" data-index="{{ $index }}">
+  {{- .Inner | safeHTML -}}
+</div>

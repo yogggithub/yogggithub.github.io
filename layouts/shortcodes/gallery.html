@@ -1,0 +1,13 @@
+{{- $images := .Get "images" -}}
+{{- $cols := .Get "cols" | default "3" -}}
+
+<div class="shortcode-gallery" style="--gallery-cols: {{ $cols }};">
+  {{- range split $images "," -}}
+    {{- $img := . | trim -}}
+    <div class="gallery-item">
+      <a href="{{ $img }}" data-lightbox="gallery">
+        <img src="{{ $img }}" loading="lazy" alt="">
+      </a>
+    </div>
+  {{- end -}}
+</div>

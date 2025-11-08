@@ -1,0 +1,260 @@
+﻿{{- define "main" }} {{- $urlPath := .RelPermalink }} {{- $pathParts := split
+$urlPath "/" }} {{- $id := "" }} {{- range $pathParts }} {{- if and (ne . "")
+(ne . "watched") }} {{- $id = . }} {{- end }} {{- end }} {{- $item := index
+(where .Site.Data.watched.watched "id" $id) 0 }} {{- if $item }}
+<article class="post-single">
+  <header class="post-header">
+    <div class="content-header">
+      {{- if $item.poster }}
+      <div class="content-poster-large">
+        <img src="{{ $item.poster }}" alt="{{ $item.title }}" />
+      </div>
+      {{- end }}
+      <div class="content-header-info">
+        <h1 class="post-title">{{ $item.title }}</h1>
+        {{- if $item.original_title }}
+        <p style="font-style: italic; color: var(--secondary)">
+          {{ $item.original_title }}
+        </p>
+        {{- end }} {{- if and (eq $item.content_type "tvshow")
+        $item.seasons_data }}
+        <p style="color: var(--secondary); margin-top: 0.5rem">
+          📺 电视剧 · 已看 {{ len $item.seasons_data }} 季
+        </p>
+        {{- end }}
+        <div style="margin: 1rem 0">
+          {{- if $item.year }}
+          <p>{{ $item.year }}</p>
+          {{- end }} {{- if $item.director }}
+          <p>{{ $item.director }}</p>
+          {{- end }}
+        </div>
+        {{- if and $item.rating (ne $item.content_type "tvshow") }}
+        <div
+          style="
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            display: inline-block;
+          "
+        >
+          <div>我的评分</div>
+          <div style="font-size: 2rem; font-weight: bold">
+            {{ $item.rating }}/10
+          </div>
+        </div>
+        {{- end }}
+      </div>
+    </div>
+  </header>
+
+  {{- if $item.seasons_data }}
+  <div class="seasons-section">
+    <h2>分季评价</h2>
+    <div class="seasons-list">
+      {{- range $item.seasons_data }}
+      <div class="season-card">
+        <div class="season-header">
+          {{- if .poster }}
+          <div class="season-poster">
+            <img src="{{ .poster }}" alt="{{ .title }}" />
+          </div>
+          {{- end }}
+          <div class="season-info">
+            <h3>第 {{ .season }} 季</h3>
+            {{- if .title }}
+            <p class="season-title">{{ .title }}</p>
+            {{- end }}
+            <div class="season-meta">
+              {{- if .rating }}
+              <div class="season-rating">
+                <span class="rating-icon">⭐</span>
+                <span class="rating-value">{{ .rating }}/10</span>
+              </div>
+              {{- end }} {{- if .watched_date }}
+              <p class="season-date">📅 {{ .watched_date }}</p>
+              {{- end }}
+            </div>
+          </div>
+        </div>
+        {{- if .review }}
+        <div class="season-review">
+          <h4>评价</h4>
+          {{ .review | markdownify }}
+        </div>
+        {{- else }}
+        <div class="season-review">
+          <p style="color: var(--secondary); font-style: italic">暂无评价</p>
+        </div>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+  </div>
+  {{- else if $item.review }}
+  <div class="post-content">
+    <h2>个人影评</h2>
+    {{ $item.review | markdownify }}
+  </div>
+  {{- end }}
+</article>
+{{- else }}
+<article class="post-single">
+  <h1>内容未找到</h1>
+  <p><a href="/watched/">返回列表</a></p>
+</article>
+{{- end }}
+<style>
+  .content-header {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  .content-poster-large {
+    flex: 0 0 auto;
+    width: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  .content-poster-large img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .content-header-info {
+    flex: 1;
+    min-width: 300px;
+  }
+
+  .seasons-section {
+    margin: 2rem 0;
+  }
+  .seasons-section h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: var(--primary);
+    font-size: 1.5rem;
+  }
+  .seasons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .season-card {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+  }
+  .season-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  .season-header {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: var(--code-bg);
+  }
+  .season-poster {
+    flex: 0 0 auto;
+    width: 120px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  .season-poster img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .season-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .season-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--primary);
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .season-title {
+    margin: 0 0 0.75rem 0;
+    color: var(--content);
+    font-size: 1.05rem;
+    font-weight: 500;
+  }
+  .season-meta {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .season-rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  .rating-icon {
+    font-size: 1rem;
+  }
+  .rating-value {
+    font-size: 0.95rem;
+  }
+  .season-date {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin: 0;
+  }
+  .season-review {
+    padding: 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+  .season-review h4 {
+    margin: 0 0 0.75rem 0;
+    color: var(--primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .season-review p {
+    margin: 0.5rem 0;
+  }
+  .season-review p:first-of-type {
+    margin-top: 0;
+  }
+  .season-review p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    .content-header {
+      flex-direction: column;
+      align-items: center;
+    }
+    .content-poster-large {
+      width: 200px;
+    }
+    .season-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .season-poster {
+      width: 150px;
+    }
+  }
+</style>
+{{- end }}

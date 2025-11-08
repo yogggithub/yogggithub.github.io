@@ -1,0 +1,85 @@
+﻿{{- define "main" -}}
+
+<article class="post-single">
+  <header class="post-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1 class="post-title">{{- .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">{{- .Description }}</div>
+    {{- end }}
+  </header>
+
+  {{- if .Content }}
+  <div class="post-content">{{- .Content }}</div>
+  {{- end }}
+
+  {{- $allImages := .Resources.ByType "image" }}
+  
+  {{- if eq .Lang "zh" }}
+    {{- /* 中文页面：直接显示所有图片（包含中文和英文） */ -}}
+    {{- if $allImages }}
+    <div class="gallery-grid">
+      {{- range $allImages }}
+      <div class="gallery-item">
+        <a href="{{- .Permalink }}">
+          <img src="{{- .Permalink }}" alt="{{- .Title }}" loading="lazy">
+        </a>
+      </div>
+      {{- end }}
+    </div>
+    {{- else }}
+    <p>暂无图片</p>
+    {{- end }}
+  {{- else }}
+    {{- /* 英文页面：只显示英文目录的图片 */ -}}
+    {{- $filteredImages := slice }}
+    {{- range $allImages }}
+      {{- if in .RelPermalink "/en/gallery/" }}
+        {{- $filteredImages = $filteredImages | append . }}
+      {{- end }}
+    {{- end }}
+    
+    {{- if $filteredImages }}
+    <div class="gallery-grid">
+      {{- range $filteredImages }}
+      <div class="gallery-item">
+        <a href="{{- .Permalink }}">
+          <img src="{{- .Permalink }}" alt="{{- .Title }}" loading="lazy">
+        </a>
+      </div>
+      {{- end }}
+    </div>
+    {{- else }}
+    <p>No images available</p>
+    {{- end }}
+  {{- end }}
+</article>
+
+<style>
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  aspect-ratio: 1;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+</style>
+
+{{- end -}}

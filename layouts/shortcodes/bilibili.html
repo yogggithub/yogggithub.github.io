@@ -1,0 +1,31 @@
+{{- $bv := .Get "bv" -}}
+{{- $page := .Get "page" | default "1" -}}
+{{- $aid := .Get "aid" -}}
+
+<div class="bilibili-container">
+  {{- if $bv -}}
+    <iframe 
+      src="//player.bilibili.com/player.html?bvid={{ $bv }}&page={{ $page }}&high_quality=1&danmaku=0" 
+      scrolling="no" 
+      border="0" 
+      frameborder="no" 
+      framespacing="0" 
+      allowfullscreen="true"
+      loading="lazy"
+      sandbox="allow-scripts allow-same-origin allow-presentation"
+      title="Bilibili video player">
+    </iframe>
+  {{- else if $aid -}}
+    <iframe 
+      src="//player.bilibili.com/player.html?aid={{ $aid }}&page={{ $page }}&high_quality=1&danmaku=0" 
+      scrolling="no" 
+      border="0" 
+      frameborder="no" 
+      framespacing="0" 
+      allowfullscreen="true"
+      loading="lazy"
+      sandbox="allow-scripts allow-same-origin allow-presentation"
+      title="Bilibili video player">
+    </iframe>
+  {{- end -}}
+</div>

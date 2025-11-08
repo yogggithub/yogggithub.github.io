@@ -1,0 +1,19 @@
+{{- $author := .Get "author" -}}
+{{- $source := .Get "source" -}}
+{{- $type := .Get "type" | default "default" -}}
+
+<blockquote class="custom-quote quote-{{ $type }}">
+  {{- if $author -}}
+    <div class="quote-text">
+      {{- .Inner | markdownify -}}
+    </div>
+    <footer class="quote-footer">
+      <span class="quote-author">— {{ $author }}</span>
+      {{- if $source -}}
+        <cite class="quote-source">《{{ $source }}》</cite>
+      {{- end -}}
+    </footer>
+  {{- else -}}
+    {{- .Inner | markdownify -}}
+  {{- end -}}
+</blockquote>

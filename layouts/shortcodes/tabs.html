@@ -1,0 +1,38 @@
+{{- $id := .Ordinal -}}
+{{- $titles := split (.Get "titles") "," -}}
+
+<div class="tabs-container" id="tabs-{{ $id }}">
+  <div class="tab-buttons">
+    {{- range $index, $title := $titles -}}
+      <button class="tab-button {{ if eq $index 0 }}active{{ end }}" 
+              onclick="switchTab({{ $id }}, {{ $index }})"
+              data-tab="{{ $index }}">
+        {{ trim $title }}
+      </button>
+    {{- end -}}
+  </div>
+  <div class="tab-content">
+    {{- .Inner | safeHTML -}}
+  </div>
+</div>
+
+{{- if not (.Page.Scratch.Get "tabs-script-loaded") -}}
+<script>
+function switchTab(tabsId, index) {
+  const container = document.getElementById('tabs-' + tabsId);
+  if (!container) return;
+  
+  const buttons = container.querySelectorAll('.tab-button');
+  const panes = container.querySelectorAll('.tab-pane');
+  
+  buttons.forEach((btn, i) => {
+    btn.classList.toggle('active', i === index);
+  });
+  
+  panes.forEach((pane, i) => {
+    pane.classList.toggle('active', i === index);
+  });
+}
+</script>
+{{- .Page.Scratch.Set "tabs-script-loaded" true -}}
+{{- end -}}

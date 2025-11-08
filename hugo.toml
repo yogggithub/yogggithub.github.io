@@ -1,0 +1,134 @@
+baseURL = "https://example.com/"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  author = "Your Name"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  # 首页只显示 posts 目录的内容
+  mainSections = ["posts"]
+
+# 多语言配置
+[languages]
+  [languages.zh]
+    languageCode = "zh-CN"
+    languageName = "简体中文"
+    weight = 1
+    title = "我的博客"
+    
+    [languages.zh.params]
+      description = "欢迎来到我的博客"
+      
+      [languages.zh.params.homeInfoParams]
+        Title = "欢迎来到我的博客 👋"
+        Content = "这是使用Hugo和PaperMod主题创建的博客"
+    
+    [[languages.zh.params.socialIcons]]
+      name = "github"
+      url = "https://github.com/"
+    
+    [[languages.zh.params.socialIcons]]
+      name = "twitter"
+      url = "https://twitter.com/"
+    
+    [[languages.zh.menu.main]]
+      identifier = "posts"
+      name = "文章"
+      url = "posts"
+      weight = 10
+    
+    [[languages.zh.menu.main]]
+      identifier = "gallery"
+      name = "相册"
+      url = "gallery"
+      weight = 20
+    
+    [[languages.zh.menu.main]]
+      identifier = "watched"
+      name = "影评"
+      url = "watched"
+      weight = 30
+    
+    [[languages.zh.menu.main]]
+      identifier = "archives"
+      name = "归档"
+      url = "archives"
+      weight = 40
+    
+    [[languages.zh.menu.main]]
+      identifier = "search"
+      name = "搜索"
+      url = "search"
+      weight = 50
+
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    weight = 2
+    title = "My Blog"
+    contentDir = "content/en"
+    
+    [languages.en.params]
+      description = "Welcome to my blog"
+      
+      [languages.en.params.homeInfoParams]
+        Title = "Welcome to My Blog 👋"
+        Content = "A blog created with Hugo and PaperMod theme"
+    
+    [[languages.en.params.socialIcons]]
+      name = "github"
+      url = "https://github.com/"
+    
+    [[languages.en.params.socialIcons]]
+      name = "twitter"
+      url = "https://twitter.com/"
+    
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/en/posts/"
+      weight = 10
+    
+    [[languages.en.menu.main]]
+      identifier = "gallery"
+      name = "Gallery"
+      url = "gallery"
+      weight = 20
+    
+    [[languages.en.menu.main]]
+      identifier = "watched"
+      name = "Watched"
+      url = "watched"
+      weight = 30
+    
+    [[languages.en.menu.main]]
+      identifier = "archives"
+      name = "Archives"
+      url = "archives"
+      weight = 40
+    
+    [[languages.en.menu.main]]
+      identifier = "search"
+      name = "Search"
+      url = "search"
+      weight = 50
+
+# 输出格式
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# 自定义页面生成
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
