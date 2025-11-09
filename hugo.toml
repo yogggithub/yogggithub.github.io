@@ -1,7 +1,9 @@
-baseURL = "https://example.com/"
+baseURL = "https://yogggithub.github.io/"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 theme = "PaperMod"
+canonifyURLs = false
+relativeURLs = false
 
 [params]
   env = "production"
@@ -11,8 +13,34 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowRssButtonInSectionTermList = true
+  ShowLastmod = true  # 显示文章最后更新时间
   # 首页只显示 posts 目录的内容
   mainSections = ["posts"]
+
+  [params.label]
+    icon = "/logo.png"
+    iconHeight = 35
+
+  [params.assets]
+    favicon = "/favicon.png"
+    favicon16x16 = "/favicon.png"
+    favicon32x32 = "/favicon.png"
+    apple_touch_icon = "/favicon.png"
+
+  [params.profileMode]
+    enabled = true
+    title = "Your Name"
+    subtitle = "欢迎来到我的个人网站"
+    imageUrl = "/logo.png"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "我的头像"
+    buttons = [
+      {name = "文章", url = "/posts/"},
+      {name = "相册", url = "/gallery/"},
+      {name = "影评", url = "/watched/"},
+      {name = "归档", url = "/archives/"}
+    ]
 
 # 多语言配置
 [languages]
@@ -25,9 +53,21 @@ theme = "PaperMod"
     [languages.zh.params]
       description = "欢迎来到我的博客"
       
-      [languages.zh.params.homeInfoParams]
-        Title = "欢迎来到我的博客 👋"
-        Content = "这是使用Hugo和PaperMod主题创建的博客"
+      [languages.zh.params.profileMode]
+        enabled = true
+        title = "Your Name"
+        subtitle = "欢迎来到我的个人网站 👋"
+        imageUrl = "/logo.png"
+        imageWidth = 120
+        imageHeight = 120
+        imageTitle = "我的头像"
+        buttons = [
+          {name = "文章", url = "/posts/"},
+          {name = "相册", url = "/gallery/"},
+          {name = "影评", url = "/watched/"},
+          {name = "归档", url = "/archives/"},
+          {name = "搜索", url = "/search/"}
+        ]
     
     [[languages.zh.params.socialIcons]]
       name = "github"
@@ -37,34 +77,50 @@ theme = "PaperMod"
       name = "twitter"
       url = "https://twitter.com/"
     
+    [[languages.zh.params.socialIcons]]
+      name = "email"
+      url = "mailto:your@email.com"
+    
+    [[languages.zh.params.socialIcons]]
+      name = "telegram"
+      url = "https://t.me/yourusername"
+    
+    [[languages.zh.params.socialIcons]]
+      name = "buymeacoffee"
+      url = "https://buymeacoffee.com/yourusername"
+    
+    [[languages.zh.params.socialIcons]]
+      name = "paypal"
+      url = "https://paypal.me/yourusername"
+    
     [[languages.zh.menu.main]]
       identifier = "posts"
       name = "文章"
-      url = "posts"
+      url = "/posts/"
       weight = 10
     
     [[languages.zh.menu.main]]
       identifier = "gallery"
       name = "相册"
-      url = "gallery"
+      url = "/gallery/"
       weight = 20
     
     [[languages.zh.menu.main]]
       identifier = "watched"
       name = "影评"
-      url = "watched"
+      url = "/watched/"
       weight = 30
     
     [[languages.zh.menu.main]]
       identifier = "archives"
       name = "归档"
-      url = "archives"
+      url = "/archives/"
       weight = 40
     
     [[languages.zh.menu.main]]
       identifier = "search"
       name = "搜索"
-      url = "search"
+      url = "/search/"
       weight = 50
 
   [languages.en]
@@ -77,9 +133,21 @@ theme = "PaperMod"
     [languages.en.params]
       description = "Welcome to my blog"
       
-      [languages.en.params.homeInfoParams]
-        Title = "Welcome to My Blog 👋"
-        Content = "A blog created with Hugo and PaperMod theme"
+      [languages.en.params.profileMode]
+        enabled = true
+        title = "Your Name"
+        subtitle = "Welcome to my personal website 👋"
+        imageUrl = "/logo.png"
+        imageWidth = 120
+        imageHeight = 120
+        imageTitle = "My Avatar"
+        buttons = [
+          {name = "Posts", url = "/en/posts/"},
+          {name = "Gallery", url = "/en/gallery/"},
+          {name = "Watched", url = "/en/watched/"},
+          {name = "Archives", url = "/en/archives/"},
+          {name = "Search", url = "/en/search/"}
+        ]
     
     [[languages.en.params.socialIcons]]
       name = "github"
@@ -89,34 +157,50 @@ theme = "PaperMod"
       name = "twitter"
       url = "https://twitter.com/"
     
+    [[languages.en.params.socialIcons]]
+      name = "email"
+      url = "mailto:your@email.com"
+    
+    [[languages.en.params.socialIcons]]
+      name = "telegram"
+      url = "https://t.me/yourusername"
+    
+    [[languages.en.params.socialIcons]]
+      name = "buymeacoffee"
+      url = "https://buymeacoffee.com/yourusername"
+    
+    [[languages.en.params.socialIcons]]
+      name = "paypal"
+      url = "https://paypal.me/yourusername"
+    
     [[languages.en.menu.main]]
       identifier = "posts"
       name = "Posts"
-      url = "posts"
+      url = "/en/posts/"
       weight = 10
     
     [[languages.en.menu.main]]
       identifier = "gallery"
       name = "Gallery"
-      url = "gallery"
+      url = "/en/gallery/"
       weight = 20
     
     [[languages.en.menu.main]]
       identifier = "watched"
       name = "Watched"
-      url = "watched"
+      url = "/en/watched/"
       weight = 30
     
     [[languages.en.menu.main]]
       identifier = "archives"
       name = "Archives"
-      url = "archives"
+      url = "/en/archives/"
       weight = 40
     
     [[languages.en.menu.main]]
       identifier = "search"
       name = "Search"
-      url = "search"
+      url = "/en/search/"
       weight = 50
 
 # 输出格式

@@ -2,6 +2,7 @@
 title: "码农没有明天  ——博客开发感受"
 author: 高羽
 date: 2025-11-07T17:00:00-05:00
+lastmod: 2025-11-09T16:00:00-05:00
 draft: false
 tags: ["开发", "博客"]
 categories: ["开发日志", "回忆录"]
@@ -21,6 +22,8 @@ categories: ["开发日志", "回忆录"]
 整体消耗了50%左右的月度Token配额。下图截取晚了，有一部分是后来正常工作消耗的。
 ![Token消耗](images/Token消耗.png)
 
+上线后修改了几个BUG，Token又消耗了约10%。
+![Token更新](images/Token更新.png)
 
 ## AI辅助开发体验
 

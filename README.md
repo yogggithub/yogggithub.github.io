@@ -1,17 +1,23 @@
-# 观影收藏 Hugo 博客
+# Personal Blog with Hugo & PaperMod
 
-基于 Hugo 和 PaperMod 主题的个人博客，包含专门的观影记录模块。
+基于 Hugo 和 PaperMod 主题的个人博客，采用 Profile 模式展示，包含观影记录模块，管理 2200+ 条影视记录。
 
 ## ✨ 特性
 
-- 📽️ **海报墙展示** - 响应式网格布局，支持懒加载
-- 🎬 **观影记录管理** - 支持电影、电视剧、综艺节目
-- ⭐ **多源评分** - 自动获取 IMDb 和豆瓣评分
-- 📊 **数据集中管理** - 使用 Hugo Data Files 架构
-- 🌍 **双语支持** - 中文和英文界面
-- 🚀 **易于部署** - 支持 GitHub Pages 和 Cloudflare Pages
+- � **Profile 模式** - 个人主页展示，突出社交媒体链接
+- 📽️ **观影记录** - 管理 2200+ 条电影/电视剧记录
+- 🎨 **响应式设计** - 基于 PaperMod 主题的现代化界面
+- 🌍 **双语支持** - 中文（默认）和英文界面
+- 🔍 **全站搜索** - 支持内容快速检索
+- 🖼️ **图片画廊** - 展示相册内容
+- 🚀 **双平台部署** - GitHub Pages + Cloudflare Pages
 
 ## 🚀 快速开始
+
+### 环境要求
+
+- Hugo Extended v0.152.2+
+- Git（用于主题子模块）
 
 ### 安装 Hugo
 
@@ -19,8 +25,18 @@
 # Windows (使用 Chocolatey)
 choco install hugo-extended
 
-# 或使用 Scoop
-scoop install hugo-extended
+# macOS (使用 Homebrew)
+brew install hugo
+
+# Linux
+snap install hugo --channel=extended
+```
+
+### 克隆项目
+
+```bash
+git clone --recurse-submodules https://github.com/yogggithub/yogggithub.github.io.git
+cd yogggithub.github.io
 ```
 
 ### 启动开发服务器
@@ -34,149 +50,219 @@ hugo server -D
 ## 📁 项目结构
 
 ```
-my-blog/
-├── content/              # 内容文件
-│   ├── posts/           # 博客文章
-│   ├── watched/         # 观影记录页面
-│   └── gallery.md       # 图片画廊
-├── data/
-│   └── watched.yaml     # 观影数据（Data Files）
-├── layouts/
-│   └── watched/         # 观影模块模板
-│       ├── list.html    # 海报墙
-│       └── single.html  # 详情页
+yogggithub.github.io/
+├── .github/
+│   └── workflows/       # GitHub Actions 部署配置
+├── archetypes/          # 内容模板
+├── assets/              # 主题资源
+├── content/             # 内容文件
+│   ├── posts/          # 博客文章
+│   ├── watched/        # 观影记录（2237个markdown文件）
+│   │   ├── imdb/       # IMDb 来源
+│   │   └── douban/     # 豆瓣来源
+│   ├── gallery/        # 相册
+│   ├── archives.md     # 归档页面
+│   └── search.md       # 搜索页面
+├── layouts/             # 自定义布局（可选）
 ├── static/              # 静态资源
+│   ├── logo.png        # 网站 Logo
+│   └── favicon.png     # 网站图标
 ├── themes/
-│   └── PaperMod/        # 主题
-├── docs/                # 📚 项目文档
-├── migrate_watched.py   # 数据迁移脚本
-├── add_watched.py       # 快速添加记录
-├── watched_example.csv  # CSV 模板
-└── hugo.toml           # 配置文件
+│   └── PaperMod/       # Git 子模块
+├── hugo.toml           # Hugo 配置文件
+└── README.md
 ```
-
-## 📚 文档
-
-所有教程和指南位于 `docs/` 目录：
-
-- [快速启动指南](docs/02-quick-start.md) - 立即开始使用
-- [海报墙功能指南](docs/04-poster-wall-guide.md) - 海报墙特性说明
-- [数据文件指南](docs/05-data-files-guide.md) - Data Files 架构详解
-- [CSV 导入指南](docs/06-csv-import-guide.md) - 批量导入数据
-- [3000 条记录管理方案](docs/07-managing-3000-records.md) - 大规模数据管理
-- [部署指南](docs/01-deployment-guide.md) - 部署到 GitHub/Cloudflare Pages
-- [项目总结](docs/03-project-summary.md) - 技术实现说明
 
 ## 🎯 核心功能
 
-### 观影记录模块
+### 1. Profile 模式首页
 
-支持三种内容类型：
+- 展示个人头像和简介
+- 快速导航按钮（文章、相册、影评、归档、搜索）
+- 社交媒体图标（GitHub、Twitter、Email、Telegram、Buy Me a Coffee、PayPal）
 
-- 📽️ **电影** (movie)
-- 📺 **电视剧** (tvshow)
-- 🎪 **综艺** (variety)
+### 2. 观影记录模块
 
-每条记录包含：
+**数据规模：** 2237 条记录
+- IMDb 来源
+- 豆瓣来源
 
-- 基本信息（标题、年份、导演、类型）
-- 海报图片（支持外部 URL，懒加载）
-- 个人评分和评论（支持 Markdown）
-- IMDb 和豆瓣评分（自动获取）
-- 标签分类
+**URL 结构：**
+- 使用 Permalink 自动生成：`/watched/:contentbasename/`
+- 示例：`tt28996126.md` → `/watched/tt28996126/`
 
-### 数据管理
+**特点：**
+- 所有记录使用独立 Markdown 文件
+- 支持 Frontmatter 元数据
+- 自动化 URL 生成，无需手动维护
 
-使用 **Data Files 架构**，所有数据存储在 `data/watched.yaml`：
+### 3. 多语言支持
 
-```yaml
-watched:
-  - id: "movie-id"
-    title: "电影标题"
-    year: 2024
-    rating: 9
-    # ... 其他字段
+- **中文（默认）**：`/`
+- **英文**：`/en/`
+- 独立的菜单配置和内容目录
+
+### 4. 搜索功能
+
+- 基于 Fuse.js 的客户端搜索
+- 支持文章、页面全文检索
+- 响应式搜索界面
+
+## 📝 配置说明
+
+### 主要配置（hugo.toml）
+
+```toml
+baseURL = "https://yogggithub.github.io/"
+defaultContentLanguage = "zh"
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Your Name"
+    subtitle = "欢迎来到我的个人网站 👋"
+    imageUrl = "/logo.png"
+    buttons = [
+      {name = "文章", url = "/posts/"},
+      {name = "相册", url = "/gallery/"},
+      {name = "影评", url = "/watched/"},
+      {name = "归档", url = "/archives/"},
+      {name = "搜索", url = "/search/"}
+    ]
+
+# Permalink 配置 - 自动化 URL 生成
+[permalinks.page]
+  watched = "/watched/:contentbasename/"
 ```
 
-**优势：**
+### 社交图标配置
 
-- ✅ 单一数据源，易于备份
-- ✅ 支持批量编辑（CSV/Excel）
-- ✅ 适合管理大量记录（3000+）
-- ✅ Git 友好
+PaperMod 主题支持 141 种社交网络图标，包括：
 
-## 🔧 使用方法
+- **开发者平台**：github, gitlab, stackoverflow
+- **社交媒体**：twitter, facebook, instagram, telegram
+- **中文平台**：douban（豆瓣）, bilibili, zhihu, juejin
+- **资助平台**：buymeacoffee, kofi, patreon, paypal
+- 更多：详见 `themes/PaperMod/layouts/partials/svg.html`
+
+## 🔧 内容管理
+
+### 添加博客文章
+
+```bash
+hugo new posts/my-post.md
+```
 
 ### 添加观影记录
 
-#### 方法 1：使用脚本（推荐）
+1. 在 `content/watched/imdb/` 或 `content/watched/douban/` 创建 Markdown 文件
+2. 文件名即为 URL（如 `tt1234567.md` → `/watched/tt1234567/`）
+3. 编辑 Frontmatter：
 
-```bash
-python add_watched.py
+```yaml
+---
+title: "电影标题"
+date: 2025-11-09T10:00:00+08:00
+draft: false
+---
+
+影评内容...
 ```
 
-按提示输入信息，自动更新数据和生成页面。
+### 批量管理
 
-#### 方法 2：批量导入
+使用提供的 PowerShell 脚本批量操作：
 
-1. 准备 CSV 文件（参考 `watched_example.csv`）
-2. 运行导入脚本：
-
-```bash
-python migrate_watched.py
-```
-
-3. 选择 CSV 导入，确认创建内容文件
-
-### 构建网站
-
-```bash
-# 开发预览
-hugo server -D
-
-# 生产构建
-hugo --minify
+```powershell
+# 批量移除 watched 记录中的 url 字段
+.\remove_url_from_watched.ps1
 ```
 
 ## 🌐 部署
 
-支持多种部署方式：
-
-### Cloudflare Pages（推荐）
-
-```bash
-# 推送到 GitHub
-git push origin main
-
-# 在 Cloudflare Pages 连接仓库
-# 配置：Hugo / hugo --gc --minify / public
-```
-
 ### GitHub Pages
 
-使用 GitHub Actions 自动部署（参见 [部署指南](docs/01-deployment-guide.md)）
+项目已配置 GitHub Actions 自动部署：
+
+1. 推送到 `master` 分支
+2. GitHub Actions 自动构建
+3. 部署到 `gh-pages` 分支
+4. 访问：https://yogggithub.github.io/
+
+### Cloudflare Pages
+
+1. 在 Cloudflare Pages 连接 GitHub 仓库
+2. 配置构建设置：
+   - **Framework preset**: Hugo
+   - **Build command**: `hugo --minify`
+   - **Build output directory**: `public`
+   - **Environment variables**: `HUGO_VERSION=0.152.2`
+3. 设置环境变量覆盖 baseURL：
+   - `HUGO_BASEURL=https://yourdomain.xyz/`
+
+### URL 配置说明
+
+- **GitHub Pages**: 使用 `hugo.toml` 中的 `baseURL`
+- **Cloudflare Pages**: 使用环境变量 `HUGO_BASEURL` 覆盖
+- **菜单链接**: 使用绝对路径（以 `/` 开头），确保跨平台兼容
 
 ## 🛠️ 技术栈
 
-- **生成器**: Hugo (Extended v0.152.2+)
-- **主题**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
-- **数据存储**: YAML Data Files
-- **API**: OMDb (IMDb) + 豆瓣代理
-- **前端**: 原生 JavaScript + CSS Grid
-- **图片加载**: Intersection Observer API
+- **生成器**: Hugo Extended v0.152.2
+- **主题**: PaperMod（Git 子模块）
+- **部署**: GitHub Actions + GitHub Pages / Cloudflare Pages
+- **搜索**: Fuse.js（客户端搜索）
+- **图标**: PaperMod 内置 SVG 图标（141 种）
 
-## 📝 配置
+## 🔍 关键技术决策
 
-主要配置在 `hugo.toml`：
+### Permalink 自动化
 
+**问题**：2237 个 watched 页面，每个都需要手动配置 URL
+
+**解决方案**：
 ```toml
-baseURL = "https://your-site.com/"
-theme = "PaperMod"
-defaultContentLanguage = "zh"
-
-# OMDb API Key（在模板中配置）
-# 注册：http://www.omdbapi.com/apikey.aspx
+[permalinks.page]
+  watched = "/watched/:contentbasename/"
 ```
+
+- 文件名即 URL，无需 Frontmatter 中的 `url` 字段
+- 支持子目录结构（imdb/douban）
+- URL 始终为 `/watched/文件名/`
+
+### 双平台部署
+
+**问题**：不同平台需要不同的 baseURL
+
+**解决方案**：
+- GitHub Pages：使用 `hugo.toml` 的 `baseURL`
+- Cloudflare Pages：使用 `HUGO_BASEURL` 环境变量覆盖
+- 菜单使用绝对路径（`/posts/`），避免 URL 拼接问题
+
+### Git 子模块管理
+
+PaperMod 主题作为 Git 子模块：
+
+```bash
+# 初始化子模块
+git submodule update --init --recursive
+
+# 更新主题
+git submodule update --remote --merge
+```
+
+## 📊 项目统计
+
+- **观影记录**: 2237 条
+- **支持语言**: 2 种（中文、英文）
+- **社交图标**: 141 种可选
+- **部署平台**: 2 个（GitHub Pages + Cloudflare Pages）
 
 ## 🤝 贡献
 
@@ -189,10 +275,9 @@ MIT License
 ## 🔗 相关链接
 
 - [Hugo 官方文档](https://gohugo.io/documentation/)
-- [PaperMod 主题文档](https://github.com/adityatelange/hugo-PaperMod/wiki)
-- [OMDb API](http://www.omdbapi.com/)
-- [豆瓣电影](https://movie.douban.com/)
+- [PaperMod 主题](https://github.com/adityatelange/hugo-PaperMod)
+- [PaperMod Wiki](https://github.com/adityatelange/hugo-PaperMod/wiki)
 
 ---
 
-**开始你的观影记录之旅！** 🎬✨
+**Powered by Hugo & PaperMod** 🚀
