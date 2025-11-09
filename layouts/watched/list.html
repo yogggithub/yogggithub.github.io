@@ -14,7 +14,7 @@
     <div class="poster-item">
       {{- $folder := "imdb" }} {{- if hasPrefix .id "tt" }} {{- $folder = "imdb"
       }} {{- else }} {{- $folder = "douban" }} {{- end }}
-      <a href="/watched/{{ $folder }}/{{ .id }}/" class="poster-link">
+      <a href="/watched/{{ .id }}/" class="poster-link">
         <div class="poster-container">
           {{- if .poster }}
           <img
