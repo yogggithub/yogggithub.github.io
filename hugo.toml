@@ -7,7 +7,7 @@ relativeURLs = false
 
 [params]
   env = "production"
-  author = "Your Name"
+  author = "高羽"
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
@@ -29,17 +29,18 @@ relativeURLs = false
 
   [params.profileMode]
     enabled = true
-    title = "Your Name"
-    subtitle = "欢迎来到我的个人网站"
+    title = "纠结星来的强迫症"
+    subtitle = "世事漫随流水，算来一梦浮生"
     imageUrl = "/logo.png"
     imageWidth = 120
     imageHeight = 120
-    imageTitle = "我的头像"
+    imageTitle = "LOGO"
     buttons = [
       {name = "文章", url = "/posts/"},
       {name = "相册", url = "/gallery/"},
       {name = "影评", url = "/watched/"},
-      {name = "归档", url = "/archives/"}
+      {name = "归档", url = "/archives/"},
+      {name = "搜索", url = "/search/"}
     ]
 
 # 多语言配置
@@ -48,15 +49,15 @@ relativeURLs = false
     languageCode = "zh-CN"
     languageName = "简体中文"
     weight = 1
-    title = "我的博客"
+    title = "纠结星来的强迫症"
     
     [languages.zh.params]
-      description = "欢迎来到我的博客"
+      description = "世事漫随流水，算来一梦浮生"
       
       [languages.zh.params.profileMode]
         enabled = true
-        title = "Your Name"
-        subtitle = "欢迎来到我的个人网站 👋"
+        title = "纠结星来的强迫症"
+        subtitle = "世事漫随流水，算来一梦浮生"
         imageUrl = "/logo.png"
         imageWidth = 120
         imageHeight = 120
@@ -70,28 +71,28 @@ relativeURLs = false
         ]
     
     [[languages.zh.params.socialIcons]]
-      name = "github"
-      url = "https://github.com/"
-    
-    [[languages.zh.params.socialIcons]]
       name = "twitter"
-      url = "https://twitter.com/"
+      url = "https://x.com/EricWoodenman"
     
     [[languages.zh.params.socialIcons]]
       name = "email"
-      url = "mailto:your@email.com"
+      url = "mailto:eric@19851120.xyz"
     
     [[languages.zh.params.socialIcons]]
       name = "telegram"
-      url = "https://t.me/yourusername"
+      url = "https://t.me/eric_woo"
+
+    [[languages.zh.params.socialIcons]]
+      name = "discord"
+      url = "https://discord.com/users/955962166572351579"
     
     [[languages.zh.params.socialIcons]]
       name = "buymeacoffee"
-      url = "https://buymeacoffee.com/yourusername"
+      url = "https://buymeacoffee.com/ericwu"
     
     [[languages.zh.params.socialIcons]]
       name = "paypal"
-      url = "https://paypal.me/yourusername"
+      url = "https://paypal.me/ericwoo666"
     
     [[languages.zh.menu.main]]
       identifier = "posts"
@@ -150,28 +151,28 @@ relativeURLs = false
         ]
     
     [[languages.en.params.socialIcons]]
-      name = "github"
-      url = "https://github.com/"
-    
-    [[languages.en.params.socialIcons]]
       name = "twitter"
-      url = "https://twitter.com/"
+      url = "https://x.com/EricWoodenman"
     
     [[languages.en.params.socialIcons]]
       name = "email"
-      url = "mailto:your@email.com"
+      url = "mailto:eric@19851120.xyz"
     
     [[languages.en.params.socialIcons]]
       name = "telegram"
-      url = "https://t.me/yourusername"
+      url = "https://t.me/eric_woo"
+
+    [[languages.en.params.socialIcons]]
+      name = "discord"
+      url = "https://discord.com/users/955962166572351579"
     
     [[languages.en.params.socialIcons]]
       name = "buymeacoffee"
-      url = "https://buymeacoffee.com/yourusername"
+      url = "https://buymeacoffee.com/ericwu"
     
     [[languages.en.params.socialIcons]]
       name = "paypal"
-      url = "https://paypal.me/yourusername"
+      url = "https://paypal.me/ericwoo666"
     
     [[languages.en.menu.main]]
       identifier = "posts"
