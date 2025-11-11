@@ -1,4 +1,18 @@
 watched:
+- id: tt28221523
+  title: 沙尘暴
+  imdb_id: tt28221523
+  douban_id: 36305412
+  rating: 6
+  review: '这部剧看到有点一言难尽的感觉。前6集节奏还行，后面太拖沓了。
+    然后豆瓣这个拳师窝点一如既往打拳优先。实际上，这部剧根本没有塑造一个健康的女性角色，全程消费着女主角的苦难。
+    先说说缺点吧：首先是人设和剧情不符。比如琴，一个能经营地摊的勤劳人物，会扔下摊子去卖肉？其次是所有女性角色行为都反常，没有任何的抵抗。最后是好好的悬疑剧，刘大志出来就开始整恐怖元素。
+    优点嘛，最大的优点就是展现了中国警察的办案特色：有罪推定、无证据定罪、知法犯法执法犯法、刑讯逼供。
+    '
+  watched_date: 2025-11-10
+  content_type: tvshow
+  poster: https://m.media-amazon.com/images/M/MV5BNGRkNjUwOWMtNzI3NS00OGQ2LTkxZDgtMWVmMmJjYmZjYTdmXkEyXkFqcGc@._V1_SX300.jpg
+  original_title: Sandstorm
 - id: 向往的生活
   title: 向往的生活
   content_type: variety
@@ -25295,11 +25309,12 @@ watched:
   poster: https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2679356037.jpg
   original_title: ''
 - id: '34444192'
-  title: 未知电影
+  title: 夜叉
   content_type: movie
   rating: 4
   review: 黑中国不到位呀。韩国的检察官真是万能超人
   watched_date: 2022-04-15
   douban_id: 34444192
-  poster: https://img2.doubanio.com/f/frodo/753fa1e93c945e533e52dddab73b2b55a1083083/pics/subject/movie_large.jpg
-  original_title: ''
+  imdb_id: tt12663250
+  poster: https://www.imdb.com/title/tt12663250/mediaviewer/rm2881756929/
+  original_title: Yaksha: Ruthless Operations
