@@ -1,4 +1,44 @@
 watched:
+- id: tt35112097
+  title: 戏台
+  imdb_id: tt35112097
+  douban_id: 35483395
+  rating: 6
+  review: '中国现在娱乐圈（四声）比当年的商女更恶劣了吧。这部电影浅说是讽刺了娱乐圈，往深讲不就是竖子成名嘛。
+    先一声吃饭，全中国犬儒横行；接一句发财，港澳台殖人乞食。要什么追求，谈什么艺术，道什么良知，在金钱面前，都是奴隶而已。
+    '
+  watched_date: 2025-11-25
+  content_type: movie
+  poster: https://m.media-amazon.com/images/M/MV5BNmEwMTYxZTAtYTUyMC00ZmU0LThmMjgtMGEzMGFiMzA3ZDA0XkEyXkFqcGc@._V1_SX300.jpg
+  original_title: The Stage
+- id: tt32613601
+  title: 抓娃娃
+  imdb_id: tt32613601
+  douban_id: 36653918
+  rating: 5
+  review: '作为一部喜剧电影，它的笑料不好笑，剧情不符常识，反转又很生硬，正能量还非常恶心。
+      别的不说，翻墙出高考考场，真就脑子通电了。
+    '
+  watched_date: 2025-11-21
+  content_type: movie
+  poster: https://m.media-amazon.com/images/M/MV5BOTE1YWY1MTItNTFhMi00ZGZmLTg0YzYtNjM5YWFmYWUxY2JjXkEyXkFqcGc@._V1_SX300.jpg
+  original_title: Successor
+- id: tt32150413
+  title: 回魂计
+  imdb_id: tt32150413
+  douban_id: 36744415
+  rating: 5
+  review: '非常混乱的聚集非常混乱的剧情，何德何能还要续第二季。看到第三集就想弃了，捏着鼻子看完的。
+    剧本感觉是多个编剧负责的，前后人设、剧情、节奏、逻辑都有非常前言不搭后语的地方。比如前两集像是一个还算正常的女编剧，简单交待了背景，一半篇幅用回忆来渲染；第三集突然换了个神经病女编剧，完全不了解设定，信马由缰胡编乱造；第四集变成了理工男编剧，女主又变得一切尽在掌握，和黑社会大姐头斗智斗勇了。
+    就是这种来回摇摆的剧情，使得两个女主的形象完全立不住，其人物行为、动机都不能令观众信服。
+    更别说越描越黑的三个女生线，遮遮掩掩转来转去，最后主创团队自己估计都说不清楚到底想要什么，塑造了什么。拨开一切伪装，真真就是钓鱼的钩子，但又是杨哥的玩物，为啥要在园区受累，小弟们怎么可能面对她不露出破绽？安琪就是男主的“泄欲工具”，这个身份同样也会露出马脚。只是二傻子当牛做马骗人，最后还把自己搞死了。
+    我常说，不要随便考验人性，两个已经割席的女主，又怎么可能毫无芥蒂通力合作？
+    一部投资如此小，全是固定室内场景的戏，剧情如此经不起推敲，又怎么能吸引观众？
+    '
+  watched_date: 2025-11-14
+  content_type: tvshow
+  poster: https://m.media-amazon.com/images/M/MV5BZDM0YmE4M2YtNGJjZi00MTMzLThlNzktNjJlYTljOGQyNzZlXkEyXkFqcGc@._V1_SX300.jpg
+  original_title: The Resurrected
 - id: tt28221523
   title: 沙尘暴
   imdb_id: tt28221523
