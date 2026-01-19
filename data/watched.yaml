@@ -46,7 +46,7 @@ watched:
   watched_date: 2026-01-15
   content_type: movie
   poster: https://m.media-amazon.com/images/M/MV5BY2Q0OTA5MTEtNWU4NC00ZWFmLTg5NmYtNDFmODViYWUxZmJkXkEyXkFqcGc@._V1_SX300.jpg
-  original_title: Wake Up Dead Man: A Knives Out Mystery
+  original_title: 'Wake Up Dead Man: A Knives Out Mystery'
 - id: tt11564570
   title: 利刃出鞘2
   imdb_id: tt11564570
@@ -58,7 +58,7 @@ watched:
   watched_date: 2026-01-13
   content_type: movie
   poster: https://m.media-amazon.com/images/M/MV5BMzI2ZDYxZTEtMzVlOC00OTUyLTgyNTAtYWFhNmRhZjAzZWE1XkEyXkFqcGc@._V1_SX300.jpg
-  original_title: Glass Onion: A Knives Out Mystery
+  original_title: 'Glass Onion: A Knives Out Mystery'
 - id: tt35495073
   title: 巅峰对决
   imdb_id: 35495073
