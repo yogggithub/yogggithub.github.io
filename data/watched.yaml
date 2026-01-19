@@ -1,4 +1,75 @@
 watched:
+- id: 
+  title: 
+  imdb_id: 
+  douban_id: 
+  rating: 
+  review: '
+    '
+  watched_date: 
+  content_type: tv_series
+  poster: 
+  original_title: 
+- id: tt31227572
+  title: 铁血战士：杀戮之地
+  imdb_id: tt31227572
+  douban_id: 36707378
+  rating: 5
+  review: '叙事还算流畅，异星的刻画也挺栩栩如生。总算把铁血战士详细刻画了一遍，值个5分。
+    只是，编辑的逻辑呢？反父权的时候当精液吐出去了？维兰德基地大量生化人下线，系统没预警？靠外力狩猎，这更多是耻辱吧？男主是把外力吸星大法还是光环形成了，弑父就如此轻松了又？
+    '
+  watched_date: 2026-01-18
+  content_type: movie
+  poster: https://m.media-amazon.com/images/M/MV5BNTdjZGUxMTItNjRkNS00N2VhLWE4MjMtMjVhODMwMGIxNjUwXkEyXkFqcGc@._V1_SX300.jpg
+  original_title: 'Predator: Badlands'
+- id: tt29927663
+  title: 巨洪
+  imdb_id: tt29927663
+  douban_id: 35919629
+  rating: 4
+  review: '套装灾难片外衣的科幻无限流，还是质量低劣的那种。
+    全片都是女主意识在空间站无限迭代过程发生的。里面各种NPC，你不要去想他们的动机了，只是必须得有反派而已。
+    '
+  watched_date: 2026-01-16
+  content_type: movie
+  poster: https://m.media-amazon.com/images/M/MV5BZTVlYTJhNWQtZDdhMS00MjRhLWI3YWEtMDRkN2FhNTc3MWZlXkEyXkFqcGc@._V1_SX300.jpg
+  original_title: The Great Flood
+- id: tt14364480
+  title: 利刃出鞘3
+  imdb_id: tt14364480
+  douban_id: 35419153
+  rating: 6
+  review: '鼓励这个系列不断创作出质量过关的原创剧本。羞死国内那些只会抄袭的从业者。
+    这部片留下印象的是拳击手神父，真的是回头是岸呀。
+    但全片探长演的非常烦人，一脸谜语人，猜到问题却不愿说，导致多死了2个人。
+    '
+  watched_date: 2026-01-15
+  content_type: movie
+  poster: https://m.media-amazon.com/images/M/MV5BY2Q0OTA5MTEtNWU4NC00ZWFmLTg5NmYtNDFmODViYWUxZmJkXkEyXkFqcGc@._V1_SX300.jpg
+  original_title: Wake Up Dead Man: A Knives Out Mystery
+- id: tt11564570
+  title: 利刃出鞘2
+  imdb_id: tt11564570
+  douban_id: 34939037
+  rating: 5
+  review: '整部电影细节丰富，如果你一帧一帧认真的去分析画面是真的可以看到犯罪的整个过程。而且每个参与者，都代表着某个特定的社会群体，使得本片也有了一定隐喻。
+    但可惜，整个故事讲的并不流畅，甚至撑不起完整时长，只能通过冗长的解密复述故事来填充。不是说这种方式不好，只是其中掺杂了不少无意义的情节，让叙事变得纷乱。
+    '
+  watched_date: 2026-01-13
+  content_type: movie
+  poster: https://m.media-amazon.com/images/M/MV5BMzI2ZDYxZTEtMzVlOC00OTUyLTgyNTAtYWFhNmRhZjAzZWE1XkEyXkFqcGc@._V1_SX300.jpg
+  original_title: Glass Onion: A Knives Out Mystery
+- id: tt35495073
+  title: 巅峰对决
+  imdb_id: 35495073
+  douban_id: 37202886
+  rating: 1
+  review: '一集就足够毒发身亡了
+    '
+  watched_date: 2026-01-05
+  content_type: tv_series
+  poster: https://m.media-amazon.com/images/M/MV5BYzYwNTk5ODYtOGVmYS00Zjc4LTk5ZDYtMTM4ODQyN2Q0MTVkXkEyXkFqcGc@._V1_SX300.jpg
+  original_title: Heated Rivalry
 - id: tt26471411
   title: 苦尽柑来遇见你
   imdb_id: tt26471411
