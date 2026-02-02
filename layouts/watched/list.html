@@ -10,16 +10,39 @@
   </header>
 
   <div class="poster-wall">
+    {{- $lang := .Site.Language.Lang -}}
     {{- range sort .Site.Data.watched.watched "watched_date" "desc" }}
     <div class="poster-item">
       {{- $folder := "imdb" }} {{- if hasPrefix .id "tt" }} {{- $folder = "imdb"
       }} {{- else }} {{- $folder = "douban" }} {{- end }}
       <a href="/watched/{{ .id }}/" class="poster-link">
         <div class="poster-container">
-          {{- if .poster }}
+          {{- $title := .title }}
+          {{- $subtitle := .title_en }}
+          {{- if eq $lang "en" }}
+            {{- if .title_en }}
+              {{- $title = .title_en }}
+            {{- end }}
+            {{- $subtitle = .title }}
+          {{- end }}
+          {{- $poster := .poster }}
+          {{- if eq $lang "en" }}
+            {{- if .poster_en }}
+              {{- $poster = .poster_en }}
+            {{- else if .poster }}
+              {{- $poster = .poster }}
+            {{- end }}
+          {{- else }}
+            {{- if .poster }}
+              {{- $poster = .poster }}
+            {{- else if .poster_zh }}
+              {{- $poster = .poster_zh }}
+            {{- end }}
+          {{- end }}
+          {{- if $poster }}
           <img
-            data-src="{{ .poster }}"
-            alt="{{ .title }}"
+            data-src="{{ $poster }}"
+            alt="{{ $title }}"
             class="poster-img lazy"
             loading="lazy"
           />
@@ -50,9 +73,9 @@
           {{- end }}
 
           <div class="poster-overlay">
-            <h3 class="poster-title">{{ .title }}</h3>
-            {{- if .original_title }}
-            <p class="poster-original">{{ .original_title }}</p>
+            <h3 class="poster-title">{{ $title }}</h3>
+            {{- if $subtitle }}
+            <p class="poster-original">{{ $subtitle }}</p>
             {{- end }} {{- if .year }}
             <p class="poster-year">{{ .year }}</p>
             {{- end }}

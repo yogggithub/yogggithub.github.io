@@ -1,20 +1,28 @@
 ﻿{{- define "main" }} {{- $urlPath := .RelPermalink }} {{- $pathParts := split
 $urlPath "/" }} {{- $id := "" }} {{- range $pathParts }} {{- if and (ne . "")
 (ne . "watched") }} {{- $id = . }} {{- end }} {{- end }} {{- $item := index
-(where .Site.Data.watched.watched "id" $id) 0 }} {{- if $item }}
+(where .Site.Data.watched.watched "id" $id) 0 }} {{- if $item }} {{- $lang :=
+.Site.Language.Lang }} {{- $title := $item.title }} {{- $subtitle :=
+$item.title_en }} {{- if eq $lang "en" }} {{- if $item.title_en }} {{- $title
+= $item.title_en }} {{- end }} {{- $subtitle = $item.title }} {{- end }} {{-
+$poster := $item.poster }} {{- if eq $lang "en" }} {{- if $item.poster_en }}
+{{- $poster = $item.poster_en }} {{- else if $item.poster }} {{- $poster =
+$item.poster }} {{- end }} {{- else }} {{- if $item.poster }} {{- $poster =
+$item.poster }} {{- else if $item.poster_zh }} {{- $poster = $item.poster_zh }}
+{{- end }} {{- end }}
 <article class="post-single">
   <header class="post-header">
     <div class="content-header">
-      {{- if $item.poster }}
+      {{- if $poster }}
       <div class="content-poster-large">
-        <img src="{{ $item.poster }}" alt="{{ $item.title }}" />
+        <img src="{{ $poster }}" alt="{{ $item.title }}" />
       </div>
       {{- end }}
       <div class="content-header-info">
-        <h1 class="post-title">{{ $item.title }}</h1>
-        {{- if $item.original_title }}
+        <h1 class="post-title">{{ $title }}</h1>
+        {{- if $subtitle }}
         <p style="font-style: italic; color: var(--secondary)">
-          {{ $item.original_title }}
+          {{ $subtitle }}
         </p>
         {{- end }} {{- if and (eq $item.content_type "tvshow")
         $item.seasons_data }}
