@@ -1,30 +1,34 @@
 watched:
 - id:
   title:
+  title_en:
   imdb_id:
-  douban_id:
   tmdb_id:
+  douban_id:
   rating:
-  review: ' '
+  review: ''
   watched_date:
-  content_type: tvshow
+  content_type: movie
   poster:
+  poster_en:
 - id:
   title:
   title_en:
-  content_type: tvshow
+  content_type: tv
+  imdb_id:
+  tmdb_id:
+  douban_id: 
   rating:
   watched_date:
   poster:
   poster_en:
-  seasons_data:
+  seasons:
   - season: 1
     title:
-    imdb_id:
-    tmdb_id:
-    douban_id: 34812928
+    title_en:
+    douban_id: 
     rating:
-    review:
+    review: ''
     watched_date:
     poster:
     poster_en:
@@ -35,7 +39,7 @@ watched:
   tmdb_id: 1242898
   douban_id: 36707378
   rating: 5
-  review: '叙事还算流畅，异星的刻画也挺栩栩如生。总算把铁血战士详细刻画了一遍，值个5分。 只是，编辑的逻辑呢？反父权的时候当精液吐出去了？维兰德基地大量生化人下线，系统没预警？靠外力狩猎，这更多是耻辱吧？男主是把外力北冥神功了还是主角光环了，弑父就如此轻松了又？ '
+  review: '叙事还算流畅，异星的刻画也挺栩栩如生。总算把铁血战士详细刻画了一遍，值个5分。 只是，编剧的逻辑呢？反父权的时候当精液吐出去了？维兰德基地大量生化人下线，系统没预警？靠外力狩猎，这更多是耻辱吧？男主是把外力北冥神功了还是主角光环了，弑父就如此轻松了又？ '
   watched_date: 2026-01-18
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/yyEZlck7lc0L00tpgwAKsTjTidH.jpg
@@ -86,7 +90,7 @@ watched:
   rating: 1
   review: '一集就足够毒发身亡了 '
   watched_date: 2026-01-05
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/1ShQmTDXwjLJDI5xHm8Nd4Ai3oQ.jpg
   poster_en: https://image.tmdb.org/t/p/original/vG2YAAKxCpxXiFcPqZoYWNbUruR.jpg
 - id: tt26471411
@@ -96,16 +100,13 @@ watched:
   tmdb_id: 219246
   douban_id: 36053256
   rating: 9
-  review: '纠结了很久，还是决定给9分，为了剧中那真挚的感情。 好剧就先说缺点: 1.人设悬浮。这世界上也许有金明银明，但绝对不会有梁宽值，也大概率不会有吴爱纯。如果你拿着这些人物当模板，现实会让你头破血流。
+  review: "纠结了很久，还是决定给9分，为了剧中那真挚的感情。 好剧就先说缺点: 1.人设悬浮。这世界上也许有金明银明，但绝对不会有梁宽值，也大概率不会有吴爱纯。如果你拿着这些人物当模板，现实会让你头破血流。
     2.暗里对男性的贬低和PUA。将剧情浓缩，会发现这就是一部不折不扣的大女主爽剧，女性角色全员勤劳顾家坚韧不拔走向辉煌，而男性角色定位就是反衬、背锅。男主没钱没能力，终其一生没能实现女主任何一个愿望；男二有钱，但没文化没涵养，还要不遗余力的凸显他大男子主义；弟弟一事无成还拖累家庭；前男友是个妈宝男，不能为了女主抛弃家庭；男友单亲，莫名其妙的发家致富，可能来源不清白。
-    3.海市蜃楼一般的青梅竹马。
-
-    然后是优点： 1.感情真挚。这主要是父母子女之间的感情。如果只看到虚浮的爱情，就如同买椟还珠。这部剧的核心感情是父母子女，而且彷佛就在说自己一样。可能是东亚文化圈的特点，父母子女之间从来没有爱的表达，无论多么浓烈的情感都被浓缩成了那句错的不能再错的“为了你好”。经年积累的怨恨重重是最先冲破围栏爆发出来的情绪，而最多的爱也不能持久的面对冰霜的洗礼，最终留下的只会是伴随一生的遗憾。
-    2.积极乐观的生活态度。无论面对何种苦难，男女主总能重新站起来。不管是生活的重担，还是内心的坚强，结果都是人性的光辉。 3.年代感极强的道具配乐。 4.感人的诗。片头片尾字里行间穿插的小诗总能异常的贴合剧情和观众的情绪，感情丰富细腻，文字简单却隽永，回味悠长。
-
-    刚刚看完之时，甚至以为这是超越《请回答1988》的最佳韩剧。但静下心来细想，看到了它诸多缺陷。《请回答1988》强在写实，更贴近的年代感，靠着不悬浮的感情和剧情守擂成功。 '
+    3.海市蜃楼一般的青梅竹马。\n然后是优点： 1.感情真挚。这主要是父母子女之间的感情。如果只看到虚浮的爱情，就如同买椟还珠。这部剧的核心感情是父母子女，而且彷佛就在说自己一样。可能是东亚文化圈的特点，父母子女之间从来没有爱的表达，无论多么浓烈的情感都被浓缩成了那句错的不能再错的“为了你好”。经年积累的怨恨重重是最先冲破围栏爆发出来的情绪，而最多的爱也不能持久的面对冰霜的洗礼，最终留下的只会是伴随一生的遗憾。
+    2.积极乐观的生活态度。无论面对何种苦难，男女主总能重新站起来。不管是生活的重担，还是内心的坚强，结果都是人性的光辉。 3.年代感极强的道具配乐。 4.感人的诗。片头片尾字里行间穿插的小诗总能异常的贴合剧情和观众的情绪，感情丰富细腻，文字简单却隽永，回味悠长。\n\
+    刚刚看完之时，甚至以为这是超越《请回答1988》的最佳韩剧。但静下心来细想，看到了它诸多缺陷。《请回答1988》强在写实，更贴近的年代感，靠着不悬浮的感情和剧情守擂成功。 "
   watched_date: 2025-12-25
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/ru98SmLQvKR8MMiqjpBXSfimZ0C.jpg
   poster_en: https://image.tmdb.org/t/p/original/q29q6AByug53pnylCytwLA7m6AY.jpg
 - id: tt35019294
@@ -130,7 +131,7 @@ watched:
   review: '给6分全看早第7集Jessie的故事上。 全集悬疑其实设计并不好，基本全是藏信息，没有很复杂的推理。随着信息一点点推给观众，还站在舞台中央的，必然就是真正的凶手。
     在悬疑之上，大部分的情节是在铺垫家长里短了，甚至有很多非常无用的情节参杂其间。 然后就是无底线打拳。看到豆瓣分明显高于IMDB，就能意识到这是一部以拳为重的剧集。全部男角色几乎没有好人，而两个女主就是圣母再世。虽然悬疑的设定冲淡了一些，但每个情节推进之后的家长里短，仍然可以让观众反胃。 '
   watched_date: 2025-12-04
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/lgVY2OSdzOZ5uaAhVunWkAnHM9f.jpg
   poster_en: https://image.tmdb.org/t/p/original/o8vZKZlc8H4OcgpbJuqP0iK4B2.jpg
 - id: tt34610311
@@ -167,17 +168,17 @@ watched:
   tmdb_id: 1357305
   douban_id: 36282639
   rating: 5
-  review: '1.说教式主旋律：强行上价值的“历史课” 影片试图通过1900年旧金山唐人街的华人困境“以史为鉴”，却将历史反思简化成口号式输出。角色动辄开启“大道理模式”，从“落后就要挨打”到“华人团结”，台词仿佛直接从中学历史课本中复制粘贴，强行给观众灌输民族主义情绪。有影评尖锐指出，这种“教育观众”的意图过于直白，甚至让人怀疑导演是否在拍一部“主旋律宣传片”而非娱乐电影。
+  review: " 1.说教式主旋律：强行上价值的“历史课”。 影片试图通过1900年旧金山唐人街的华人困境“以史为鉴”，却将历史反思简化成口号式输出。角色动辄开启“大道理模式”，从“落后就要挨打”到“华人团结”，台词仿佛直接从中学历史课本中复制粘贴，强行给观众灌输民族主义情绪。有影评尖锐指出，这种“教育观众”的意图过于直白，甚至让人怀疑导演是否在拍一部“主旋律宣传片”而非娱乐电影。
     对比《花月杀手》通过事件本身揭露压迫，《唐探1900》的说教显得生硬且缺乏艺术性。例如反派约翰·库萨克的白人资本家形象虽立体，但最终沦为“反派必须被华人用美国法律击败”的样板戏，历史深度被口号消解。
-    2. 喜剧退步：尬笑与套路化 系列标志性的“唐探味儿”在本片中严重稀释。王宝强的部落造型虽自带喜感，但强行堆砌的“乱翻译部落语”“召唤动物”等桥段，更像是为搞笑而硬凑的烂梗，与早期唐仁的市井幽默相比，显得刻意且低幼。
-    岳云鹏饰演的清朝外交官费洋古，几乎沦为“刻板印象集合体”：结巴、谄媚、遇事慌乱，这种靠丑化角色制造笑点的手法，暴露了创作团队的懒惰。 3.悬疑薄弱：探案沦为背景板
+    2. 喜剧退步：尬笑与套路化。 系列标志性的“唐探味儿”在本片中严重稀释。王宝强的部落造型虽自带喜感，但强行堆砌的“乱翻译部落语”“召唤动物”等桥段，更像是为搞笑而硬凑的烂梗，与早期唐仁的市井幽默相比，显得刻意且低幼。
+    岳云鹏饰演的清朝外交官费洋古，几乎沦为“刻板印象集合体”：结巴、谄媚、遇事慌乱，这种靠丑化角色制造笑点的手法，暴露了创作团队的懒惰。 3.悬疑薄弱：探案沦为背景板。
     尽管案件以“开膛手杰克”为噱头，但探案过程被大量动作戏和说教挤占。刘昊然“望闻问切”的探案法看似创新，实则沦为中医术语的机械套用，逻辑推理草率，关键线索常依赖“天降神兵”（如阿鬼的部落秘术）强行推进，悬疑张力远不及系列前作。
     号称“1:1还原旧金山唐人街”的300亩实景，最终只沦为视觉奇观，与案件本身缺乏有机联系。例如缫丝厂设备的精细还原，却未在探案中发挥实质作用，美术投入与叙事脱节。
-    4.演员浪费：群星璀璨却集体失焦 周润发饰演的华人帮会大佬白轩龄，本应是历史厚重感的承载者，但角色戏份局限于“发布任务”和“发表演讲”，其个人魅力被扁平化处理。发哥杀青时感慨“等白轩龄等了三十年”，最终呈现却像一场自我感动的行为艺术。
+    4.演员浪费：群星璀璨却集体失焦。 周润发饰演的华人帮会大佬白轩龄，本应是历史厚重感的承载者，但角色戏份局限于“发布任务”和“发表演讲”，其个人魅力被扁平化处理。发哥杀青时感慨“等白轩龄等了三十年”，最终呈现却像一场自我感动的行为艺术。
     刘昊然试图突破秦风形象，饰演圆滑的秦福，但演技生硬，台词念白仿佛在背课文，与王宝强的夸张表演风格格格不入。有观众吐槽：“看他努力装油滑的样子，尴尬到脚趾抠出一座唐人街。”
-    5.历史肤浅：披着年代外衣的现代鸡汤 影片对1900年华人移民困境的描绘流于表面，既未深入探讨排华法案的残酷性，也未展现底层华人的真实挣扎，反而用“精气神坚持”“用法律反击”等现代价值观强行嫁接历史，宛如一场“穿越式正能量宣讲会”。
-    所谓“中西文明碰撞”被简化为“华人用魔法打败魔法”（如用美国法律对抗歧视），这种取巧的叙事既回避了历史复杂性，也削弱了批判力度，最终沦为自我安慰的胜利童话。
-    《唐探1900》试图以“历史厚重感”为IP镀金，却暴露了陈思诚团队在创作上的投机性：用顶级阵容和视觉奇观掩盖叙事平庸，用主旋律口号替代艺术表达。若说系列前作是“商业片的成功模板”，本片则像一场精心计算的资本游戏——热闹有余，真心不足。或许正如豆瓣影评所言：“陈思诚太想进步了，但进步的只是票房野心，而非电影本身。” '
+    5.历史肤浅：披着年代外衣的现代鸡汤。 影片对1900年华人移民困境的描绘流于表面，既未深入探讨排华法案的残酷性，也未展现底层华人的真实挣扎，反而用“精气神坚持”“用法律反击”等现代价值观强行嫁接历史，宛如一场“穿越式正能量宣讲会”。
+    所谓“中西文明碰撞”被简化为“华人用魔法打败魔法”（如用美国法律对抗歧视），这种取巧的叙事既回避了历史复杂性，也削弱了批判力度，最终沦为自我安慰的胜利童话。\n\
+    《唐探1900》试图以“历史厚重感”为IP镀金，却暴露了陈思诚团队在创作上的投机性：用顶级阵容和视觉奇观掩盖叙事平庸，用主旋律口号替代艺术表达。若说系列前作是“商业片的成功模板”，本片则像一场精心计算的资本游戏——热闹有余，真心不足。或许正如豆瓣影评所言：“陈思诚太想进步了，但进步的只是票房野心，而非电影本身。” "
   watched_date: 2025-11-28
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/f7LFuTZvLuUb5HfEJxDSvguB9n5.jpg
@@ -217,7 +218,7 @@ watched:
     就是这种来回摇摆的剧情，使得两个女主的形象完全立不住，其人物行为、动机都不能令观众信服。 更别说越描越黑的三个女生线，遮遮掩掩转来转去，最后主创团队自己估计都说不清楚到底想要什么，塑造了什么。拨开一切伪装，真真就是钓鱼的钩子，但又是杨哥的玩物，为啥要在园区受累，小弟们怎么可能面对她不露出破绽？安琪就是男主的“泄欲工具”，这个身份同样也会露出马脚。只是二傻子当牛做马骗人，最后还把自己搞死了。
     我常说，不要随便考验人性，两个已经割席的女主，又怎么可能毫无芥蒂通力合作？ 一部投资如此小，全是固定室内场景的戏，剧情如此经不起推敲，又怎么能吸引观众？ '
   watched_date: 2025-11-14
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/sCbj5ztQ2yDxXADqq7eLPxQTBnp.jpg
   poster_en: https://image.tmdb.org/t/p/original/w6XfEr5IiQ086CiqHmTEsgnmzmB.jpg
 - id: tt28221523
@@ -231,17 +232,17 @@ watched:
     先说说缺点吧：首先是人设和剧情不符。比如琴，一个能经营地摊的勤劳人物，会扔下摊子去卖肉？其次是所有女性角色行为都反常，没有任何的抵抗。最后是好好的悬疑剧，刘大志出来就开始整恐怖元素。
     优点嘛，最大的优点就是展现了中国警察的办案特色：有罪推定、无证据定罪、知法犯法执法犯法、刑讯逼供。 '
   watched_date: 2025-11-10
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/hPTtZlB9aptXHScBsgEUrZJz7y3.jpg
   poster_en: https://image.tmdb.org/t/p/original/467KdLIgp69tnGa0WJCQ3RbrqrI.jpg
 - id: 向往的生活
   title: 向往的生活
   title_en: Back to Field
-  content_type: variety
+  content_type: show
   imdb_id: ''
   tmdb_id: 88939
   douban_id: 26950749
-  poster: 'https://image.tmdb.org/t/p/original/2z7UUnTFClM0nOta7WDin9e7x0W.jpg'
+  poster: https://image.tmdb.org/t/p/original/2z7UUnTFClM0nOta7WDin9e7x0W.jpg
   seasons: 7
   rating: 8
   watched_date: 2024-03-20
@@ -254,9 +255,8 @@ watched:
   tmdb_id: 338953
   douban_id: 26147418
   rating: 5
-  review: '异常平庸的剧情，主角光环笼罩。没有计划，凭啥能把真的保留到最后？真就把观众智商降至幼稚园，然后肆意揉捏。
-
-    哈利波特这个世界，越塑造越没味道了。到这部，魔法师打架已经是激光炮互相扫射，魔杖就是个炮管，咒语手势全都丢到火星去了。'
+  review: 异常平庸的剧情，主角光环笼罩。没有计划，凭啥能把真的保留到最后？真就把观众智商降至幼稚园，然后肆意揉捏。 
+    哈利波特这个世界，越塑造越没味道了。到这部，魔法师打架已经是激光炮互相扫射，魔杖就是个炮管，咒语手势全都丢到火星去了。
   watched_date: 2022-06-05
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/xTCI654vPnseCnrzMEfWpfKMoNT.jpg
@@ -268,11 +268,9 @@ watched:
   tmdb_id: 983311
   douban_id: 35295405
   rating: 6
-  review: '镜头语言很有些味道，男主的表演也算不错，可惜剧情和逻辑配不上。全片战神却睡死不醒，十年捉刀但突发脑梗。
-
-    别说千年前的唐朝，就算是当代的中国，人民一样是被中共及其狗腿子们肆意欺压和鱼肉，又能如何？
-
-    中国文艺界全是一群烂泥，一点现实问题不敢面对，只会阿谀奉承粉饰太平。'
+  review: 镜头语言很有些味道，男主的表演也算不错，可惜剧情和逻辑配不上。全片战神却睡死不醒，十年捉刀但突发脑梗。 
+    别说千年前的唐朝，就算是当代的中国，人民一样是被中共及其狗腿子们肆意欺压和鱼肉，又能如何？ 
+    中国文艺界全是一群烂泥，一点现实问题不敢面对，只会阿谀奉承粉饰太平。
   watched_date: 2022-06-05
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/sVJETp8wzws7C5Fxn6lTqgxYgJ7.jpg
@@ -284,9 +282,7 @@ watched:
   tmdb_id: 941132
   douban_id: 35192672
   rating: 3
-  review: '看看在中共荼毒之下的港片，连黑社会都不会拍了。
-
-    前2/3虽然节奏差剧情烂，但起码还没出圈。最后这自爆真是离谱的恶臭。'
+  review: 看看在中共荼毒之下的港片，连黑社会都不会拍了。 前2/3虽然节奏差剧情烂，但起码还没出圈。最后这自爆真是离谱的恶臭。
   watched_date: 2022-06-12
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/wc9El7sHkAkGJMJ4fBA0uJjDU2W.jpg
@@ -346,9 +342,8 @@ watched:
   tmdb_id: 453395
   douban_id: 30304994
   rating: 4
-  review: '现在的超英片，特效都开始非常敷衍了，独眼怪的片段能让观众非常明显看出来特效和演员的隔离。
-
-    剧本，嗯超英片要什么剧本。使劲打就行了。主角全程变身跑跑，最后两句话感化大反派。绯红女巫这么牛逼，当初灭霸是怎么打的？'
+  review: 现在的超英片，特效都开始非常敷衍了，独眼怪的片段能让观众非常明显看出来特效和演员的隔离。 
+    剧本，嗯超英片要什么剧本。使劲打就行了。主角全程变身跑跑，最后两句话感化大反派。绯红女巫这么牛逼，当初灭霸是怎么打的？
   watched_date: 2022-07-02
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/fCNNXrGvGi4EDlzZgPOGVdkgtuc.jpg
@@ -367,7 +362,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/6zltP23zLGPogsHZUazSrrwNuKs.jpg
 - id: tt8041270
   title: 侏罗纪世界3
-  title_en: 'Jurassic World Dominion'
+  title_en: Jurassic World Dominion
   imdb_id: tt8041270
   tmdb_id: 507086
   douban_id: 26873582
@@ -384,9 +379,7 @@ watched:
   tmdb_id: 196268
   douban_id: 35524387
   rating: 6
-  review: '光看冷脸女主就行了。
-
-    剧情、逻辑、节奏，基本都是二流水准。很简单的故事线，戏剧冲突也不强。'
+  review: 光看冷脸女主就行了。 剧情、逻辑、节奏，基本都是二流水准。很简单的故事线，戏剧冲突也不强。
   watched_date: 2020-07-20
   content_type: movie
   poster: 
@@ -422,9 +415,8 @@ watched:
   tmdb_id: 543504
   douban_id: 26995893
   rating: 4
-  review: '剧本的想法很好，如果认真思考剧情，确实有一些片段很有味道。
-
-    可惜的是，导演完全配不上这个剧本。剪辑纷杂，节奏混乱。虽然刘青云很卖力的在表演，但那种歇斯底里的精神状态，也不能让观众信服这个角色还有正常的判断力。'
+  review: 剧本的想法很好，如果认真思考剧情，确实有一些片段很有味道。 
+    可惜的是，导演完全配不上这个剧本。剪辑纷杂，节奏混乱。虽然刘青云很卖力的在表演，但那种歇斯底里的精神状态，也不能让观众信服这个角色还有正常的判断力。
   watched_date: 2022-08-28
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/sNAeYA5EZ7ouoHnVxQ0vMbfgiEi.jpg
@@ -436,7 +428,8 @@ watched:
   tmdb_id: 945664
   douban_id: 35460157
   rating: 6
-  review: 标准的三段式命题作文。一是感情铺垫到位故而不显做作，二是演员自然不整噱头。毒点自然是肆意摩擦观众智商，尤其是亲妈回归，质量直接打了二成折扣。
+  review: 标准的三段式命题作文。 一是感情铺垫到位故而不显做作， 二是演员自然不整噱头。 
+    毒点自然是肆意摩擦观众智商，尤其是亲妈回归，质量直接打了二成折扣。
   watched_date: 2022-09-04
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/bAuR2fjqtuI5uxpJiamUhP3KrzS.jpg
@@ -448,9 +441,7 @@ watched:
   tmdb_id: 1030398
   douban_id: 35765172
   rating: 7
-  review: '共匪的很多活动，都是为了办而办，这部片子也就是在讽刺此类现象。
-
-    另外，也从一个侧面反应了“一群中国人是条虫”的道理。'
+  review: 共匪的很多活动，都是为了办而办，这部片子也就是在讽刺此类现象。 另外，也从一个侧面反应了“一群中国人是条虫”的道理。
   watched_date: 2022-10-09
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/yZlQUyWDsMbOUqF5Gsu81uARYta.jpg
@@ -474,11 +465,8 @@ watched:
   tmdb_id: 801803
   douban_id: 35183042
   rating: 6
-  review: '这就是典型的中国，一边骂一边抄。本片全面像美式电影学习，引领人类战胜危机。然后在结尾加上半土半洋的煽情。
-
-    能给6分完全是希望他们以后不要战狼化，回归初心。
-
-    不讽刺社会现实，那算什么喜剧？'
+  review: 这就是典型的中国，一边骂一边抄。 本片全面像美式电影学习，引领人类战胜危机。然后在结尾加上半土半洋的煽情。 
+    能给6分完全是希望他们以后不要战狼化，回归初心。 不讽刺社会现实，那算什么喜剧？
   watched_date: 2022-10-10
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/uLfT4oOj0Cp2XuUCDWZpvFMeSmE.jpg
@@ -490,9 +478,7 @@ watched:
   tmdb_id: 616037
   douban_id: 34477861
   rating: 3
-  review: '傻逼银护风格，配狗屎彩虹色，这片只适合14岁以下观看。
-
-    唯一的亮点是Russell Crowe的Zeus，以及三个Zeusette。'
+  review: 傻逼银护风格，配狗屎彩虹色，这片只适合14岁以下观看。 唯一的亮点是Russell Crowe的Zeus，以及三个Zeusette。
   watched_date: 2022-10-11
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/i1NAuDW8oOlV5dBbXPPTuPlt8sl.jpg
@@ -528,9 +514,7 @@ watched:
   tmdb_id: 945778
   douban_id: 35102469
   rating: 2
-  review: '智熄的剧情。
-
-    中国的女人真可怜，2022年了还在保大保小，还在牺牲。看看隔壁伊朗，敢于抗争才能得到尊重。'
+  review: "智熄的剧情。\n中国的女人真可怜，2022年了还在保大保小，还在牺牲。看看隔壁伊朗，敢于抗争才能得到尊重。"
   watched_date: 2022-12-11
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/t6DGs6BJyDu56OCBhSHJeVuP388.jpg
@@ -542,11 +526,8 @@ watched:
   tmdb_id: 518896
   douban_id: 26353671
   rating: 4
-  review: '自从1997年之后，香港的资源被大陆吸干，就再不复当年之盛况了。
-
-    现在开始抄袭好莱坞前20年的风潮，试图走纯特效路线。邯郸学步东施效颦。但人家的特效电影起码还有点人文内核，香港被中共抽的连好坏都分不清了，哪里还能关注到这些枝桠。
-
-    还有，你香港真的烂到连个男配都选不出来，非要用个两眼外翻的捞头？'
+  review: "自从1997年之后，香港的资源被大陆吸干，就再不复当年之盛况了。\n现在开始抄袭好莱坞前20年的风潮，试图走纯特效路线。邯郸学步东施效颦。但人家的特效电影起码还有点人文内核，香港被中共抽的连好坏都分不清了，哪里还能关注到这些枝桠。\n\
+    还有，你香港真的烂到连个男配都选不出来，非要用个两眼外翻的捞头？"
   watched_date: 2022-12-11
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/clHcc3eKQ1G8viynMQgfF5btLuW.jpg
@@ -558,9 +539,7 @@ watched:
   tmdb_id: 958263
   douban_id: 35840171
   rating: 5
-  review: '总体上有些失望。
-
-    第一部的故事核心是一个不起眼的小人物当幕后boss的反差感。而第二部完全转向了黑恶势力斗争的路线。但可惜的是，三方势力，强弱分明，毫无悬念。加上主角更换，新角色又仅是只会歪头的菜逼。导致这部变为狗尾续貂。'
+  review: "总体上有些失望。\n第一部的故事核心是一个不起眼的小人物当幕后boss的反差感。而第二部完全转向了黑恶势力斗争的路线。但可惜的是，三方势力，强弱分明，毫无悬念。加上主角更换，新角色又仅是只会歪头的菜逼。导致这部变为狗尾续貂。"
   watched_date: 2023-11-21
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/xaVqdNO0qaSZ3fyLRNrwOgy9Qzu.jpg
@@ -572,11 +551,8 @@ watched:
   tmdb_id: 1151534
   douban_id: 35642187
   rating: 6
-  review: '不吹不黑，质量还可以的荒野求生题材电影。
-
-    最大的问题还是剧本，为了突出角色，安排了不合理的困难，比如生孩子和大腿外伤，还是在海水环境下。
-
-    极权政府的邪恶不能被淡忘，说的就是中共。'
+  review: "不吹不黑，质量还可以的荒野求生题材电影。\n最大的问题还是剧本，为了突出角色，安排了不合理的困难，比如生孩子和大腿外伤，还是在海水环境下。\n\
+    极权政府的邪恶不能被淡忘，说的就是中共。"
   watched_date: 2023-11-15
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/lLqJZ5H1qFx5JPvehq4nDzfKbGv.jpg
@@ -600,9 +576,7 @@ watched:
   tmdb_id: 615656
   douban_id: 34882958
   rating: 3
-  review: '吴京这演技吧，还是去战狼里面当旗帜吧。
-
-    每个人物的动机都奇奇怪怪，那个逗逼小女孩是用来干什么的？'
+  review: "吴京这演技吧，还是去战狼里面当旗帜吧。\n每个人物的动机都奇奇怪怪，那个逗逼小女孩是用来干什么的？"
   watched_date: 2023-11-15
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/xJUZhfB5tRuSn6Ml0kUf5yB1HZh.jpg
@@ -614,9 +588,7 @@ watched:
   tmdb_id: 335977
   douban_id: 3819860
   rating: 5
-  review: '英雄的谢幕。
-
-    可惜剧情不出彩，CG过多，和人物的融合也不够好，总有假布景的突兀感。'
+  review: "英雄的谢幕。\n可惜剧情不出彩，CG过多，和人物的融合也不够好，总有假布景的突兀感。"
   watched_date: 2023-11-14
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/zcVmoYA8InLCalpbBePY5Rdtuns.jpg
@@ -628,9 +600,7 @@ watched:
   tmdb_id: 1112175
   douban_id: 35765480
   rating: 5
-  review: '八股文一样的体育片，剧情转折莫名其妙，情感铺陈欠缺，人物停留在剧本上，表演滞涩，外带一坨屎的“正能量”煽情。
-
-    唯一勉强可称为亮点就是王宝强。在折戟闹剧后，还敢于拍这种的类型片，并且演技也没拖后腿（可惜只会那两个模子：傻根，树先生）。'
+  review: "八股文一样的体育片，剧情转折莫名其妙，情感铺陈欠缺，人物停留在剧本上，表演滞涩，外带一坨屎的“正能量”煽情。\n唯一勉强可称为亮点就是王宝强。在折戟闹剧后，还敢于拍这种的类型片，并且演技也没拖后腿（可惜只会那两个模子：傻根，树先生）。"
   watched_date: 2023-10-14
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/xj8JmcJhqShEm5pdBCpOevAjFzE.jpg
@@ -642,9 +612,7 @@ watched:
   tmdb_id: 926393
   douban_id: 35736400
   rating: 6
-  review: '系列停滞多年，男主年届古稀，如何能拍好一部动作片？本片给出了一种可行性方案。放慢节奏，铺垫情节，减少激烈对抗。
-
-    当然，这样也带来了故事合理性不强，主角无敌光环过重的负面效果。'
+  review: "系列停滞多年，男主年届古稀，如何能拍好一部动作片？本片给出了一种可行性方案。放慢节奏，铺垫情节，减少激烈对抗。\n当然，这样也带来了故事合理性不强，主角无敌光环过重的负面效果。"
   watched_date: 2023-10-04
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/9dyX0lTs5s378uDwVGhPgGJA9zz.jpg
@@ -656,9 +624,7 @@ watched:
   tmdb_id: 346698
   douban_id: 4058939
   rating: 5
-  review: '这个女主算是选的比较成功，贴合了玩具的形象。
-
-    只是，无论如何努力的去塑造独立女性的形象，内核还是靠打拳。'
+  review: "这个女主算是选的比较成功，贴合了玩具的形象。\n只是，无论如何努力的去塑造独立女性的形象，内核还是靠打拳。"
   watched_date: 2023-09-27
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/j9RaptNfOnqHMlTVa7nRdcTrSwr.jpg
@@ -694,9 +660,7 @@ watched:
   tmdb_id: 1148694
   douban_id: 35813934
   rating: 5
-  review: '拳拳到肉的打斗戏非常不错。
-
-    只是这个剧情，还是太虚幻了。'
+  review: "拳拳到肉的打斗戏非常不错。\n只是这个剧情，还是太虚幻了。"
   watched_date: 2023-07-09
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/uFUBRvuk6LzD9oEwSFAGZc2i1kn.jpg
@@ -720,9 +684,7 @@ watched:
   tmdb_id: 493529
   douban_id: 26584673
   rating: 6
-  review: '本来没太高的期望，但质量出乎意料的不错。回到了漫威统治幻想电影之前的那种流水线水准。
-
-    希望多一些这样的优秀爆米花，淘汰垃圾漫威超英。'
+  review: "本来没太高的期望，但质量出乎意料的不错。回到了漫威统治幻想电影之前的那种流水线水准。\n希望多一些这样的优秀爆米花，淘汰垃圾漫威超英。"
   watched_date: 2023-05-22
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/kpI9lw2z8T91XcalgvVuCelJR8R.jpg
@@ -734,9 +696,7 @@ watched:
   tmdb_id: 1022145
   douban_id: 26654184
   rating: 1
-  review: '关键不是看你怎么说，而是看你怎么做。
-
-    中共在乌克兰跳梁小丑一样的表演，堪称史诗级的表演。'
+  review: "关键不是看你怎么说，而是看你怎么做。\n中共在乌克兰跳梁小丑一样的表演，堪称史诗级的表演。"
   watched_date: 2023-05-21
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/AcacHtZ4LzZvL0Wz6CzvJrXkRqT.jpg
@@ -760,11 +720,8 @@ watched:
   tmdb_id: 945703
   douban_id: 35457272
   rating: 6
-  review: '电影的切入点很好，反应了网络世代下造谣的灾难影响和辟谣的艰难困苦。
-
-    问题主要是两个方面。首先，剧本对感情的铺垫不够，很难让观众认同男主的动机。当然，还有祖传的喂屎结局。
-
-    第二个问题更严重。说到谣言，当前中国最突出的问题必然是漫山遍野的官谣了。中国那当狗的文艺界肯定不敢真的描绘现实。'
+  review: "电影的切入点很好，反应了网络世代下造谣的灾难影响和辟谣的艰难困苦。\n问题主要是两个方面。首先，剧本对感情的铺垫不够，很难让观众认同男主的动机。当然，还有祖传的喂屎结局。\n\
+    第二个问题更严重。说到谣言，当前中国最突出的问题必然是漫山遍野的官谣了。中国那当狗的文艺界肯定不敢真的描绘现实。"
   watched_date: 2023-05-19
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/x7iacGicFSZDuFpk39vV9nTQhEA.jpg
@@ -776,11 +733,8 @@ watched:
   tmdb_id: 1066298
   douban_id: 35766491
   rating: 5
-  review: '张艺谋不会拍悬疑，这可算是个定论了。
-
-    电影看完，就是搞笑但观众不笑，悬疑又逻辑不通，煽情如空中楼阁。演员也是油腻的油腻，木脸的木脸，仔细看看岳云鹏那随时要笑场的脸，也就知道卡司的档次了。
-
-    无论是喜剧还是悬疑，最重要的就是剧本。可惜中国整个娱乐业，包括电影，只剩下献媚和段子，怕不是过几年全是抖音大电影。'
+  review: "张艺谋不会拍悬疑，这可算是个定论了。\n电影看完，就是搞笑但观众不笑，悬疑又逻辑不通，煽情如空中楼阁。演员也是油腻的油腻，木脸的木脸，仔细看看岳云鹏那随时要笑场的脸，也就知道卡司的档次了。\n\
+    无论是喜剧还是悬疑，最重要的就是剧本。可惜中国整个娱乐业，包括电影，只剩下献媚和段子，怕不是过几年全是抖音大电影。"
   watched_date: 2023-05-15
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/eqcH2KZZMJUvpYM1SWhch2XpSyp.jpg
@@ -792,11 +746,8 @@ watched:
   tmdb_id: 842675
   douban_id: 35267208
   rating: 5
-  review: '给加3星，鼓励下勉强追上时代的特效。
-
-    剧情、叙事、表演、思想，都可谓是中国电影“坑钱无极限”的典型代表。剧情充斥着垃圾战狼桥段，功力不足还非要扯两条毫无关联的叙事线，表演就是定格摆POSE毫无感情，最后加上“屁民都是渣”的共产党思想。
-
-    投票消灭一半人类，扯掉共产党的遮羞布，露出那超越灭霸丑陋嘴脸与野蛮思路。当然，中共的手段很有效，靠金钱美色欲望炮弹，喂的白左眉开眼笑。'
+  review: "给加3星，鼓励下勉强追上时代的特效。\n剧情、叙事、表演、思想，都可谓是中国电影“坑钱无极限”的典型代表。剧情充斥着垃圾战狼桥段，功力不足还非要扯两条毫无关联的叙事线，表演就是定格摆POSE毫无感情，最后加上“屁民都是渣”的共产党思想。\n\
+    投票消灭一半人类，扯掉共产党的遮羞布，露出那超越灭霸丑陋嘴脸与野蛮思路。当然，中共的手段很有效，靠金钱美色欲望炮弹，喂的白左眉开眼笑。"
   watched_date: 2023-04-10
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/cAS2e9hUwu6Ydsx7byXj16H00Ai.jpg
@@ -832,9 +783,7 @@ watched:
   tmdb_id: 1077575
   douban_id: 35936401
   rating: 4
-  review: '导演以为的感情，只是简单的桥段堆砌，并不能打动观众。
-
-    以这种行业的背景，有太多的珠玉在前。'
+  review: "导演以为的感情，只是简单的桥段堆砌，并不能打动观众。\n以这种行业的背景，有太多的珠玉在前。"
   watched_date: 2023-01-27
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/gA93tlRV56jPGLuQSHV0zJUqJNP.jpg
@@ -846,11 +795,8 @@ watched:
   tmdb_id: 928720
   douban_id: 35131346
   rating: 8
-  review: '中国文艺界最缺乏的，就是这种沉入社会，感受阶层的精神与作品。出于对导演、编剧的鼓励，给到8分。
-
-    这部电影最打动人的，就是两个苦命人相濡以沫相知相守的生活。是夜归路的上一点的电筒光，一杯换了几次捂在怀中的热水。
-
-    但同时，这部电影也不知是默契的或有意的，忽略了主角所受各种欺压背后原因的探究。导致了电影的立意与跟脚变成了黄沙。'
+  review: "中国文艺界最缺乏的，就是这种沉入社会，感受阶层的精神与作品。出于对导演、编剧的鼓励，给到8分。\n这部电影最打动人的，就是两个苦命人相濡以沫相知相守的生活。是夜归路的上一点的电筒光，一杯换了几次捂在怀中的热水。\n\
+    但同时，这部电影也不知是默契的或有意的，忽略了主角所受各种欺压背后原因的探究。导致了电影的立意与跟脚变成了黄沙。"
   watched_date: 2023-01-23
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/rSC6C7UEX1ab2Vdp3ERYQmdjwDO.jpg
@@ -886,9 +832,7 @@ watched:
   tmdb_id: 1274925
   douban_id: 36774001
   rating: 5
-  review: '毒鸡汤一碗。歌颂普罗大众的艰辛，来治疗受难者的苦痛？
-
-    被算法给淘汰，被算法判封号，靠算法成单王，靠算法回办公楼？把罪恶又推给资本家呗，就真把吃人的制度当成宝！'
+  review: "毒鸡汤一碗。歌颂普罗大众的艰辛，来治疗受难者的苦痛？\n被算法给淘汰，被算法判封号，靠算法成单王，靠算法回办公楼？把罪恶又推给资本家呗，就真把吃人的制度当成宝！"
   watched_date: 2024-11-16
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/rus1qQUGiJscMx3LGXWl6JtwBiZ.jpg
@@ -948,9 +892,7 @@ watched:
   tmdb_id: 1133013
   douban_id: 34436452
   rating: 5
-  review: '逻辑漏洞太大了。明知道不能开枪，没有做预案？放几个同伙回乡去浪，没有让避风头？
-
-    大鹏的演技有提升，只是感觉演瓷砖师傅用力过头了，吃苦耐劳吸引不了老板女儿的。'
+  review: "逻辑漏洞太大了。明知道不能开枪，没有做预案？放几个同伙回乡去浪，没有让避风头？\n大鹏的演技有提升，只是感觉演瓷砖师傅用力过头了，吃苦耐劳吸引不了老板女儿的。"
   watched_date: 2024-10-27
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/9xER0jMIlC1YbMIpeGLPKNzjXFa.jpg
@@ -1010,11 +952,7 @@ watched:
   tmdb_id: 945961
   douban_id: 35792500
   rating: 5
-  review: '可能是评分太高抬高了期待，实际看完感觉失望不小。
-
-    整部剧情设计回归原始的“异形”系列，狭小逼仄的空间站，可怕的外星生物猎杀。
-
-    但是，人物的动机和行动显得很扭曲。还有，人类武器可以射杀异形，后面几部怎么圆？'
+  review: "可能是评分太高抬高了期待，实际看完感觉失望不小。\n整部剧情设计回归原始的“异形”系列，狭小逼仄的空间站，可怕的外星生物猎杀。\n但是，人物的动机和行动显得很扭曲。还有，人类武器可以射杀异形，后面几部怎么圆？"
   watched_date: 2024-10-20
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/cDJwZ4lSZiUnHtixdyhaPPwsjyo.jpg
@@ -1026,11 +964,7 @@ watched:
   tmdb_id: 1125510
   douban_id: 36406672
   rating: 5
-  review: '前传性质，但相比第一部，质量和深度差距较大。
-
-    第一部讲述的是人性，是阶级。这部前传选择了规则。可惜规则相比人性，天生就浅薄了很多。
-
-    然后，本部拍摄手法上也不像第一部那样留白很多。外加多次插入底层景象，看似隐喻很多但实际观感缺很差，因为不给观众思考品味的时间。'
+  review: "前传性质，但相比第一部，质量和深度差距较大。\n第一部讲述的是人性，是阶级。这部前传选择了规则。可惜规则相比人性，天生就浅薄了很多。\n然后，本部拍摄手法上也不像第一部那样留白很多。外加多次插入底层景象，看似隐喻很多但实际观感缺很差，因为不给观众思考品味的时间。"
   watched_date: 2024-10-06
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/g7EFfUvU88isdsTCLPFmhjXxnXn.jpg
@@ -1042,9 +976,7 @@ watched:
   tmdb_id: 11152
   douban_id: 2132486
   rating: 2
-  review: '作为恐怖片，铺垫的有点长，而且合理性欠缺，严重影响了整体品质。
-
-    植物有很多弱点，但好像祭品团一点也没想着去尝试。'
+  review: "作为恐怖片，铺垫的有点长，而且合理性欠缺，严重影响了整体品质。\n植物有很多弱点，但好像祭品团一点也没想着去尝试。"
   watched_date: 2024-08-25
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/5md3fOuhcDSMGmw4o82vXuALZtD.jpg
@@ -1092,9 +1024,7 @@ watched:
   tmdb_id: 653346
   douban_id: 36069854
   rating: 5
-  review: '这剧本怕不是AI写的吧。基本就是把第一部反过来，现在是猩猩看人戏。连猩猩都知道“枪杆子里面出政权”，肤浅的左派还想着熬鹰打猎呢。
-
-    实在不知道留个续集的口子有啥意思。'
+  review: "这剧本怕不是AI写的吧。基本就是把第一部反过来，现在是猩猩看人戏。连猩猩都知道“枪杆子里面出政权”，肤浅的左派还想着熬鹰打猎呢。\n实在不知道留个续集的口子有啥意思。"
   watched_date: 2024-08-10
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/tE10WMV3SK2kq79aLHztJhz0EM5.jpg
@@ -1154,11 +1084,7 @@ watched:
   tmdb_id: 1255065
   douban_id: 36401888
   rating: 5
-  review: '剧本怕不是三十年前写的。
-
-    5分里面有4分是给了这句台词：宁愿去做1万港币的义工，都不去干5万港币的黑警。
-
-    不向恶魔低头，不当恶魔的奴仆，不欺辱公民。'
+  review: "剧本怕不是三十年前写的。\n5分里面有4分是给了这句台词：宁愿去做1万港币的义工，都不去干5万港币的黑警。\n不向恶魔低头，不当恶魔的奴仆，不欺辱公民。"
   watched_date: 2024-08-02
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/16Nrz8qhqducmfN7WyP63rAn9A0.jpg
@@ -1194,9 +1120,7 @@ watched:
   tmdb_id: 1022659
   douban_id: 35494829
   rating: 5
-  review: '电影的出发点很好，讲述了一个旧时代的人试着融入新时代的故事。
-
-    但是，这个黑色幽默的度，有点过于冷笑话了。'
+  review: "电影的出发点很好，讲述了一个旧时代的人试着融入新时代的故事。\n但是，这个黑色幽默的度，有点过于冷笑话了。"
   watched_date: 2024-07-19
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/4x0Pnu1ZHiJmsDJMZMnnjtnYdhY.jpg
@@ -1208,9 +1132,7 @@ watched:
   tmdb_id: 786892
   douban_id: 34996127
   rating: 5
-  review: '这剧本……
-
-    剧情推进全靠人物降智，主要情节故事发生的都莫名其妙，台词繁琐啰嗦且给不了观众信息，人物塑造摆造型，戏剧张力全靠推镜头和音乐，女主的表演就是个瞪眼睛，怕不是让中国流量去都行了。'
+  review: "这剧本……\n剧情推进全靠人物降智，主要情节故事发生的都莫名其妙，台词繁琐啰嗦且给不了观众信息，人物塑造摆造型，戏剧张力全靠推镜头和音乐，女主的表演就是个瞪眼睛，怕不是让中国流量去都行了。"
   watched_date: 2024-07-27
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/pKrJBgRpvE8gMCjaMy1UFcsPpSp.jpg
@@ -1222,9 +1144,7 @@ watched:
   tmdb_id: 661579
   douban_id: 33447633
   rating: 2
-  review: '看完就忘的宣传部产品。
-
-    所有人物的动机都显得那么奇怪。但凡对中国有一点了解，都不会相信中共官员会策划实施一起爆炸案。他们只会拼命的压榨、奋力的献媚'
+  review: "看完就忘的宣传部产品。\n所有人物的动机都显得那么奇怪。但凡对中国有一点了解，都不会相信中共官员会策划实施一起爆炸案。他们只会拼命的压榨、奋力的献媚"
   watched_date: 2024-07-20
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/gESv9WPvbmbOwO50vT6yF2OuWwF.jpg
@@ -1236,9 +1156,8 @@ watched:
   tmdb_id: 76600
   douban_id: 4811774
   rating: 5
-  review: '相比第一部对3D电影的推动，这一部无论是技术还是内核，都乏善可陈。三个多小时，讲了一个毫无新意的故事。无论是山、海或森林，在技术上，在呈现的效果上，都没有任何惊艳的点，甚至绿幕抠图越发的让观众出戏。
-
-    目前的美国文化界，被白左彻底污染，没有人再去关心社会的问题，沉浸在醉生梦死中。这种趋势在十年前漫威动效片大行其道的时候就开始了，现在是结出恶果。'
+  review: "相比第一部对3D电影的推动，这一部无论是技术还是内核，都乏善可陈。三个多小时，讲了一个毫无新意的故事。无论是山、海或森林，在技术上，在呈现的效果上，都没有任何惊艳的点，甚至绿幕抠图越发的让观众出戏。\n\
+    目前的美国文化界，被白左彻底污染，没有人再去关心社会的问题，沉浸在醉生梦死中。这种趋势在十年前漫威动效片大行其道的时候就开始了，现在是结出恶果。"
   watched_date: 2024-07-19
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/zdXdYiIgDbhP5oNYLh0VI6qbgpj.jpg
@@ -1250,9 +1169,7 @@ watched:
   tmdb_id: 923667
   douban_id: 24284175
   rating: 6
-  review: '动作设计非常硬派，现在很少能欣赏到这种老式的拳拳到肉的动作电影了。
-
-    可惜，除此之外，别无优点。出场一个人物，你就能猜到结局。剧情更是，10分钟就知道全片走向。'
+  review: "动作设计非常硬派，现在很少能欣赏到这种老式的拳拳到肉的动作电影了。\n可惜，除此之外，别无优点。出场一个人物，你就能猜到结局。剧情更是，10分钟就知道全片走向。"
   watched_date: 2024-07-07
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/y3Z7Nj6K4R2DUEJ6ijyd9XoLt2u.jpg
@@ -1264,13 +1181,8 @@ watched:
   tmdb_id: 603692
   douban_id: 33455421
   rating: 6
-  review: '这个系列感觉明显到了该结束的时候了，无论是剧情还是男主抑或是动作设计。
-
-    剧情上，引入一个傻逼反派，刻意地在避免直接和High table冲突，但接下来呢？
-
-    男主的年纪在这里，力不从心何必强求？
-
-    动作设计在开始的两部还是很吸引人，好莱坞陷入超英泥潭之后，就很少有这种硬派风格的作品了。但随后的两部没能设计出有个性动作戏，看着男主一人滥杀难免审美疲劳。况且这种主角光环，与超英垃圾的区别是什么呢？'
+  review: "这个系列感觉明显到了该结束的时候了，无论是剧情还是男主抑或是动作设计。\n剧情上，引入一个傻逼反派，刻意地在避免直接和High table冲突，但接下来呢？\n\
+    男主的年纪在这里，力不从心何必强求？\n动作设计在开始的两部还是很吸引人，好莱坞陷入超英泥潭之后，就很少有这种硬派风格的作品了。但随后的两部没能设计出有个性动作戏，看着男主一人滥杀难免审美疲劳。况且这种主角光环，与超英垃圾的区别是什么呢？"
   watched_date: 2024-05-18
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/dKtgSYi2AwlaHYo1Iqie8wlMsc5.jpg
@@ -1282,13 +1194,8 @@ watched:
   tmdb_id: 1210377
   douban_id: 36207371
   rating: 5
-  review: '这种类型的电影已经算是悬疑类中最简单的了吧，但是剧本真是惨不忍睹。
-
-    优点就是不带脑子看，也不会看不懂。适合放空打发时间。
-
-    从最开始的暗语召唤就让人忍不住想吐槽WTF。箱子打开之后，人是死是活，不去探探鼻子，直接分猪肉？人物刻画上，九饼一会儿贪一会儿狠然后说自己“胆小”？整部剧情，和火锅有什么关系，叫这么个名字？
-
-    旋转镜头用一次挺好，但你全片不变，就让人很厌烦。'
+  review: "这种类型的电影已经算是悬疑类中最简单的了吧，但是剧本真是惨不忍睹。\n优点就是不带脑子看，也不会看不懂。适合放空打发时间。\n从最开始的暗语召唤就让人忍不住想吐槽WTF。箱子打开之后，人是死是活，不去探探鼻子，直接分猪肉？人物刻画上，九饼一会儿贪一会儿狠然后说自己“胆小”？整部剧情，和火锅有什么关系，叫这么个名字？\n\
+    旋转镜头用一次挺好，但你全片不变，就让人很厌烦。"
   watched_date: 2024-05-16
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/3phypLODskon1fw3XSq9InwOx7h.jpg
@@ -1312,11 +1219,8 @@ watched:
   tmdb_id: 693134
   douban_id: 35575567
   rating: 5
-  review: '这王子有什么是自己干的？老师是敌人礼送回国，忠仆是自己洗脑练成的，士兵是老妈妹妹忽悠瘸的。
-
-    曾经给观众震撼的巨物审美，到第二部几乎被抛弃（只剩下个决斗场，还非常潦草），剧情也是逻辑下线只剩狗血，铺垫许久的Baron被一刀砍翻，新出的反派健男也是一场格斗就死。外加上比第一部更不明所以的剪辑和节奏。
-
-    整一个败絮典范。'
+  review: "这王子有什么是自己干的？老师是敌人礼送回国，忠仆是自己洗脑练成的，士兵是老妈妹妹忽悠瘸的。\n曾经给观众震撼的巨物审美，到第二部几乎被抛弃（只剩下个决斗场，还非常潦草），剧情也是逻辑下线只剩狗血，铺垫许久的Baron被一刀砍翻，新出的反派健男也是一场格斗就死。外加上比第一部更不明所以的剪辑和节奏。\n\
+    整一个败絮典范。"
   watched_date: 2024-04-21
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/1p25wDEdFRRTtwtPFbtPHISefzG.jpg
@@ -1340,15 +1244,8 @@ watched:
   tmdb_id: 1229349
   douban_id: ''
   rating: 5
-  review: '看到她这么卖力的营销自己，给多加两星吧。
-
-    简单讲，没有任何感情支点的意淫之作。
-
-    曾经，我们嘲笑劳动人民，说他们总幻想“皇帝的金锄头”。现在，中国的流量阶层，也开始意淫“穷人的一百斤”了。
-
-    整体剧情在照抄的基础上，试图用各种“金锄头”桥段来完成本地化，来展现他们的“共情”。只可惜，他们根本不明白人民的痛点是什么。
-
-    一句话概括全片的情节，就是匪夷所思莫名其妙牵强附会。'
+  review: "看到她这么卖力的营销自己，给多加两星吧。\n简单讲，没有任何感情支点的意淫之作。\n曾经，我们嘲笑劳动人民，说他们总幻想“皇帝的金锄头”。现在，中国的流量阶层，也开始意淫“穷人的一百斤”了。\n\
+    整体剧情在照抄的基础上，试图用各种“金锄头”桥段来完成本地化，来展现他们的“共情”。只可惜，他们根本不明白人民的痛点是什么。\n一句话概括全片的情节，就是匪夷所思莫名其妙牵强附会。"
   watched_date: 2024-04-21
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/ejLa1p8d827c8Hjak0qe9UxWlX7.jpg
@@ -1372,9 +1269,7 @@ watched:
   tmdb_id: 848538
   douban_id: 35520056
   rating: 3
-  review: '烂俗的剧情，配上拉跨的节奏，外加不要钱的特效。
-
-    现在没人愿意拍实景了么？'
+  review: "烂俗的剧情，配上拉跨的节奏，外加不要钱的特效。\n现在没人愿意拍实景了么？"
   watched_date: 2024-04-14
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/A6hlmdQzqz1JHLhhfoBnGjJnexA.jpg
@@ -1398,9 +1293,7 @@ watched:
   tmdb_id: 1046090
   douban_id: 36151692
   rating: 6
-  review: '看似简单的剧情，分割明显的几段故事，但就是过渡自然，每个都完成度很高。怪不得碾压了中共的垃圾电影。
-
-    三害对应了贪嗔痴这三种妄念，凡俗需斩断才能成佛。'
+  review: "看似简单的剧情，分割明显的几段故事，但就是过渡自然，每个都完成度很高。怪不得碾压了中共的垃圾电影。\n三害对应了贪嗔痴这三种妄念，凡俗需斩断才能成佛。"
   watched_date: 2024-03-10
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/eNvuf4PHepy0nlXfludjGCJGG59.jpg
@@ -1412,13 +1305,8 @@ watched:
   tmdb_id: 1173076
   douban_id: 35725869
   rating: 6
-  review: '不错的喜剧片，半部。
-
-    壮尼在入职之后的部分，每个笑点应该抓住打工人的心，创作者在视角放在打工人，把中国职场的现状扒了个鲜血淋漓。
-
-    但是，永远还是有但是。“正能量”/“主旋律”是中国电影拉不出来的屎，祸害了这锅好粥。
-
-    为什么中国人总觉得，“晴天老爷”才是解决问题的唯一方法，而不是翻身作主，自己创造自己的命运？'
+  review: "不错的喜剧片，半部。\n壮尼在入职之后的部分，每个笑点应该抓住打工人的心，创作者在视角放在打工人，把中国职场的现状扒了个鲜血淋漓。\n但是，永远还是有但是。“正能量”/“主旋律”是中国电影拉不出来的屎，祸害了这锅好粥。\n\
+    为什么中国人总觉得，“晴天老爷”才是解决问题的唯一方法，而不是翻身作主，自己创造自己的命运？"
   watched_date: 2024-02-25
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/nhsi6kfqwlfAdzaeZOocnUqMlH2.jpg
@@ -1430,11 +1318,8 @@ watched:
   tmdb_id: 1121612
   douban_id: 35267224
   rating: 5
-  review: '及格的反诈宣传，不及格的电影。
-
-    太多时长浪费在毫无意义的破案上，对犯罪过程就非常敷衍的用一个故事就一带而过了。犯罪团伙对新入伙的人进行了哪些措施让他们安心行骗，就靠晨会几句口号？对不服管理的刺头有哪些手段，仅是杀鸡吓猴？恩威并施只靠发钱小游戏？被腐蚀的地方势力对中共一点反抗没有？中共没头苍蝇一样的断卡，坑害了多少无辜？
-
-    浪费了这个题材。'
+  review: "及格的反诈宣传，不及格的电影。\n太多时长浪费在毫无意义的破案上，对犯罪过程就非常敷衍的用一个故事就一带而过了。犯罪团伙对新入伙的人进行了哪些措施让他们安心行骗，就靠晨会几句口号？对不服管理的刺头有哪些手段，仅是杀鸡吓猴？恩威并施只靠发钱小游戏？被腐蚀的地方势力对中共一点反抗没有？中共没头苍蝇一样的断卡，坑害了多少无辜？\n\
+    浪费了这个题材。"
   watched_date: 2024-02-04
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/6c93jZipCvv1YNVwhqWA6X1yqM1.jpg
@@ -1482,9 +1367,7 @@ watched:
   tmdb_id: 575265
   douban_id: 30433456
   rating: 7
-  review: '最终两部连看，算是及格线吧，没有达到期待。给收官作加一分，不知道会不会如同John Wick那样衍生后续。
-
-    看点是六十多的大爷还在爬飞机。不好的地方就是选错了对手，机器永远比不了人心那么丑陋的。'
+  review: "最终两部连看，算是及格线吧，没有达到期待。给收官作加一分，不知道会不会如同John Wick那样衍生后续。\n看点是六十多的大爷还在爬飞机。不好的地方就是选错了对手，机器永远比不了人心那么丑陋的。"
   watched_date: 2025-09-13
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/uXuUzW7RlB4V3YLTh3VZigsdN7M.jpg
@@ -1503,14 +1386,12 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/NNxYkU70HPurnNCSiCjYAmacwm.jpg
 - id: tt9619824
   title: 死神来了6：血脉诅咒
-  title_en: 'Final Destination Bloodlines'
+  title_en: Final Destination Bloodlines
   imdb_id: tt9619824
   tmdb_id: 574475
   douban_id: 30429388
   rating: 6
-  review: '这一部续集还不错，延续了系列的特色，剧情也不拉跨，吸引了我跟随镜头猜测每一个死法。
-
-    败笔是女主，没演技没颜值。还有就是开篇旋转餐厅的CG，太假了。'
+  review: "这一部续集还不错，延续了系列的特色，剧情也不拉跨，吸引了我跟随镜头猜测每一个死法。\n败笔是女主，没演技没颜值。还有就是开篇旋转餐厅的CG，太假了。"
   watched_date: 2025-05-31
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/d9GpZ1hYLRoFLZxEXVZJ89t6CUS.jpg
@@ -1522,9 +1403,7 @@ watched:
   tmdb_id: 390433
   douban_id: 25890079
   rating: 5
-  review: '总体剧情逻辑不是很圆满。 男主男配厕所斗狠的片段真有点特色。
-
-    看豆瓣，10年前的影评竟然没有拳师吐槽男主男配的矛盾帅锅给女性。不敢想象放现在会是什么德行。'
+  review: "总体剧情逻辑不是很圆满。 男主男配厕所斗狠的片段真有点特色。\n看豆瓣，10年前的影评竟然没有拳师吐槽男主男配的矛盾帅锅给女性。不敢想象放现在会是什么德行。"
   watched_date: 2025-04-13
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/9dnN0xkM2fojzedmTZ6uBmEppxS.jpg
@@ -1536,9 +1415,7 @@ watched:
   tmdb_id: 1305642
   douban_id: 36421884
   rating: 4
-  review: '不知道为啥，总觉得现在香港文艺界有一波反贼，总整一些埋藏很深的吐槽。
-
-    比如这部烂电影，看上去是歌颂消防队和博士拯救城市，实际就是吐槽政府盲目发展经济，这就很明显映射中共GDP为纲了。'
+  review: "不知道为啥，总觉得现在香港文艺界有一波反贼，总整一些埋藏很深的吐槽。\n比如这部烂电影，看上去是歌颂消防队和博士拯救城市，实际就是吐槽政府盲目发展经济，这就很明显映射中共GDP为纲了。"
   watched_date: 2025-03-22
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/aEW2uiKI8h33wGk38n2iLpe7Yej.jpg
@@ -1610,11 +1487,8 @@ watched:
   tmdb_id: 929590
   douban_id: 35750081
   rating: 7
-  review: '这是一部角度新奇，有一点让人深思的电影。
-
-    电影回避了直接铺陈战争的起源，仅用“第三任”“解散FBI”“轰炸美国公民”这样的只言片语勾画了一点概貌。因为这并不是影片的重点。当然，在不多的战斗场面中，电影对战争多种形态和其残酷性都有适当的展现。
-
-    这部影片的重点在于人性。前半部是从机器变成人的故事。主角小队穿插前往DC，途中脱离了紧张的前线，松弛下来的神经中慢慢有了人性光辉的闪现，才有了女主对小姑娘的教导，才有了Sammy开车拯救其他人。但随后故事就急转而下，当枪口对准自己，当历经苦难的机会错失，人性再次泯灭，记者就变成了新闻机器。这种非人的塑造在小姑娘被救后的反应只是按下快门时，达到了极致。'
+  review: "这是一部角度新奇，有一点让人深思的电影。\n电影回避了直接铺陈战争的起源，仅用“第三任”“解散FBI”“轰炸美国公民”这样的只言片语勾画了一点概貌。因为这并不是影片的重点。当然，在不多的战斗场面中，电影对战争多种形态和其残酷性都有适当的展现。\n\
+    这部影片的重点在于人性。前半部是从机器变成人的故事。主角小队穿插前往DC，途中脱离了紧张的前线，松弛下来的神经中慢慢有了人性光辉的闪现，才有了女主对小姑娘的教导，才有了Sammy开车拯救其他人。但随后故事就急转而下，当枪口对准自己，当历经苦难的机会错失，人性再次泯灭，记者就变成了新闻机器。这种非人的塑造在小姑娘被救后的反应只是按下快门时，达到了极致。"
   watched_date: 2025-01-26
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/df1HYuYsKWHHlD5Nxf1Ox1Q3XLV.jpg
@@ -1626,9 +1500,7 @@ watched:
   tmdb_id: 866398
   douban_id: 35579652
   rating: 5
-  review: 'Jason Statham好像一直只演同个类型的角色。这部电影的剧情设计还是有点时代特点，诈骗集团手法也有一定代表性。
-
-    不知所谓的女主和她搭档戏份全砍掉，这部电影其实是能给到及格分的。'
+  review: "Jason Statham好像一直只演同个类型的角色。这部电影的剧情设计还是有点时代特点，诈骗集团手法也有一定代表性。\n不知所谓的女主和她搭档戏份全砍掉，这部电影其实是能给到及格分的。"
   watched_date: 2025-01-26
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/wesgJMppQUVhdd4qtsh6ed8zkHF.jpg
@@ -1652,9 +1524,7 @@ watched:
   tmdb_id: 995926
   douban_id: 27085337
   rating: 4
-  review: '剧本没做好，从一开始就只能猜到小警察是幕后boss。而且剧中多个案件都没深入挖掘而变成了纯道具，太可惜了。
-
-    几场动作戏还可以，但喜剧则完全没出效果。'
+  review: "剧本没做好，从一开始就只能猜到小警察是幕后boss。而且剧中多个案件都没深入挖掘而变成了纯道具，太可惜了。\n几场动作戏还可以，但喜剧则完全没出效果。"
   watched_date: 2025-01-12
   content_type: movie
   poster: https://image.tmdb.org/t/p/original/xKLXG9S6NI66GidvwPxS0EjMWHw.jpg
@@ -1680,7 +1550,7 @@ watched:
   rating: 6
   review: ''
   watched_date: ''
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/Adprc3q3DZ3oLmH7I61AIIpkesM.jpg
   poster_en: https://image.tmdb.org/t/p/original/luWXPGLgHbfL7X75MWqyd9UxcLB.jpg
 - id: tt31887685
@@ -1690,26 +1560,21 @@ watched:
   tmdb_id: 277618
   douban_id: 36571896
   rating: 6
-  review: '既然打着悬疑的标签，那就从悬疑的角度来评价：很一般。整体悬疑全靠来回闪回的叙事，来隐藏线索，仅此一招别无他法。
-
-    然后剧情拉跨，铺垫一堆小混混和女主的恋爱故事，唯一作用是凸显反杀吗。
-
+  review: "既然打着悬疑的标签，那就从悬疑的角度来评价：很一般。整体悬疑全靠来回闪回的叙事，来隐藏线索，仅此一招别无他法。\n然后剧情拉跨，铺垫一堆小混混和女主的恋爱故事，唯一作用是凸显反杀吗。\n\
     更重要的男主黑化之路被简化成小混混死前的嘲讽。男主是怎么想到假死脱身的？又如何在保持善良的同时，要设计同时杀女主两口子？这剧本至少要压缩一半集数，更别说魔幻的后三集了。中共要的正能量，就是贩毒的梁家屁事没有？How
-    dare you?
-
-    别说还有在豆瓣这个拳师窝点，竟然还有吹捧绿茶婊宝珍的。把私奔劈腿说成清丽脱俗的懂得拒绝。论黑白颠倒指鹿为马，中共都得给你们拳师磕一个。'
+    dare you?\n别说还有在豆瓣这个拳师窝点，竟然还有吹捧绿茶婊宝珍的。把私奔劈腿说成清丽脱俗的懂得拒绝。论黑白颠倒指鹿为马，中共都得给你们拳师磕一个。"
   watched_date: 2025-11-02
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/rgqnqZLcJ0iTCq0Ov9nTNHuY8Qb.jpg
   poster_en: https://image.tmdb.org/t/p/original/d21xq2uFdLFayNYZoba3diRQhKF.jpg
 - id: tt10919420
   title: 鱿鱼游戏
   title_en: Squid Game
-  content_type: tvshow
+  content_type: tv
   rating: 6
   watched_date: 2025-10-20
   poster: https://image.tmdb.org/t/p/original/1qLhWdhkuchtoBLmLzvubxqgF8O.jpg
-  seasons_data:
+  seasons:
   - season: 1
     title: 鱿鱼游戏 第一季
     douban_id: 34812928
@@ -1732,17 +1597,8 @@ watched:
     douban_id: 36407380
     watched_date: 2025-10-20
     rating: 5
-    review: '续集不好拍，但这个系列属于直接拉跨的那一档，到现在几近鸡肋。
-
-      这两季才是完整的一段剧情，分成上下部，恶心之一。
-
-      游戏没创新，最后甚至搞起了投票，恶心之二。
-
-      黄警察支线莫名其妙水时长，011逃北者也是不明所以，恶心之三。
-
-      男主行为逻辑飘忽不定，恶心之四。
-
-      喜欢的点：加入投票终止设定，在反应人性时，增加了一点粗浅的政治视角。超喜欢S03E02，母性也映射出两面，违心找人的杀死了真守护神，戏剧冲突拉满。'
+    review: "续集不好拍，但这个系列属于直接拉跨的那一档，到现在几近鸡肋。\n这两季才是完整的一段剧情，分成上下部，恶心之一。\n游戏没创新，最后甚至搞起了投票，恶心之二。\n\
+      黄警察支线莫名其妙水时长，011逃北者也是不明所以，恶心之三。\n男主行为逻辑飘忽不定，恶心之四。\n喜欢的点：加入投票终止设定，在反应人性时，增加了一点粗浅的政治视角。超喜欢S03E02，母性也映射出两面，违心找人的杀死了真守护神，戏剧冲突拉满。"
     poster: 
       https://m.media-amazon.com/images/M/MV5BOWUzZDJhNDgtNDU2Ni00NWZmLTk3YWUtMmU0MGEzNWYwNjE2XkEyXkFqcGc@._V1_SX300.jpg
   tmdb_id: 93405
@@ -1754,29 +1610,13 @@ watched:
   tmdb_id: 64197
   douban_id: 25754848
   rating: 8
-  review: '多年之后，再次打开了这部剧。以2025的视角，这部剧的服化道仍然是在线的，画面色彩恰到好处，不像后来者那样浓郁的溢出；服饰虽然是日风，但毕竟日本流传的比沦陷区更正宗；布景也是审美在线。
-
-    剧情算是国产里面一流的，所谓权谋也不那么拉跨的，但细究起来问题也非常多。比如：
-
-    E05，差点毒发身亡的程度。成年皇子在深宫乱闯，皇帝怕不是头顶青青草原了。弩手围那么小的圈子，不怕射死对面友军？然后竟然一箭未中，禁军统领该羞愤自尽才对。
-
-    E06，负一秒特务头子还虚弱不堪，第一秒不但自己跑还能杀人，第二秒又躺地上装起来了。
-
-    E09，都打成一片了，侯府里守卫都一个不见，还一品军侯。
-
-    E11，连嫡庶之分都可以放过。
-
-    E12，正派人人都能看穿，反派的降智光环实在是厉害啊。
-
-    E14，出了宫城就是野地，随意杀人，禁军也不叫喊也不发号箭。
-
-    E21，前期高潮点。可为什么谢玉非要把满府的客人都拦住？礼送几位不相干的贵客，是敌是友立见分晓；派人调来自己的精锐，却不想着去请太子来阻挡。
-
-    E45，这夏江为什么敢在京城用炸药？就算胆大包天非要炸，为何把钦犯挪出去，一起炸死不成？
-
-    E53，调用这么多人查资料，就没人去和太子说一声，全都是死心眼么？'
+  review: "多年之后，再次打开了这部剧。以2025的视角，这部剧的服化道仍然是在线的，画面色彩恰到好处，不像后来者那样浓郁的溢出；服饰虽然是日风，但毕竟日本流传的比沦陷区更正宗；布景也是审美在线。\n\
+    剧情算是国产里面一流的，所谓权谋也不那么拉跨的，但细究起来问题也非常多。比如：\nE05，差点毒发身亡的程度。成年皇子在深宫乱闯，皇帝怕不是头顶青青草原了。弩手围那么小的圈子，不怕射死对面友军？然后竟然一箭未中，禁军统领该羞愤自尽才对。\n\
+    E06，负一秒特务头子还虚弱不堪，第一秒不但自己跑还能杀人，第二秒又躺地上装起来了。\nE09，都打成一片了，侯府里守卫都一个不见，还一品军侯。\nE11，连嫡庶之分都可以放过。\n\
+    E12，正派人人都能看穿，反派的降智光环实在是厉害啊。\nE14，出了宫城就是野地，随意杀人，禁军也不叫喊也不发号箭。\nE21，前期高潮点。可为什么谢玉非要把满府的客人都拦住？礼送几位不相干的贵客，是敌是友立见分晓；派人调来自己的精锐，却不想着去请太子来阻挡。\n\
+    E45，这夏江为什么敢在京城用炸药？就算胆大包天非要炸，为何把钦犯挪出去，一起炸死不成？\nE53，调用这么多人查资料，就没人去和太子说一声，全都是死心眼么？"
   watched_date: 2025-10-15
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/pzDC9rdyJhGdgVGoYuAj8LTHBtJ.jpg
   poster_en: https://image.tmdb.org/t/p/original/taqGVujrSxaRrEXuGlIHGVRi3m4.jpg
 - id: tt32514856
@@ -1786,11 +1626,9 @@ watched:
   tmdb_id: 252640
   douban_id: 27181010
   rating: 5
-  review: '总体来讲，流量明星的表现比想象中的好。整体服化道、镜头语言都还是不错的。
-
-    当然，这个剧情就是把观众当傻子的典型。侯爷杀伐果断，面对男主就畏畏缩缩了。九千岁乾纲独断，面对男主就智商归零了。首辅老奸巨猾，面对男主就进退失据了。三个人是同窗同朝，几十年的交情和利益勾结，面对男主就好像是认识没几天的酒肉朋友，没交流没勾兑没合作。男主一点智谋，全是赌运气，甚至连丈母娘都坑死了，LMAO。'
+  review: "总体来讲，流量明星的表现比想象中的好。整体服化道、镜头语言都还是不错的。\n当然，这个剧情就是把观众当傻子的典型。侯爷杀伐果断，面对男主就畏畏缩缩了。九千岁乾纲独断，面对男主就智商归零了。首辅老奸巨猾，面对男主就进退失据了。三个人是同窗同朝，几十年的交情和利益勾结，面对男主就好像是认识没几天的酒肉朋友，没交流没勾兑没合作。男主一点智谋，全是赌运气，甚至连丈母娘都坑死了，LMAO。"
   watched_date: 2025-07-25
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/jnYzQyA5Rh1b5nOnlo0Sh8yCFYr.jpg
   poster_en: https://image.tmdb.org/t/p/original/6Nn2qwv2GrQ1cHkrgwCeSdEbbw8.jpg
 - id: tt29921070
@@ -1800,11 +1638,9 @@ watched:
   tmdb_id: 233686
   douban_id: 36544596
   rating: 7
-  review: '短短6集，杂糅了这么多恶，然后叙事还如此流畅，叠加前后交错的时间线，观影竟然没有任何阻碍，这剧本真的是厉害。
-
-    遗憾是女医生竟然给塑造成白莲花，呕。'
+  review: "短短6集，杂糅了这么多恶，然后叙事还如此流畅，叠加前后交错的时间线，观影竟然没有任何阻碍，这剧本真的是厉害。\n遗憾是女医生竟然给塑造成白莲花，呕。"
   watched_date: 2025-05-12
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/6U24gePhz7OuzWBJwp9lQN8NdrR.jpg
   poster_en: https://image.tmdb.org/t/p/original/nZ7SFBgEhgSCaQFFActjcBQeIV1.jpg
 - id: tt29899769
@@ -1814,13 +1650,10 @@ watched:
   tmdb_id: 258490
   douban_id: 36449461
   rating: 5
-  review: '剧本非常一般，从第一集抢劫银行就开始不合逻辑。主角莫名其妙的出主意，莫名其妙的拿“钱”逃跑，莫名其妙的和逃犯沆瀣一气。
-
-    后面的剧情也就无从谈起了。
-
-    王宝强的演技也就那样吧，装傻扮丑的时候觉得是符合他的气质，可更多时候他在演深沉演老谋深算演狠毒演破釜沉舟，就差强人意了。反而他哥哥这个刑警队长，偶尔露出的狰狞更能说服观众。'
+  review: "剧本非常一般，从第一集抢劫银行就开始不合逻辑。主角莫名其妙的出主意，莫名其妙的拿“钱”逃跑，莫名其妙的和逃犯沆瀣一气。\n后面的剧情也就无从谈起了。\n\
+    王宝强的演技也就那样吧，装傻扮丑的时候觉得是符合他的气质，可更多时候他在演深沉演老谋深算演狠毒演破釜沉舟，就差强人意了。反而他哥哥这个刑警队长，偶尔露出的狰狞更能说服观众。"
   watched_date: 2025-04-24
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/1Q16z9yXH9tlCq6yz5Td65wsfob.jpg
   poster_en: https://image.tmdb.org/t/p/original/igL5DY9phS0MoBQOjZxyys2Agrl.jpg
 - id: tt22475188
@@ -1832,7 +1665,7 @@ watched:
   rating: 4
   review: 作为悬疑探案电影，不及格。案情单调，谜案直给，人物扁平。总结就是粉丝向，任务就是补完电影出场人物的背景。
   watched_date: 2025-02-12
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/9EUS0ACP6RS8MRWcjogN2a5Gf9G.jpg
   poster_en: https://image.tmdb.org/t/p/original/9EUS0ACP6RS8MRWcjogN2a5Gf9G.jpg
 - id: tt11502628
@@ -1844,7 +1677,7 @@ watched:
   rating: 6
   review: 前两个单元还是有看头的。第一个案件对恐怖氛围的营造是到位的。第二个案件则成功的塑造了一个角色。
   watched_date: 2025-02-01
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/jLbu2BDPy9YKKC3UpGxEOpnoX2b.jpg
   poster_en: https://image.tmdb.org/t/p/original/eyE66WKmS5QP0H0Z2nXmQmr0jt.jpg
 - id: tt29363617
@@ -1854,13 +1687,9 @@ watched:
   tmdb_id: 241206
   douban_id: 36178641
   rating: 3
-  review: '一集弃。
-
-    剧本相比电影版差了太多。第一集中加了很多莫名其妙的剧情，比如罪犯的女儿，比如二大队，比如不合理的罪犯背景。
-
-    虽然秦昊的演技比张译好不少，但到出狱后的状态根本不符合人设。'
+  review: "一集弃。\n剧本相比电影版差了太多。第一集中加了很多莫名其妙的剧情，比如罪犯的女儿，比如二大队，比如不合理的罪犯背景。\n虽然秦昊的演技比张译好不少，但到出狱后的状态根本不符合人设。"
   watched_date: 2024-10-31
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/55akiT10951gxxaRuCEzgXNzznF.jpg
   poster_en: https://image.tmdb.org/t/p/original/55akiT10951gxxaRuCEzgXNzznF.jpg
 - id: tt29899745
@@ -1870,13 +1699,10 @@ watched:
   tmdb_id: 248736
   douban_id: 36189205
   rating: 6
-  review: '给个及格分鼓励一下吧，起码隔靴搔了一点点痒。
-
-    问题，主角人设漂浮，家庭背景悬浮，连人生复苏的希望都是要被清零打的稀碎的家庭餐饮。更别提里面婊到一定境界的女配角了。
-
-    当然，得鼓励剧本敢于表现了一定中国目前职场的现状，PUA横行，用命挣钱。'
+  review: "给个及格分鼓励一下吧，起码隔靴搔了一点点痒。\n问题，主角人设漂浮，家庭背景悬浮，连人生复苏的希望都是要被清零打的稀碎的家庭餐饮。更别提里面婊到一定境界的女配角了。\n\
+    当然，得鼓励剧本敢于表现了一定中国目前职场的现状，PUA横行，用命挣钱。"
   watched_date: 2024-10-15
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/28PeO9lryQvabyopAeV47tXXAY0.jpg
   poster_en: https://image.tmdb.org/t/p/original/28PeO9lryQvabyopAeV47tXXAY0.jpg
 - id: tt13634792
@@ -1886,11 +1712,9 @@ watched:
   tmdb_id: 117378
   douban_id: 35027568
   rating: 7
-  review: '整部剧剪辑非常凌乱，视角切换毫无章法，无论是剧本还是导演都用力过猛。警察局如同公共厕所，谁都可以乱翻证据。
-
-    好在节奏不松垮，逻辑漏洞还算不太过分。'
+  review: "整部剧剪辑非常凌乱，视角切换毫无章法，无论是剧本还是导演都用力过猛。警察局如同公共厕所，谁都可以乱翻证据。\n好在节奏不松垮，逻辑漏洞还算不太过分。"
   watched_date: 2023-11-10
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/duE4XPd0KazW6ovcbzo5MDZubvx.jpg
   poster_en: https://image.tmdb.org/t/p/original/qz0axqEwwIa5uaMsUYKGs9u29ut.jpg
 - id: tt4240730
@@ -1902,7 +1726,7 @@ watched:
   rating: 6
   review: 虽然是职场剧，但很缺乏代入感。鸡血含量太高，完全脱离了普通世界。
   watched_date: 2023-10-29
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/mJ8Poa51F3SjfZ6fJDpUGnFh4Ys.jpg
   poster_en: https://image.tmdb.org/t/p/original/kCRSbmFAwvGZrr93OFqQXn96rJ0.jpg
 - id: tt12015466
@@ -1912,11 +1736,9 @@ watched:
   tmdb_id: 99479
   douban_id: 34902595
   rating: 6
-  review: '每个参与者都有执念，但又好像都缺乏了人性的贪欲。
-
-    剧情细想角度问题很多，情节推动是靠不断的抛弃角色和注入新内容推动的，缺乏破解谜题的悬疑氛围。'
+  review: "每个参与者都有执念，但又好像都缺乏了人性的贪欲。\n剧情细想角度问题很多，情节推动是靠不断的抛弃角色和注入新内容推动的，缺乏破解谜题的悬疑氛围。"
   watched_date: 2023-10-01
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/jMxSVqLPr07x62nWFrB7X2Z0ICh.jpg
   poster_en: https://image.tmdb.org/t/p/original/w1LyWBjxVv0hns4w8NekwWA7Mll.jpg
 - id: tt26686597
@@ -1928,7 +1750,7 @@ watched:
   rating: 6
   review: 节奏太慢，搞笑套路，部分故事非常无聊。
   watched_date: 2023-07-08
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/5vsTemuaaUFcWZlbxBm7blZZRJK.jpg
   poster_en: https://image.tmdb.org/t/p/original/vu5RBzB0V2UocKMnFRfoWCufMdt.jpg
 - id: tt27477567
@@ -1938,11 +1760,9 @@ watched:
   tmdb_id: 211927
   douban_id: 35725856
   rating: 5
-  review: '剧情注水严重，角色设定畸形。一个刑警和黑社会沉瀣一气，破案全靠嚷嚷。
-
-    最后逼死小武，就是对中共恶警最好的诠释。'
+  review: "剧情注水严重，角色设定畸形。一个刑警和黑社会沉瀣一气，破案全靠嚷嚷。\n最后逼死小武，就是对中共恶警最好的诠释。"
   watched_date: 2023-07-01
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/uPGPeWo7v65HePODxE9vQQd1Z94.jpg
   poster_en: https://image.tmdb.org/t/p/original/uPGPeWo7v65HePODxE9vQQd1Z94.jpg
 - id: tt26687035
@@ -1952,15 +1772,10 @@ watched:
   tmdb_id: 221869
   douban_id: ''
   rating: 8
-  review: '凡是中共反对，必然就是优秀的。
-
-    这部电影展现了一个健康的民主社会，竞选工作的一个侧面。它非常细致且深入的向中共大陆这个封建的荒漠，介绍了民主的概念及其运作方式。
-
-    正式因为有这样一批能量无限的参与者，才让台湾的社会能拜托中华历史的枷锁，奔向更合理的民主制度。
-
-    香港乌克兰只能示范一次。台湾人民，请用自己手中的选票守护好最后一片中华文明。'
+  review: "凡是中共反对，必然就是优秀的。\n这部电影展现了一个健康的民主社会，竞选工作的一个侧面。它非常细致且深入的向中共大陆这个封建的荒漠，介绍了民主的概念及其运作方式。\n\
+    正式因为有这样一批能量无限的参与者，才让台湾的社会能拜托中华历史的枷锁，奔向更合理的民主制度。\n香港乌克兰只能示范一次。台湾人民，请用自己手中的选票守护好最后一片中华文明。"
   watched_date: 2023-06-15
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/iLRqi5alfMMGMjU4CbRqxLX8fmH.jpg
   poster_en: https://image.tmdb.org/t/p/original/3SyIuLEDFwZEt65pKeFui01oZb4.jpg
 - id: tt27628576
@@ -1970,15 +1785,11 @@ watched:
   tmdb_id: 225008
   douban_id: 35588177
   rating: 7
-  review: '这部剧要能是在十一集结束，就可以给8分了。最后12集尤其是第四章，稍显多余。
-
-    三条时间线交错，交错推进整个故事。只是回忆的那两条，之间的区别度较差，容易弄混。
-
-    这其实是一部时代社会剧。侧重刻画那个时代，属于国企最后的霞光，和那些被困在河心茫然四顾的工人。再搭配上三个失意落寞的男角色，一部立体的东北伤痕文学就浮现在眼前了。
-
-    悬疑并不是重心，其营造也主要靠藏情节，一旦新人物登场，看一些就差不多能猜到结局。故事的推动中，用悬疑去刻意淡化和转移社会问题，也是过审的哲学。'
+  review: "这部剧要能是在十一集结束，就可以给8分了。最后12集尤其是第四章，稍显多余。\n三条时间线交错，交错推进整个故事。只是回忆的那两条，之间的区别度较差，容易弄混。\n\
+    这其实是一部时代社会剧。侧重刻画那个时代，属于国企最后的霞光，和那些被困在河心茫然四顾的工人。再搭配上三个失意落寞的男角色，一部立体的东北伤痕文学就浮现在眼前了。\n\
+    悬疑并不是重心，其营造也主要靠藏情节，一旦新人物登场，看一些就差不多能猜到结局。故事的推动中，用悬疑去刻意淡化和转移社会问题，也是过审的哲学。"
   watched_date: 2023-04-30
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/tJLiKDYdfMskFkJXV1HnaQAdpGf.jpg
   poster_en: https://image.tmdb.org/t/p/original/rM5Y0ziZbmpkqW1db2HK3xrzTXj.jpg
 - id: tt14403178
@@ -1988,13 +1799,10 @@ watched:
   tmdb_id: 154385
   douban_id: 3541304
   rating: 7
-  review: '站在白左角度，反思亚裔传统思想与文化在西方现代社会中的困境。给了很多启发，让我对下一代的培养都有了一些新的思考。文化冲突难以避免，该如何让后代更好的融入到西方正统社会，对更早得明确自己人生的目标与方向，是个很大的挑战。同时，还有保护和防止各种的歧视暴力事件发生，非常复杂。
-
-    当然，剧情也有一些我不理解的地方。比如，虽然我也认可（经常）找接口减轻自己的罪责，但正常人不会想到去用一种违法的伤害他人的方式。
-
-    另外，我也不是很喜欢这个结局，我想不明白为什么George出现时候会持枪。有点类似Paul突然要去人家门口坦白，如果Amy在家他准备怎么办？打一架吗？'
+  review: "站在白左角度，反思亚裔传统思想与文化在西方现代社会中的困境。给了很多启发，让我对下一代的培养都有了一些新的思考。文化冲突难以避免，该如何让后代更好的融入到西方正统社会，对更早得明确自己人生的目标与方向，是个很大的挑战。同时，还有保护和防止各种的歧视暴力事件发生，非常复杂。\n\
+    当然，剧情也有一些我不理解的地方。比如，虽然我也认可（经常）找接口减轻自己的罪责，但正常人不会想到去用一种违法的伤害他人的方式。\n另外，我也不是很喜欢这个结局，我想不明白为什么George出现时候会持枪。有点类似Paul突然要去人家门口坦白，如果Amy在家他准备怎么办？打一架吗？"
   watched_date: 2023-04-20
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/wSKVBS1oNREGHDEi8g1LPhqI54m.jpg
   poster_en: https://image.tmdb.org/t/p/original/4b4v7RnPhNyPEaVGFarEuo74r8W.jpg
 - id: tt26134148
@@ -2004,27 +1812,22 @@ watched:
   tmdb_id: 215197
   douban_id: 36156235
   rating: 6
-  review: '虽然很轻松，但我个人并不喜欢这个故事。
-
-    如果是我能重生的机会，我估计是两种极端，一是像网络小说一样，抓投机机会奔钱途；还有就是像剧中的公务员，找个小地方躺平。
-
-    对于女主，我能理解她前几次轮回的目的，但后面为了好友非要去开飞机，就及其不合理了。因为可以改变行程的方法很多，救百十来名乘客的功德估计还没有研发药物来的多。'
+  review: "虽然很轻松，但我个人并不喜欢这个故事。\n如果是我能重生的机会，我估计是两种极端，一是像网络小说一样，抓投机机会奔钱途；还有就是像剧中的公务员，找个小地方躺平。\n\
+    对于女主，我能理解她前几次轮回的目的，但后面为了好友非要去开飞机，就及其不合理了。因为可以改变行程的方法很多，救百十来名乘客的功德估计还没有研发药物来的多。"
   watched_date: 2023-03-25
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/eKOcD9Z2PQ8Q3htQaOVOuFmf3IC.jpg
   poster_en: https://image.tmdb.org/t/p/original/eKOcD9Z2PQ8Q3htQaOVOuFmf3IC.jpg
 - id: tt26737837
   title: 立功·东北旧事
-  title_en: 'Good Guy Good Luck'
+  title_en: Good Guy Good Luck
   imdb_id: tt26737837
   tmdb_id: 220149
   douban_id: 35555999
   rating: 6
-  review: '剧本的问题非常大，卖情怀的故事还非要扯上日本人。咋滴，第二部准备变成抗日神剧了？
-
-    演员都还行，不让人出戏。'
+  review: "剧本的问题非常大，卖情怀的故事还非要扯上日本人。咋滴，第二部准备变成抗日神剧了？\n演员都还行，不让人出戏。"
   watched_date: 2023-02-20
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/3KTTGhNhpligwrXFO7m9L2QZmMe.jpg
   poster_en: https://image.tmdb.org/t/p/original/kZXvlreB80Qn0IaaR4fbu7qnxW5.jpg
 - id: tt26235088
@@ -2034,13 +1837,10 @@ watched:
   tmdb_id: 210757
   douban_id: 35465232
   rating: 7
-  review: '回忆前尘（26集）可以给8分，后半部堪称剧毒。
-
-    上半部真的是屌丝逆袭的梦幻剧场。一个普通的鱼贩，假借一层权利亲属的透明披风，狐假虎威，在菜市场起范儿。为人果敢，藏的住事儿，一部兵法实现了阶层跨越。可惜后半部共匪剧毒爆发，智商变负。
-
-    但我相信群众的眼睛，什么样的角色是来自现实，什么样的角色是艺术创造，肯定能分辨得清。不说别的，光男主那个傻吊样儿，轮不到鱼贩，他同事都得把他玩死才行，否则大家怎么捞钱？'
+  review: "回忆前尘（26集）可以给8分，后半部堪称剧毒。\n上半部真的是屌丝逆袭的梦幻剧场。一个普通的鱼贩，假借一层权利亲属的透明披风，狐假虎威，在菜市场起范儿。为人果敢，藏的住事儿，一部兵法实现了阶层跨越。可惜后半部共匪剧毒爆发，智商变负。\n\
+    但我相信群众的眼睛，什么样的角色是来自现实，什么样的角色是艺术创造，肯定能分辨得清。不说别的，光男主那个傻吊样儿，轮不到鱼贩，他同事都得把他玩死才行，否则大家怎么捞钱？"
   watched_date: 2023-02-15
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/6sbKSe7x3dFetFCdXmDkgE0t6H2.jpg
   poster_en: https://image.tmdb.org/t/p/original/SIY6lVRZ9W1C4GU3Dvi3l4MSFs.jpg
 - id: tt17677612
@@ -2050,29 +1850,12 @@ watched:
   tmdb_id: 136440
   douban_id: 35232070
   rating: 4
-  review: '什么狗屁导演。
-
-    可能摄像是大神，不管取景构图色彩，都是水准之选。可惜故事、剧情、节奏、表演，都拉的一塌糊涂。
-
-    也只有狗屎豆瓣才能把这种烂剧捧上天，但凡导演尊重理解观众，就知道这剧是对观众的侮辱。
-
-    全片唯一释疑的独白变成了小孩子过家家，而占据镜头和时长的全是垃圾堆砌的小贩舞厅。
-
-    剧中人物形象无一正常，家庭关系被人为扭曲，只能祝愿导演及后代从小生活在这种扭曲的家庭中。
-
-    想当悬疑却没那功力，逻辑没填的坑太多了，
-
-    - 蒋不凡为啥把李守廉当嫌疑人，又是如何把他逼下车却不带手铐？
-
-    - 李守廉又为何要多事杀两只癞皮狗？
-
-    - 逃亡之旅为何中断？孙天博的后续呢？
-
-    - 李斐为何寻死？
-
-    - 赵小东以及警察为何会出现在公园？'
+  review: "什么狗屁导演。\n可能摄像是大神，不管取景构图色彩，都是水准之选。可惜故事、剧情、节奏、表演，都拉的一塌糊涂。\n也只有狗屎豆瓣才能把这种烂剧捧上天，但凡导演尊重理解观众，就知道这剧是对观众的侮辱。\n\
+    全片唯一释疑的独白变成了小孩子过家家，而占据镜头和时长的全是垃圾堆砌的小贩舞厅。\n剧中人物形象无一正常，家庭关系被人为扭曲，只能祝愿导演及后代从小生活在这种扭曲的家庭中。\n\
+    想当悬疑却没那功力，逻辑没填的坑太多了，\n- 蒋不凡为啥把李守廉当嫌疑人，又是如何把他逼下车却不带手铐？\n- 李守廉又为何要多事杀两只癞皮狗？\n- 逃亡之旅为何中断？孙天博的后续呢？\n\
+    - 李斐为何寻死？\n- 赵小东以及警察为何会出现在公园？"
   watched_date: 2023-01-21
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/aRByCc2xes5JvojMrPcrZRLVW77.jpg
   poster_en: https://image.tmdb.org/t/p/original/7tMzfCvDBaTuDKOABJXmufZuOsp.jpg
 - id: tt7368008
@@ -2082,13 +1865,9 @@ watched:
   tmdb_id: 73386
   douban_id: 26930540
   rating: 6
-  review: '名不副实的国产泡沫。推理全靠瞎胡蒙，悬疑全靠煽情戏？
-
-    也从侧面写实了中共黑警的办案逻辑，真材实料没有，坑蒙拐骗精通。
-
-    演员除了女主和大叔，其他人最好也就是个及格，还有比傻逼小律师更恶心人的么。'
+  review: "名不副实的国产泡沫。推理全靠瞎胡蒙，悬疑全靠煽情戏？\n也从侧面写实了中共黑警的办案逻辑，真材实料没有，坑蒙拐骗精通。\n演员除了女主和大叔，其他人最好也就是个及格，还有比傻逼小律师更恶心人的么。"
   watched_date: 2023-01-01
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/iWzWQLoeKGRNk237it3Kch2QPM7.jpg
   poster_en: https://image.tmdb.org/t/p/original/9gwXpbxrJQiTtWk7OeH4BbBcJoq.jpg
 - id: tt21344706
@@ -2098,19 +1877,11 @@ watched:
   tmdb_id: 136283
   douban_id: 35314632
   rating: 7
-  review: '把校园暴力描绘到能让观众义愤填膺，随后的暗黑复仇就同仇敌忾了。
-
-    第一季完成了双方结仇故事铺垫，介绍了双方队员，并把正面交锋的号角吹响。
-
-    Netflix断集的功力也是高，咚咚的战鼓简直就是观众骂街的声音。
-
-    宋慧乔虽然昭华不在，但这部的演技比小儿子高一个档次。
-
-    第二季中的悬疑感下降很大，也导致整体质量下滑，甚至出现了一些神道的情节。
-
-    而且感观上没能带来新的高潮。更多是把第一季留空的情节补齐，按部就班的把复仇完成。'
+  review: "把校园暴力描绘到能让观众义愤填膺，随后的暗黑复仇就同仇敌忾了。\n第一季完成了双方结仇故事铺垫，介绍了双方队员，并把正面交锋的号角吹响。\n\
+    Netflix断集的功力也是高，咚咚的战鼓简直就是观众骂街的声音。\n宋慧乔虽然昭华不在，但这部的演技比小儿子高一个档次。\n第二季中的悬疑感下降很大，也导致整体质量下滑，甚至出现了一些神道的情节。\n\
+    而且感观上没能带来新的高潮。更多是把第一季留空的情节补齐，按部就班的把复仇完成。"
   watched_date: 2022-12-31
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/iVr3WADtK1q7DOZOxxnqTCtLTwE.jpg
   poster_en: https://image.tmdb.org/t/p/original/kQSEZ4BYiTnbiTAV1tJNx1A6ifF.jpg
 - id: tt25386392
@@ -2120,19 +1891,11 @@ watched:
   tmdb_id: 136444
   douban_id: 35633718
   rating: 5
-  review: '虎头蛇尾。
-
-    故事其实只能支撑6集，当强行拖戏到12集，就变成了裹脚布。
-
-    最大的问题，全剧人物动机和行为不匹配，甚至给人感觉连人物小传都没做明白。
-
-    比如：小姑娘从福利院出来，就能溜门撬锁了。孩儿他妈也是，你怀疑的第一反应不是询问，而是秘密调查？朝阳群众附体了吧。
-
-    太多的坑填不上，太多的情节开天窗。
-
-    国内的编剧真的不行，昧良心不说，连编故事都不会。'
+  review: "虎头蛇尾。\n故事其实只能支撑6集，当强行拖戏到12集，就变成了裹脚布。\n最大的问题，全剧人物动机和行为不匹配，甚至给人感觉连人物小传都没做明白。\n\
+    比如：小姑娘从福利院出来，就能溜门撬锁了。孩儿他妈也是，你怀疑的第一反应不是询问，而是秘密调查？朝阳群众附体了吧。\n太多的坑填不上，太多的情节开天窗。\n\
+    国内的编剧真的不行，昧良心不说，连编故事都不会。"
   watched_date: 2023-03-01
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/6QYotp1FzjXIQ78wwCY0tnrpjQn.jpg
   poster_en: https://image.tmdb.org/t/p/original/v1SQBfHKJzirdyPqTUbnWMYxBAW.jpg
 - id: tt18352538
@@ -2142,15 +1905,10 @@ watched:
   tmdb_id: 153496
   douban_id: 30291070
   rating: 6
-  review: '都市重生复仇白爽小说。
-
-    有小说为骨架，整体剧情其实还算及格。
-
-    主要的问题在于剧情详略和剪辑，中间有多处剧情跳跃甚至让我觉得分集不能不能衔接。至于结局我到认为是对重生还算圆满的解释。
-
-    印象最深的当然是李星民，把财阀一代枭雄之阴厉刻画的入木三分，非常的契合“三心”的状态。'
+  review: "都市重生复仇白爽小说。\n有小说为骨架，整体剧情其实还算及格。\n主要的问题在于剧情详略和剪辑，中间有多处剧情跳跃甚至让我觉得分集不能不能衔接。至于结局我到认为是对重生还算圆满的解释。\n\
+    印象最深的当然是李星民，把财阀一代枭雄之阴厉刻画的入木三分，非常的契合“三心”的状态。"
   watched_date: 2023-02-10
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/7SoKJEKeVaHicaP4rv5R4qNtt5Q.jpg
   poster_en: https://image.tmdb.org/t/p/original/ioywelRYOfNJ5w8aNQ5ttJo9dk1.jpg
 - id: tt13406094
@@ -2160,15 +1918,10 @@ watched:
   tmdb_id: 111803
   douban_id: 35561222
   rating: 6
-  review: '暂时只看了第二季。
-
-    整体就是一个以drama为卖点的无厘头剧，没什么故事逻辑。无非就是渡假酒店外加买啥都不问价格，可能大概只是土豪生活的冰山一角。
-
-    然后用各种白左言论来凸显富人阶层的愚蠢，可惜自己也要二逼的加一个女同角色，不知道嘲讽别人顺带抽自己一下会不会疼。
-
-    能留下印象是Mia，有明确的目的，并能飞快根据接触到的人调整自己的策略，堪称积极向上又方法得宜。'
+  review: "暂时只看了第二季。\n整体就是一个以drama为卖点的无厘头剧，没什么故事逻辑。无非就是渡假酒店外加买啥都不问价格，可能大概只是土豪生活的冰山一角。\n\
+    然后用各种白左言论来凸显富人阶层的愚蠢，可惜自己也要二逼的加一个女同角色，不知道嘲讽别人顺带抽自己一下会不会疼。\n能留下印象是Mia，有明确的目的，并能飞快根据接触到的人调整自己的策略，堪称积极向上又方法得宜。"
   watched_date: 2022-12-25
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/yX5PDVVOa6arxwx5wJ8KHuvEJWI.jpg
   poster_en: https://image.tmdb.org/t/p/original/gH5i3JbnLsyTvcImlofNvXtH3i5.jpg
 - id: tt20869502
@@ -2178,13 +1931,9 @@ watched:
   tmdb_id: 197067
   douban_id: 35524446
   rating: 6
-  review: '看过前三集，就基本知道本片的套路了。
-
-    全剧过于模板化，缺少变化与递进。
-
-    又比如，万花丛中过的男主，我是想不明白为什么会看上女主，还不如不硬上感情戏。'
+  review: "看过前三集，就基本知道本片的套路了。\n全剧过于模板化，缺少变化与递进。\n又比如，万花丛中过的男主，我是想不明白为什么会看上女主，还不如不硬上感情戏。"
   watched_date: 2022-09-10
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/wsLQqi4ds6ONFDgJT9SO3qi6kTP.jpg
   poster_en: https://image.tmdb.org/t/p/original/zuNOQVI4rEaqwknrfQUVKtlKE2C.jpg
 - id: tt11769304
@@ -2194,33 +1943,12 @@ watched:
   tmdb_id: 96102
   douban_id: 34607516
   rating: 7
-  review: '盛名之下，其实.....
-
-    剧情仍旧是温馨向，抓住一切可能的机会穿插小桥段，或搞笑或卖萌。几个主演之间的友谊也营造的很好。第二季也强行补完真~合家欢结局
-
-    但是，
-
-    浓妆艳抹的剧情也同样导致了人物苍白故事虚浮，剧中的人和事完全被扭曲，造成整剧没有烟火味。这也是本剧与《请回答1988》那种的传世剧集最大的差距，甚至是不如《机智监狱生活》。'
+  review: "盛名之下，其实.....\n剧情仍旧是温馨向，抓住一切可能的机会穿插小桥段，或搞笑或卖萌。几个主演之间的友谊也营造的很好。第二季也强行补完真~合家欢结局\n\
+    但是，\n浓妆艳抹的剧情也同样导致了人物苍白故事虚浮，剧中的人和事完全被扭曲，造成整剧没有烟火味。这也是本剧与《请回答1988》那种的传世剧集最大的差距，甚至是不如《机智监狱生活》。"
   watched_date: 2022-08-15
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/zYBo8ASGhGtkF6fTY0zrJzOQtLt.jpg
   poster_en: https://image.tmdb.org/t/p/original/clYgUKk4CzmKpEukW2I2oDg9k1Q.jpg
-- id: tt6461346
-  title: 秘密森林2
-  title_en: Stranger
-  imdb_id: tt6461346
-  tmdb_id: 70626
-  douban_id: 34815544
-  rating: 6
-  review: '说实话，有些失望。本来好好的法律剧，变成了时政剧，配上缓慢的节奏，前两集非常劝退。
-
-    虽然最后把几个案件串联起来了，但我只能说是非常勉强。
-
-    而且，整部剧看下来，最突出的感觉是时政剧却塑造了几个天仙主角。现实中如果遇到这种“老鼠屎”类的猪队友，我只能说赶紧踢掉。'
-  watched_date: 2022-07-28
-  content_type: tvshow
-  poster: https://image.tmdb.org/t/p/original/9srrXhYj0BxKpOGEBDZLV1wpZg7.jpg
-  poster_en: https://image.tmdb.org/t/p/original/blbbtx7DyvZ3JTGyc9MCArDL79b.jpg
 - id: tt15808044
   title: 华灯初上
   title_en: Light the Night
@@ -2228,11 +1956,9 @@ watched:
   tmdb_id: 130330
   douban_id: 34607516
   rating: 8
-  review: '总体来讲，全片出色的复现了80年代末台北条通的风情，时代感非常到位。几位酒店小姐也把从业人员的日常工作、生活与关系演绎的活灵活现。
-
-    主要的缺点有二：首先，所有的戏剧冲突全在“苏”这一个角色身上，导致第一季结尾揭晓受害人之后，后续戏剧张力几乎全丧；其次，时代感的要求就是原汁原味，本片在音乐的选择上欠缺太多。'
+  review: "总体来讲，全片出色的复现了80年代末台北条通的风情，时代感非常到位。几位酒店小姐也把从业人员的日常工作、生活与关系演绎的活灵活现。\n主要的缺点有二：首先，所有的戏剧冲突全在“苏”这一个角色身上，导致第一季结尾揭晓受害人之后，后续戏剧张力几乎全丧；其次，时代感的要求就是原汁原味，本片在音乐的选择上欠缺太多。"
   watched_date: 2022-07-10
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/hq7luFcQJkXbTrFsSBdE90wIMDp.jpg
   poster_en: https://image.tmdb.org/t/p/original/vBAQqvCtDLe6d2GbwDfcYBNJuVR.jpg
 - id: tt17513352
@@ -2244,7 +1970,7 @@ watched:
   rating: 3
   review: 作为爱情片，非要弄个BE，不是有病么。
   watched_date: 2022-04-24
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/tns9cdvDikwVbM5v7eBpFyRW13o.jpg
   poster_en: https://image.tmdb.org/t/p/original/yCQFnmYhYf7XALMka2EoBRAFmPO.jpg
 - id: tt9815726
@@ -2254,11 +1980,9 @@ watched:
   tmdb_id: 87544
   douban_id: 27088993
   rating: 7
-  review: '不知为何这部剧在豆瓣上没有评分，可能是被删掉了，所以重新补评。
-
-    总体来说，是国产家庭剧的天花板了。人物性格鲜明，剧情狗血适度，演员还有演技。'
+  review: "不知为何这部剧在豆瓣上没有评分，可能是被删掉了，所以重新补评。\n总体来说，是国产家庭剧的天花板了。人物性格鲜明，剧情狗血适度，演员还有演技。"
   watched_date: 2019-07-14
-  content_type: tvshow
+  content_type: tv
   poster: https://image.tmdb.org/t/p/original/3I2yvziANqEoiNLQGnlO38Gofbj.jpg
   poster_en: https://image.tmdb.org/t/p/original/3I2yvziANqEoiNLQGnlO38Gofbj.jpg
 - id: tt31918465
@@ -2268,13 +1992,9 @@ watched:
   tmdb_id: 216487
   douban_id: 36086348
   rating: 3
-  review: '卖港虫带着一帮子跟屁虫，搔首弄姿收割情怀。
-
-    却不想香港影视的衰落正是因为“阿灿”的吸血和共匪对创作自由的积压。
-
-    错了，香港已经死了，现在只剩下“南深圳”。'
+  review: "卖港虫带着一帮子跟屁虫，搔首弄姿收割情怀。\n却不想香港影视的衰落正是因为“阿灿”的吸血和共匪对创作自由的积压。\n错了，香港已经死了，现在只剩下“南深圳”。"
   watched_date: 2023-01-08
-  content_type: variety
+  content_type: show
   poster: https://image.tmdb.org/t/p/original/nFnwI0LEDUANZ2wnBgwvPY6TH1M.jpg
   poster_en: https://image.tmdb.org/t/p/original/bc1MoKzS7UvNKZyPHVQEQwFnbP0.jpg
 - id: tt13320622
@@ -2292,9 +2012,9 @@ watched:
 - id: tt9466968
   title: 耀眼
   title_en: The Light in Your Eyes
-  content_type: movie
+  content_type: tv
   douban_id: 30327898
-  rating: 10
+  rating: 7
   review: 被剧情简介掩盖的好剧。看似奇幻的故事在最后两集催泪炸弹一样的叙事下，所有的爱都展现在观众面前。中国电视剧？多跟韩剧学30年再来吧。
   watched_date: 2022-05-02
   imdb_id: tt9466968
@@ -2412,13 +2132,13 @@ watched:
 - id: tt11279454
   title: 余生，请多指教
   title_en: The Oath of Love
-  content_type: movie
+  content_type: tv
+  imdb_id: tt11279454
+  tmdb_id: 95044
   douban_id: 30403219
   rating: 2
   review: 连分都不敢开，豆瓣在欲望的深渊中沉沦
   watched_date: 2022-03-24
-  imdb_id: tt11279454
-  tmdb_id: 95044
   poster: https://image.tmdb.org/t/p/original/nUhdvkGfT9Vl7kLwj2M9XtINdg1.jpg
   poster_en: https://image.tmdb.org/t/p/original/bdTSCi05uJxfUyyQx2PgV0xIUkE.jpg
 - id: tt17491616
@@ -2763,7 +2483,7 @@ watched:
 - id: tt11570202
   title: 寂静之海
   title_en: The Silent Sea
-  content_type: movie
+  content_type: tv
   rating: 6
   review: 
     虽然美剧尤其是Netflix一向虎头蛇尾，但这剧实在抽的太快了。总评，科幻设定如同筛子，剧情漏洞百出，节奏拖沓缓慢，人物动机不明，剪辑意识流。推荐至少1.5倍速观看。
@@ -2798,17 +2518,26 @@ watched:
   poster: https://image.tmdb.org/t/p/original/hBLQb1aiIGo5UG2y6GY6V9zEpCn.jpg
   poster_en: https://image.tmdb.org/t/p/original/7uRbWOXxpWDMtnsd2PF3clu65jc.jpg
 - id: tt13024974
-  title: D.P：逃兵追缉令
+  title: 逃兵追缉令
   title_en: D.P.
-  content_type: movie
-  douban_id: 35028876
-  rating: 10
-  review: 正常人类在反思社会问题，某个禁忌词在开发馊饭的1001种做法。
-  watched_date: 2021-12-19
+  content_type: tv
   imdb_id: tt13024974
   tmdb_id: 110534
+  rating: 7
+  watched_date: 2021-12-19
   poster: https://image.tmdb.org/t/p/original/nb0dTcidJhKNwz5cMuLwbx3zVkE.jpg
   poster_en: https://image.tmdb.org/t/p/original/iJYqTUHHEzaTJQNr4LdPMb3imSQ.jpg
+  seasons:
+  - season: 1
+    douban_id: 35028876
+    rating: 7
+    review: 正常人类在反思社会问题，某个禁忌词在开发馊饭的1001种做法。
+    watched_date: 2021-12-19
+    poster: https://image.tmdb.org/t/p/original/nb0dTcidJhKNwz5cMuLwbx3zVkE.jpg
+    poster_en: 
+      https://image.tmdb.org/t/p/original/iJYqTUHHEzaTJQNr4LdPMb3imSQ.jpg
+  - season: 2
+
 - id: tt9639470
   title: Soho区惊魂夜
   title_en: Last Night in Soho
@@ -2836,14 +2565,14 @@ watched:
 - id: tt20834656
   title: 导演请指教
   title_en: Hi Directors
-  content_type: movie
+  content_type: show
+  imdb_id: tt20834656
+  tmdb_id: 138032
   douban_id: 35518790
   rating: 2
   review: 
     看了第一集就基本确定这是垃圾了。两部烂片连抖音水平都达不到，还在台上哔哔个没完没了。中国电影界现在也就只配抢一口爱国馊饭，但凡有点看头的剧本哪个不是抄来的？
   watched_date: 2021-12-13
-  imdb_id: tt20834656
-  tmdb_id: 138032
   poster: https://image.tmdb.org/t/p/original/luyAlpTWCiR7LZhsAh2IRx5axbO.jpg
   poster_en: https://image.tmdb.org/t/p/original/luyAlpTWCiR7LZhsAh2IRx5axbO.jpg
 - id: tt7097896
@@ -2996,7 +2725,7 @@ watched:
 - id: tt11674706
   title: 脱口秀大会
   title_en: Rock & Roast
-  content_type: variety
+  content_type: show
   douban_id: 27099227
   rating: 6
   review: ''
@@ -3004,7 +2733,7 @@ watched:
   tmdb_id: 93509
   poster: https://image.tmdb.org/t/p/original/vs6nSoq5SEtECttz8FACGfm1c5H.jpg
   poster_en: https://image.tmdb.org/t/p/original/vs6nSoq5SEtECttz8FACGfm1c5H.jpg
-  seasons_data:
+  seasons:
   - season: 1
     title: 脱口秀大会 第一季
     douban_id: 34812928
@@ -3050,7 +2779,7 @@ watched:
       https://image.tmdb.org/t/p/original/j5AW70SPGKrDp7zwqfU385oGjH0.jpg
 - id: tt1160419
   title: 沙丘
-  title_en: 'Dune'
+  title_en: Dune
   content_type: movie
   douban_id: 3001114
   rating: 6
@@ -3423,7 +3152,7 @@ watched:
 - id: tt14872986
   title: 你是我的荣耀
   title_en: Stolen
-  content_type: movie
+  content_type: tv
   douban_id: 33454980
   rating: 2
   review: 迪丽热巴真的是票房毒药。当个安安静静的写真女不香吗？想干别的，也得看看自己有没有那能耐
@@ -3631,7 +3360,7 @@ watched:
 - id: tt13781500
   title: 北辙南辕
   title_en: Crossroad Bistro
-  content_type: movie
+  content_type: tv
   imdb_id: tt13781500
   tmdb_id: 128601
   douban_id: 35135955
@@ -3642,7 +3371,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/edeOLCHO4v4JCBY7sI5SYQnJByY.jpg
 - id: tt5433138
   title: 速度与激情9
-  title_en: 'F9'
+  title_en: F9
   content_type: movie
   douban_id: 25728006
   rating: 4
@@ -3751,7 +3480,7 @@ watched:
 - id: tt11052470
   title: Move to Heaven：我是遗物整理师
   title_en: Move to Heaven
-  content_type: movie
+  content_type: tv
   imdb_id: tt11052470
   tmdb_id: 96571
   douban_id: 34929977
@@ -4188,7 +3917,7 @@ watched:
 - id: tt11983256
   title: 在武汉
   title_en: Zai Wuhan
-  content_type: movie
+  content_type: tv
   imdb_id: tt11983256
   tmdb_id: 201932
   douban_id: 34976870
@@ -4225,7 +3954,7 @@ watched:
 - id: tt12199174
   title: 叛逆者
   title_en: Hello Yasothorn
-  content_type: movie
+  content_type: tv
   douban_id: 34949767
   rating: 2
   review: 
@@ -4263,7 +3992,7 @@ watched:
 - id: tt0279520
   title: 雍正王朝
   title_en: Yong Zheng wang chao
-  content_type: movie
+  content_type: tv
   imdb_id: tt0279520
   tmdb_id: 80937
   douban_id: 1830575
@@ -4323,9 +4052,9 @@ watched:
 - id: tt1162595
   title: 红楼梦
   title_en: Cloverfield
-  content_type: movie
+  content_type: tv
   douban_id: 1864810
-  rating: 10
+  rating: 9
   review: 在有限的条件下，尽可能精雕细琢的作品，是中国影视业已经丢弃的宝贵品质
   watched_date: 2021-06-20
   imdb_id: tt1162595
@@ -4788,7 +4517,7 @@ watched:
 - id: tt9059760
   title: 正常人
   title_en: The Heron and the Crane
-  content_type: movie
+  content_type: tv
   douban_id: 33477335
   rating: 4
   review: 无聊又冗长文青的无病呻吟
@@ -4873,7 +4602,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/uDZKdzYvUwHYrvwizDzh3tcwwCf.jpg
 - id: tt14316440
   title: 天国与地狱
-  title_en: 'Clash of the Gods'
+  title_en: Clash of the Gods
   content_type: movie
   douban_id: 35243063
   rating: 6
@@ -4910,7 +4639,7 @@ watched:
 - id: tt8824648
   title: 禁忌女孩
   title_en: Girl From Nowhere
-  content_type: movie
+  content_type: tv
   imdb_id: tt8824648
   tmdb_id: 83639
   douban_id: 30327894
@@ -4947,7 +4676,7 @@ watched:
 - id: tt13972272
   title: 觉醒年代
   title_en: Age of Awakening
-  content_type: movie
+  content_type: tv
   imdb_id: tt13972272
   tmdb_id: 117954
   douban_id: 30228394
@@ -5046,7 +4775,7 @@ watched:
 - id: tt10073114
   title: 我们与恶的距离
   title_en: The World Between Us
-  content_type: tvshow
+  content_type: tv
   imdb_id: tt10073114
   tmdb_id: 87969
   rating: 10
@@ -5271,7 +5000,7 @@ watched:
 - id: tt4602874
   title: 特殊失踪专案组：失踪的黑色M
   title_en: Barefoot to the Neck
-  content_type: movie
+  content_type: tv
   douban_id: 26297399
   rating: 10
   review: 
@@ -5425,7 +5154,7 @@ watched:
 - id: tt5704228
   title: 欢乐颂
   title_en: Ode to Joy
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 
     虚幻现实作品，架空太高了。处处是脑补出来的精英碾压众生的情节，不知道如何邪恶的三观是怎么过审的。同时，也不得不说，兔子那帮子人，就是搂钱玩人心厉害，其他都不学无术
@@ -5438,27 +5167,38 @@ watched:
 - id: tt6461346
   title: 秘密森林
   title_en: Stranger
-  content_type: tvshow
-  rating: 6
-  review: '剧情的厚度、角色的饱满，另人印象深刻。
-
-    情节上，以凶杀案起始，实际讲的是世俗，是官商勾结。摒除了让人昏睡的煽情和情爱，精炼的很。
-
-    人物上，主要角色全都有背景，有欲望，有动机，每个动作都能让人觉得合理。
-
-    对白上，每句都似经过推敲，尤其是几场对手戏，对话让人深思啊
-
-    秒杀白夜追凶'
-  watched_date: 2018-02-05
+  content_type: tv
   douban_id: 26934346
   imdb_id: tt6461346
   tmdb_id: 70626
-  poster: https://image.tmdb.org/t/p/original/9srrXhYj0BxKpOGEBDZLV1wpZg7.jpg
-  poster_en: https://image.tmdb.org/t/p/original/blbbtx7DyvZ3JTGyc9MCArDL79b.jpg
+  rating: 7
+  watched_date: 2022-07-28
+  seasons:
+  - season: 1
+    title: 秘密森林1
+    douban_id: 26934346
+    rating: 8
+    review: "剧情的厚度、角色的饱满，另人印象深刻。\n情节上，以凶杀案起始，实际讲的是世俗，是官商勾结。摒除了让人昏睡的煽情和情爱，精炼的很。\n人物上，主要角色全都有背景，有欲望，有动机，每个动作都能让人觉得合理。\n\
+      对白上，每句都似经过推敲，尤其是几场对手戏，对话让人深思啊\n秒杀白夜追凶"
+    watched_date: 2018-02-05
+    poster: https://image.tmdb.org/t/p/original/9srrXhYj0BxKpOGEBDZLV1wpZg7.jpg
+    poster_en: 
+      https://image.tmdb.org/t/p/original/blbbtx7DyvZ3JTGyc9MCArDL79b.jpg
+  - season: 2
+    title: 秘密森林2
+    title_en: Stranger
+    douban_id: 34815544
+    rating: 6
+    review: "说实话，有些失望。本来好好的法律剧，变成了时政剧，配上缓慢的节奏，前两集非常劝退。\n虽然最后把几个案件串联起来了，但我只能说是非常勉强。\n\
+      而且，整部剧看下来，最突出的感觉是时政剧却塑造了几个天仙主角。现实中如果遇到这种“老鼠屎”类的猪队友，我只能说赶紧踢掉。"
+    watched_date: 2022-07-28
+    poster: https://image.tmdb.org/t/p/original/9srrXhYj0BxKpOGEBDZLV1wpZg7.jpg
+    poster_en: 
+      https://image.tmdb.org/t/p/original/blbbtx7DyvZ3JTGyc9MCArDL79b.jpg
 - id: tt7622902
   title: 机智牢房生活
   title_en: Prison Playbook
-  content_type: tvshow
+  content_type: tv
   rating: 10
   review: 
     温情满满的韩剧。剧情舒缓却能让人忍住不快进。男主用积极向上改变了身边不少人。几个主要角色的形象都很鲜明。剧情上虽然主角光环大了点，但没有太虐，爱情注水也控制在能接受的范围。不过，为啥整部剧角色只吃方便面，不腻歪么。
@@ -6202,7 +5942,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/pOqdX6e4y2F9JTyoe4qorBtXVaR.jpg
 - id: tt0449088
   title: 加勒比海盗3：世界的尽头
-  title_en: 'Pirates of the Caribbean: At World''s End'
+  title_en: "Pirates of the Caribbean: At World's End"
   content_type: movie
   rating: 8
   review: ''
@@ -7679,7 +7419,7 @@ watched:
   title: 爱在暹罗
   title_en: Love of Siam
   content_type: movie
-  rating: 8
+  rating: 7
   review: ''
   watched_date: 2018-04-05
   douban_id: 2365260
@@ -7822,7 +7562,7 @@ watched:
 - id: tt0464625
   title: 浪漫满屋
   title_en: Full House
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 第一部韩剧，印象深刻
   watched_date: 2018-04-05
@@ -7834,7 +7574,7 @@ watched:
 - id: tt9165876
   title: 加油！金顺
   title_en: Be Strong, Geum-soon!
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 善良 可怜 梦想成真
   watched_date: 2018-04-05
@@ -7846,7 +7586,7 @@ watched:
 - id: tt2693442
   title: 巨人
   title_en: Giant
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 当爱情戏每集只有20分钟以下时，韩剧也可以很好看
   watched_date: 2018-04-05
@@ -8219,7 +7959,7 @@ watched:
 - id: tt2468308
   title: 天使的诱惑
   title_en: Temptation of an Angel
-  content_type: tvshow
+  content_type: tv
   rating: 2
   review: ''
   watched_date: 2018-04-05
@@ -8231,7 +7971,7 @@ watched:
 - id: tt0885941
   title: 豪杰春香
   title_en: Sassy Girl Chun-Hyang
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 韩剧最初的记忆
   watched_date: 2018-04-05
@@ -8243,7 +7983,7 @@ watched:
 - id: tt1819921
   title: 检察官公主
   title_en: Prosecutor Princess
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: ''
   watched_date: 2018-04-05
@@ -8255,7 +7995,7 @@ watched:
 - id: tt2013075
   title: 妻子的诱惑
   title_en: Temptation of Wife
-  content_type: tvshow
+  content_type: tv
   rating: 4
   review: ''
   watched_date: 2018-04-05
@@ -8267,7 +8007,7 @@ watched:
 - id: tt1353771
   title: 武林外传
   title_en: My Own Swordsman
-  content_type: tvshow
+  content_type: tv
   rating: 10
   review: 风靡一时的
   watched_date: 2018-04-05
@@ -8290,7 +8030,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/1Etk42P4CpFyXAdpbnZHdW85VAa.jpg
 - id: tt0473064
   title: 日本沉没
-  title_en: 'Japan Sinks'
+  title_en: Japan Sinks
   content_type: movie
   rating: 6
   review: 希望可以变成现实
@@ -8555,7 +8295,7 @@ watched:
 - id: tt2255085
   title: 我的女友是九尾狐
   title_en: My Girlfriend Is a Gumiho
-  content_type: tvshow
+  content_type: tv
   rating: 2
   review: ''
   watched_date: 2018-04-05
@@ -8806,7 +8546,7 @@ watched:
 - id: tt2074131
   title: 原来是美男啊
   title_en: You Are Beautiful
-  content_type: tvshow
+  content_type: tv
   rating: 2
   review: 没剧情没美女，看这求的有毛意思
   watched_date: 2018-04-05
@@ -8841,7 +8581,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg
 - id: tt1123373
   title: 狄仁杰之通天帝国
-  title_en: 'Detective Dee and the Mystery of the Phantom Flame'
+  title_en: Detective Dee and the Mystery of the Phantom Flame
   content_type: movie
   rating: 6
   review: ''
@@ -8866,7 +8606,7 @@ watched:
 - id: tt1757202
   title: IRIS
   title_en: Iris
-  content_type: tvshow
+  content_type: tv
   rating: 4
   review: 结局不好啊
   watched_date: 2018-04-05
@@ -9457,7 +9197,7 @@ watched:
 - id: tt5120734
   title: 间谍明月
   title_en: Spy MyeongWol
-  content_type: tvshow
+  content_type: tv
   rating: 4
   review: ''
   watched_date: 2018-04-05
@@ -9469,7 +9209,7 @@ watched:
 - id: tt2373743
   title: 对我说谎试试
   title_en: Lie to Me
-  content_type: tvshow
+  content_type: tv
   rating: 4
   review: ''
   watched_date: 2018-04-05
@@ -10481,9 +10221,7 @@ watched:
   title_en: Final Destination 5
   content_type: movie
   rating: 4
-  review: '竟然向1致敬，不过这个结尾真的挺好的。不由自主想起来当年看1的赶脚
-
-    电影：《死神来了5》'
+  review: "竟然向1致敬，不过这个结尾真的挺好的。不由自主想起来当年看1的赶脚\n电影：《死神来了5》"
   watched_date: 2018-04-06
   douban_id: 4724373
   imdb_id: tt1622979
@@ -10638,7 +10376,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/1RFIbuW9Z3eN9Oxw2KaQG5DfLmD.jpg
 - id: tt0112778
   title: 大话西游之月光宝盒
-  title_en: 'A Chinese Odyssey Part One: Pandora''s Box'
+  title_en: "A Chinese Odyssey Part One: Pandora's Box"
   content_type: movie
   rating: 8
   review: 童年一去不复还
@@ -10892,7 +10630,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/8rMiBz8kLMNmQyMbQXL9MPIlyw.jpg
 - id: tt1804508
   title: 杀戮元凶：狙击手
-  title_en: 'Those Who Kill - Shadow of the Past'
+  title_en: Those Who Kill - Shadow of the Past
   content_type: movie
   rating: 2
   review: 一般般，应该可以更血腥暴力些。欲遮还露的
@@ -11362,8 +11100,8 @@ watched:
     https://img9.doubanio.com/view/photo/m_ratio_poster/public/p1167909514.jpg
 - id: tt2262308
   title: 光晕4：航向黎明号
-  title_en: 'Love of Siam'
-  content_type: movie
+  title_en: Love of Siam
+  content_type: tv
   rating: 4
   review: ''
   watched_date: 2018-04-06
@@ -11436,7 +11174,7 @@ watched:
 - id: tt2283335
   title: 灿烂的遗产
   title_en: Brilliant Legacy
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 音乐很好，可惜不知道名字。在心情灰暗的时刻，一部不需要动脑子只需要眼睛的韩剧，就是板蓝根啊。
   watched_date: 2018-04-06
@@ -11655,7 +11393,7 @@ watched:
 - id: tt2315896
   title: 毁灭前夕：倒数救援
   title_en: Eve of Destruction
-  content_type: tvshow
+  content_type: tv
   rating: 2
   review: 这算是电视迷你剧？设定算是第一次见吧，加速器制造了一个黑洞类的东西出来？不过剧情乏力狗血。
   watched_date: 2018-04-06
@@ -12273,7 +12011,7 @@ watched:
 - id: tt1880452
   title: 荒川爆笑团
   title_en: Arakawa Under the Bridge
-  content_type: tvshow
+  content_type: tv
   rating: 4
   review: 日剧每个剧情设定都是这么奇葩，属于ACG的奇葩国度。
   watched_date: 2018-04-07
@@ -12295,8 +12033,8 @@ watched:
   poster: https://image.tmdb.org/t/p/original/9XgBZ5QoeaWGEdA9QMqY5Wi2knr.jpg
   poster_en: https://image.tmdb.org/t/p/original/nlV09Qmr7NKnObi6COPXn13T1Og.jpg
 - id: tt0331811
-  title: '11:14'
-  title_en: '11:14'
+  title: 11:14
+  title_en: 11:14
   content_type: movie
   rating: 8
   review: 在当年应该是非常好的分线叙事结构了，而且每个小故事串联的很好，最后故事的根源也很黑色幽默。不错~
@@ -13899,7 +13637,7 @@ watched:
     https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2494449417.jpg
 - id: tt2082221
   title: 与犯罪的战争：坏家伙的全盛时代
-  title_en: 'Nameless Gangster'
+  title_en: Nameless Gangster
   content_type: movie
   rating: 8
   review: 为什么韩剧里面，随便走过的都是美女
@@ -14467,7 +14205,7 @@ watched:
 - id: tt1821771
   title: 面包王金卓求
   title_en: King of Baking, Kim Tak Goo
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 
     时间跨度不小，但是剧情发展却限制在了极小的范围内，整体剧情不够大气。同时，感觉女2行事风格的转变非常突兀，交待的不够。整体感觉情节不充实，发展太快。
@@ -15917,7 +15655,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/hB4xq6WmJ2B8AGazbYoLQAhpvnn.jpg
 - id: tt2321652
   title: 间谍
-  title_en: 'To Spy with Love!!'
+  title_en: To Spy with Love!!
   content_type: movie
   rating: 4
   review: 对《真实的谎言》的拙劣模仿，搞笑整的笑不起来，特效整的没效一样，作为韩剧全片竟然没有一个拿得出手的美女。真是失败。
@@ -18309,7 +18047,7 @@ watched:
 - id: tt5975822
   title: 上瘾
   title_en: Addicted
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 相比太子妃更生活一些。表演和剧情都不那么做作。至于男男是如何相互吸引、互相掰弯，我就无法评价了。
   watched_date: 2018-04-14
@@ -18477,7 +18215,7 @@ watched:
 - id: tt3725950
   title: ST 红白搜查档案
   title_en: ST MPD Scientific Investigation Squad
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 勉强给里面的2个花瓶4分吧。日本电影就没一个正常的，夸张做作漫画化。整个剧情实在看不明白到底在讲什么，把探案也能拍成搞笑式
   watched_date: 2018-04-14
@@ -18915,7 +18653,7 @@ watched:
     https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2216034576.jpg
 - id: tt2381991
   title: 猎神：冬日之战
-  title_en: 'The Huntsman: Winter''s War'
+  title_en: "The Huntsman: Winter's War"
   content_type: movie
   rating: 4
   review: 纯属虾扯蛋的故事。不过冰雪女王的扮相真漂亮
@@ -19628,30 +19366,34 @@ watched:
   poster: https://image.tmdb.org/t/p/original/zvUPCBSAOEXO3LevxADVEeCzHRu.jpg
   poster_en: https://image.tmdb.org/t/p/original/9S50foUIYGwiNPWOxi1WJF6IPwI.jpg
 - id: tt7844292
-  title: 余罪 第二季
-  title_en: 'Episode #2.1'
-  content_type: tvshow
-  rating: 4
-  review: 
-    第二季质量直线下降。重要两点：第一，剧情改编简直要到姥姥家了，把原著的精华全给戏说了。第二，神化余罪，花瓶林警官。生生把发生地从山西给改到广东，我看编剧怎么改偷牛案！
-  watched_date: 2018-04-15
-  douban_id: 26802975
-  imdb_id: tt7844292
-  poster: 
-    https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2367257940.jpg
 - id: tt5925192
-  title: 余罪 第一季
+  title: 余罪
   title_en: Yu Zui
-  content_type: tvshow
-  rating: 8
-  review: 
-    第一季还算忠实于原著，改编没有太过。张一山把匪气演绎的还算到位。当然也有缺点，就是每个人都不算特到位。余罪的贱（不是二），鼠标市井，等等。删除了太多人物，然后把内奸强行挪到第一个案件来了？
-  watched_date: 2018-04-15
-  douban_id: 26363830
+  content_type: tv
   imdb_id: tt5925192
   tmdb_id: 66832
   poster: https://image.tmdb.org/t/p/original/zIbbporWgJ3Zi9ZEnk5HWYF3Og7.jpg
   poster_en: https://image.tmdb.org/t/p/original/fRwGb8VeClzPWyPwxMdXqdz364r.jpg
+  rating: 8
+  review: 
+    第一季还算忠实于原著，改编没有太过。张一山把匪气演绎的还算到位。当然也有缺点，就是每个人都不算特到位。余罪的贱（不是二），鼠标市井，等等。删除了太多人物，然后把内奸强行挪到第一个案件来了？
+  watched_date: 2018-04-15
+  seasons:
+  - season: 1
+    title: 余罪 第一季
+    douban_id: 26363830
+    review: 
+      第一季还算忠实于原著，改编没有太过。张一山把匪气演绎的还算到位。当然也有缺点，就是每个人都不算特到位。余罪的贱（不是二），鼠标市井，等等。删除了太多人物，然后把内奸强行挪到第一个案件来了？
+    watched_date: 2018-04-15
+  - season: 2
+    title: 余罪 第二季
+    douban_id: 26802975
+    rating: 4
+    review: 
+      第二季质量直线下降。重要两点：第一，剧情改编简直要到姥姥家了，把原著的精华全给戏说了。第二，神化余罪，花瓶林警官。生生把发生地从山西给改到广东，我看编剧怎么改偷牛案！
+    watched_date: 2018-04-15
+    poster: 
+      https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2367257940.jpg
 - id: tt4080728
   title: 一个叫欧维的男人决定去死
   title_en: A Man Called Ove
@@ -19888,7 +19630,7 @@ watched:
 - id: tt6087844
   title: 中国式关系
   title_en: Chinese Style Relationship
-  content_type: tvshow
+  content_type: tv
   rating: 4
   review: 
     每个角色都代表现实一类人，几个演员的表演都还不错，尤其是丈母娘和老沈。家庭戏还算接地气，但事业和感情就有点上天的感觉。剧情感觉也不是很流畅，不时有跳跃一下又往回倒车的感觉。
@@ -20059,7 +19801,7 @@ watched:
 - id: tt5332206
   title: 信号
   title_en: Signal
-  content_type: tvshow
+  content_type: tv
   rating: 10
   review: 
     整体剧情很流畅，而且没有太多婆婆妈妈的剧情，尤其是没有注入太多感情戏的水份。每个案件过渡都算自然。当然最后几集不可避免的煽情了下，好在结尾还能挽回一点。最大的槽点就是男一，特写基本就是瞪眼扭头讲道理，太中二
@@ -20157,7 +19899,7 @@ watched:
 - id: tt2401256
   title: 罪夜之奔
   title_en: The Night Of
-  content_type: tvshow
+  content_type: tv
   rating: 10
   review: ''
   watched_date: 2018-04-15
@@ -20193,7 +19935,7 @@ watched:
 - id: tt0475784
   title: 西部世界 第一季
   title_en: Westworld
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 层层迷雾之中，谁是人谁是robot。直到最后好像也不是很清晰，最后的爆发，剧情刚至高潮却被截断。
   watched_date: 2018-04-15
@@ -20594,7 +20336,7 @@ watched:
 - id: tt6742348
   title: 人民的名义
   title_en: In the Name of People
-  content_type: tvshow
+  content_type: tv
   rating: 2
   review: 假出新境界。别的不多说，就冲着用水灭油烧的火，我就为某些群体的智商点赞！
   watched_date: 2018-04-15
@@ -20742,7 +20484,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/AuEzNLF8yvzd169guYEFisqvy5z.jpg
 - id: tt4862468
   title: 大话西游3
-  title_en: 'A Chinese Odyssey Part Three'
+  title_en: A Chinese Odyssey Part Three
   content_type: movie
   rating: 2
   review: 想象力到底是有多贫乏
@@ -21925,7 +21667,7 @@ watched:
   title: 科洛弗档案
   title_en: Cloverfield
   content_type: movie
-  rating: 8
+  rating: 7
   review: 部分激烈运动的画面实在太晕了，但真实性和代入感完胜，而且演员在镜头里非常自然。剧情怎么说，拼死跑去救人，然后被钢筋穿透和没事一样……
   watched_date: 2018-04-15
   douban_id: 2144242
@@ -22131,7 +21873,7 @@ watched:
 - id: tt6256484
   title: 当你沉睡时
   title_en: While You Were Sleeping
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 套着幻想外壳的爱情片，爱情占比太高，剧情又太简单直线。几个主演基本感受不到演技。女主很漂亮。
   watched_date: 2018-04-16
@@ -22528,7 +22270,7 @@ watched:
 - id: tt4613520
   title: 心里的声音
   title_en: The Sound of Your Heart
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 男主的气质，这个屌丝劲算很符合剧情需要了。只是漫改，剧情散，前后连贯性也稍差
   watched_date: 2018-06-08
@@ -22552,7 +22294,7 @@ watched:
 - id: tt7923710
   title: 我的大叔
   title_en: My Mister
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 
     优点：总结就是写实、感情饱满、人物鲜活。缺点：爱情占比太高，剧情内涵下滑太多，丧气逆袭。过一阵子，再品味，忽然觉得全片的三观有些奇葩，为什么面对背叛与煎熬，大叔还要被安排隐忍、被动接受？
@@ -22751,14 +22493,9 @@ watched:
   title_en: Dying to Survive
   content_type: movie
   rating: 8
-  review: '盛名之下其实难副。只是踏实地讲了一个故事（这对于只想着圈钱的中国电影，算是没泯灭良心吧）。但剧情与表演实难配得上这个分数。
-
-    感情线只是刚及格。上半部平淡如水，想搞笑却根本起不来势。从再次卖药开始转向煽情，但情感的像空中楼阁，缺乏合理的铺垫和层层递进。再加上最后恶心人的主旋律（ps.
-    讲个最近的真事，进入医保的抗癌药，立即断货，普罗大众仍然是望药生叹）。
-
-    社会线，却是屁股坐歪了，想批判现实却不尊重事实。诺华是有问题，但其中国的代理商呢？哪些躺在病友血泪上饱食的权贵（某RH？）家族呢？捏的一手软柿子。
-
-    总体而言，3星的水准，多1星是给面向大众普及了专利药、抗癌症存在的重重问题。'
+  review: "盛名之下其实难副。只是踏实地讲了一个故事（这对于只想着圈钱的中国电影，算是没泯灭良心吧）。但剧情与表演实难配得上这个分数。\n感情线只是刚及格。上半部平淡如水，想搞笑却根本起不来势。从再次卖药开始转向煽情，但情感的像空中楼阁，缺乏合理的铺垫和层层递进。再加上最后恶心人的主旋律（ps.
+    讲个最近的真事，进入医保的抗癌药，立即断货，普罗大众仍然是望药生叹）。\n社会线，却是屁股坐歪了，想批判现实却不尊重事实。诺华是有问题，但其中国的代理商呢？哪些躺在病友血泪上饱食的权贵（某RH？）家族呢？捏的一手软柿子。\n\
+    总体而言，3星的水准，多1星是给面向大众普及了专利药、抗癌症存在的重重问题。"
   watched_date: 2018-07-25
   douban_id: 26752088
   imdb_id: tt7362036
@@ -23023,7 +22760,7 @@ watched:
 - id: tt8484866
   title: 中国有嘻哈
   title_en: The Rap of China
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: ''
   watched_date: 2018-09-11
@@ -23034,7 +22771,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/pbtSCdn4ozgsrzj3FgpHCK5dRIC.jpg
 - id: 27186315
   title: 中国新说唱 第一季
-  content_type: tvshow
+  content_type: show
   rating: 2
   review: 从60秒就能看出力捧傻逼女歌手，给了无数的单镜头。到后面就越来越不要脸了，明着保送了。这就是你们所谓的real？所谓的peace and 
     love？这一季，这个品牌已经倒掉了。
@@ -23045,7 +22782,7 @@ watched:
 - id: tt12764664
   title: 演员的诞生
   title_en: The Birth of an Actor
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 外行看热闹，槽点太多，炒话题过度
   watched_date: 2018-09-11
@@ -23401,7 +23138,7 @@ watched:
 - id: tt7890304
   title: 加油吧威基基
   title_en: Welcome to Waikiki
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 剧情挺轻松愉快，笑料也算足，人物塑造个性分明。缺点在于感情转换略生硬，爱情戏份占比太多，同样的梗来回用。
   watched_date: 2018-11-19
@@ -23697,7 +23434,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg
 - id: tt5884052
   title: 大侦探皮卡丘
-  title_en: 'Pokémon Detective Pikachu'
+  title_en: Pokémon Detective Pikachu
   content_type: movie
   rating: 4
   review: 充斥着情怀，但品质低劣。作为漫画形象的第一部，背景交待可说是没有，故事选择与改编处在应付差事的档次，男女主演均没什么演技。
@@ -23760,7 +23497,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/pU3bnutJU91u3b4IeRPQTOP8jhV.jpg
 - id: tt6565702
   title: X战警：黑凤凰
-  title_en: 'Dark Phoenix'
+  title_en: Dark Phoenix
   content_type: movie
   rating: 6
   review: ''
@@ -23800,9 +23537,8 @@ watched:
   title_en: 'Spider-Man: Far From Home'
   content_type: movie
   rating: 8
-  review: '剧情与特效找到了一个较好的平衡点，新版的蜘蛛侠一直是漫威片中第一档次的系列。只是不知道翻拍太多次、这回又定位太青春的蜘蛛侠，是否能真的取代钢铁侠。
-
-    另外，女主一定魅力都没有。'
+  review: "剧情与特效找到了一个较好的平衡点，新版的蜘蛛侠一直是漫威片中第一档次的系列。只是不知道翻拍太多次、这回又定位太青春的蜘蛛侠，是否能真的取代钢铁侠。\n\
+    另外，女主一定魅力都没有。"
   watched_date: 2019-09-23
   douban_id: 26931786
   imdb_id: tt6320628
@@ -23875,7 +23611,7 @@ watched:
 - id: tt5182866
   title: 请回答1988
   title_en: Reply 1988
-  content_type: tvshow
+  content_type: tv
   rating: 10
   review: 一切的感情都浓缩的日常生活中，每个人物都有血有肉，每段煽情都能催人泪下。只是感情戏略奇葩。
   watched_date: 2018-12-31
@@ -23986,7 +23722,7 @@ watched:
 - id: tt9151274
   title: 天空之城
   title_en: SKY Castle
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 
     虽然设定很炫酷，但实际就是个中产焦虑。上不上下不下，为了个国内学校打破头。前1/3还有点看头，然后剧情水准就直线下滑，尤其是后3集洗白女主母女，可以说有特点的人设被彻底摧毁，再加上不食人间烟火的白莲花救儿子的稀烂剧情，给4星真是勉强。
@@ -23999,7 +23735,7 @@ watched:
 - id: tt6611916
   title: 王国 第一季
   title_en: Kingdom
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 
     并不是在东方造出个丧尸就是好剧。没什么亮点，最吸引人的，反而是片头。留下的线头不少，以第一季这种进度，再来一季能讲完？遮遮掩掩的权谋戏，不如就全舍弃掉吧，鸡肋，留点夺嫡就完了，官员们就别浪费胶片了。
@@ -24900,7 +24636,7 @@ watched:
 - id: tt10322972
   title: 破冰行动
   title_en: The Thunder
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 
     前5集可以4星，后面就一路垮。尤其是男女主，辣眼睛的很。优点是：格局稍有突破；前几集给的伏笔还行；几个演员还有点味道；倒叙穿插还算合理。缺点就多了，伏笔揭示的太简单；人物非黑即白，虽然给了一些动机说明；勾心斗角全靠特写，相关情节与台词太单薄；主线几个任务对剧情支撑力度太弱；再吐槽一次男女主，就那俩一个二愣子和一个纯白痴，死一万次都不够。
@@ -25197,7 +24933,7 @@ watched:
 - id: tt10627882
   title: 人生一串 第一季
   title_en: The Story of Chuaner
-  content_type: tvshow
+  content_type: tv
   rating: 10
   review: 文案还不错
   watched_date: 2019-07-28
@@ -25210,7 +24946,7 @@ watched:
   title: 人生一串 第二季
   title_en: Bogus Skill «Fruitmaster» ~About that time I became able to eat 
     unlimited numbers of Skill Fruits (that kill you)~
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 
     文案虽然比第一集更骚了，起码整体串联非常得宜，从入店到点菜。但内容质量明显下滑。开始卖货不说，出现了大量的无关故事、谈话，比如“枪弹炮”前前后后一堆废话。
@@ -25417,7 +25153,7 @@ watched:
 - id: tt1190634
   title: 黑袍纠察队 第一季
   title_en: The Boys
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 
     第一季所展示的内容，黑化超英仅仅是表面，更深层的是结合了偶像产业、官商勾结、科技伦理等种种问题，而这些问题的核心，本片直指“金钱乃万恶之源”。而在纠察队这边，目前仅是把Butcher的形象和过往交代的较深，Hughie相对简单，另外3个人都有较大留白。总体来讲，第一季比较成功的交代了大背景，The
@@ -26846,7 +26582,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/ojFkOJUOc36O3SA0pZC1ccbAc2v.jpg
 - id: tt11052808
   title: 82年生的金智英
-  title_en: 'Kim Ji-young, Born 1982'
+  title_en: Kim Ji-young, Born 1982
   content_type: movie
   rating: 8
   review: 
@@ -27117,7 +26853,7 @@ watched:
 - id: tt10554898
   title: 陈情令
   title_en: The Untamed
-  content_type: tvshow
+  content_type: tv
   rating: 2
   review: 狗shit垃圾剧，配上狗艹的肖战
   watched_date: 2020-03-13
@@ -27129,7 +26865,7 @@ watched:
 - id: tt11273352
   title: 庆余年 第一季
   title_en: Joy of Life
-  content_type: tvshow
+  content_type: tv
   rating: 2
   review: 狗shit垃圾剧，配上奇葩狗艹的肖战
   watched_date: 2020-03-13
@@ -27300,7 +27036,7 @@ watched:
 - id: tt12026744
   title: 我是余欢水
   title_en: If There Is No Tomorrow
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 这个结尾，还不如把这戏截断在第6集。社畜的故事体验很真实，但后面的就开始变的荒诞不经了。虽然还在讽刺，但已是空中楼阁。
   watched_date: 2020-04-15
@@ -27547,7 +27283,7 @@ watched:
 - id: tt8236544
   title: 火星生活
   title_en: Life on Mars
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 剧情略神棍，男主人设很二逼。宁愿沉沦在虚构的幻想中，也没勇气去改变自己摧垮的现实。尤其是最后一集，完全脱离的剧情设定，显得狗尾续貂。
   watched_date: 2022-05-14
@@ -27580,18 +27316,31 @@ watched:
   tmdb_id: 399402
   poster: https://image.tmdb.org/t/p/original/mgEIlGouj7mGA85FU09HCMjPqPZ.jpg
   poster_en: https://image.tmdb.org/t/p/original/82eQFmaLjRv3othN6BV3Ac80Abh.jpg
-- id: tt5537374
-  title: 越狱 第五季
-  title_en: Ogygia
-  content_type: tvshow
-  rating: 6
-  review: 整体质量比3和4两季要好，但越狱被喧宾夺主，越狱内容不够丰满，氛围营造也欠缺很多，外加上剧情BUG略多，枝节剧情脱离主线。
+- id: tt0455275
+  title: 越狱
+  title_en: Prison Break
+  content_type: tv
+  rating: 9
+  review: 美剧启蒙，第一季质量无容置疑，第二季有所下滑但仍然出众，第三四季狗尾续貂了。
   watched_date: 2020-07-24
-  douban_id: 26416957
-  imdb_id: tt5537374
-  tmdb_id: 1534639
+  imdb_id: tt0455275
+  tmdb_id: 2288
+  douban_id: 1419297
   poster: https://image.tmdb.org/t/p/original/dRsiMn3ttveeKAtf867nQ7QLNdJ.jpg
   poster_en: https://image.tmdb.org/t/p/original/dRsiMn3ttveeKAtf867nQ7QLNdJ.jpg
+  seasons:
+  - season: 5
+    title: 越狱 第五季
+    title_en: Resurrection
+    content_type: tv
+    rating: 6
+    review: 整体质量比3和4两季要好，但越狱被喧宾夺主，越狱内容不够丰满，氛围营造也欠缺很多，外加上剧情BUG略多，枝节剧情脱离主线。
+    watched_date: 2020-07-24
+    douban_id: 26416957
+    imdb_id: tt5537374
+    tmdb_id: 1534639
+    poster: https://image.tmdb.org/t/p/original/dRsiMn3ttveeKAtf867nQ7QLNdJ.jpg
+    poster_en: https://image.tmdb.org/t/p/original/dRsiMn3ttveeKAtf867nQ7QLNdJ.jpg
 - id: tt10423160
   title: 赌博默示录3
   title_en: 'Kaiji: Final Game'
@@ -27717,7 +27466,7 @@ watched:
 - id: tt12724286
   title: 穿越火线
   title_en: Cross Fire
-  content_type: tvshow
+  content_type: tv
   rating: 2
   review: ''
   watched_date: 2020-08-07
@@ -27765,7 +27514,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/zdAS6PT1AZIL7s1q9xTkOMDjU5z.jpg
 - id: tt9552258
   title: 行骗天下JP：浪漫篇
-  title_en: 'The Confidence Man JP - The Movie -'
+  title_en: The Confidence Man JP - The Movie -
   content_type: movie
   rating: 6
   review: 中二的溢出屏幕
@@ -27778,7 +27527,7 @@ watched:
 - id: tt11691684
   title: 恶之花
   title_en: Flower of Evil
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 
     从头3集惊艳的设定，到10集以后逻辑崩裂、疯狂注水、掺入各种恶俗桥段，以3集为一个批次、始终如一坚定不移、滑向烂剧。所以这不能叫烂尾，这个叫符合预期。
@@ -28145,7 +27894,7 @@ watched:
 - id: tt12477942
   title: 隐秘的角落
   title_en: The Bad Kids
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 中国特色的结尾，导致剧情拉跨。整部剧，看似自洽，但其实很多地方经不起推敲。几个小孩的性格演化也缺乏情感支撑
   watched_date: 2020-10-11
@@ -28314,7 +28063,7 @@ watched:
 - id: tt6226232
   title: 小谢尔顿 第一季
   title_en: Young Sheldon
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 比较正统的家庭剧，可能没有little Sheldon，就没多吸引人。因为小男主真的出现在现实生活中，真的有点神烦
   watched_date: 2020-11-16
@@ -28606,7 +28355,7 @@ watched:
 - id: tt11298328
   title: 沉默的真相
   title_en: The Long Night
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 
     金玉其外败絮其中。对比下类似题材的signal，就是研究生随便碾压幼稚园的景象。剧情散、慢，没有任何悬疑，只靠男主玩球来充作推理，excuse me? 
@@ -28620,7 +28369,7 @@ watched:
 - id: 34855947
   title: 丁海寅的徒步报告
   title_en: Jung Hae In's Travel Log
-  content_type: tvshow
+  content_type: tv
   rating: 4
   review: 咋咋呼呼，素质有待提高
   watched_date: 2021-01-01
@@ -28680,7 +28429,7 @@ watched:
 - id: tt5524370
   title: 我的恐怖妻子
   title_en: My Dangerous Wife
-  content_type: tvshow
+  content_type: tv
   rating: 10
   review: 
     前两集真的是高能，2个小时讲了国产剧20集的内容。可惜虎头蛇尾，越到后面节奏越缓慢，剧情越发平淡，也可能是开头太爆炸了，对结尾的期待太高。尤其是结局，男主那个档次的智商，还和女主耍心眼？开什么玩笑
@@ -28706,7 +28455,7 @@ watched:
 - id: tt7521882
   title: 非自然死亡
   title_en: Unnatural
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 
     这才是大女主该有的剧情。而中国骗钱电视剧中，只会养一群精虫上脑的傻逼。整体剧情以遗体解剖为切入点，关注了一些社会问题、展现了一些社会阶层的面貌，但过于平铺直叙，缺乏转折起伏。也有优点是氛围非常温馨，有点类似机智生活系列。
@@ -28719,7 +28468,7 @@ watched:
 - id: tt10590066
   title: 万物生灵 第一季
   title_en: All Creatures Great & Small
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 名字翻译的不好，只切合原文，与剧情相距较远。剧情和缓，人物关系也不算复杂。介绍了兽医的日常生活
   watched_date: 2021-01-10
@@ -28731,7 +28480,7 @@ watched:
 - id: tt10752444
   title: 俗女养成记
   title_en: The Making of an Ordinary Woman
-  content_type: tvshow
+  content_type: tv
   rating: 8
   review: 
     剧情非常温馨，家庭向，但包含了这鞥时代中年人需要的一些思考。只是，设定的角色都有些过于小众化。其中有几集故事过于细节，可能和人物整体成长略有脱节
@@ -28817,7 +28566,7 @@ watched:
 - id: tt12788432
   title: 山海情
   title_en: Minning Town
-  content_type: tvshow
+  content_type: tv
   rating: 2
   review: 若批评不自由，则赞美无意义。毕竟等到时点，贫困自然消灭
   watched_date: 2021-02-04
@@ -28829,7 +28578,7 @@ watched:
 - id: tt13293588
   title: 无职转生：到了异世界就拿出真本事
   title_en: 'Mushoku Tensei: Jobless Reincarnation'
-  content_type: tvshow
+  content_type: tv
   rating: 10
   review: 我不看日漫，只为怼狗屎拳师
   watched_date: 2021-02-11
@@ -28996,7 +28745,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/eE0ppkFrDBA50frWBD7Ip5aR3lh.jpg
 - id: tt12767996
   title: 行骗天下JP：公主篇
-  title_en: 'The Confidence Man JP – Episode of the Princess –'
+  title_en: The Confidence Man JP – Episode of the Princess –
   content_type: movie
   rating: 4
   review: 这部剧情是最扯淡的。还冒充上官方身份了，随便一查就穿帮。
@@ -29477,7 +29226,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/sLe7DlRwwtt5vSS8iN3DGIg0PH0.jpg
 - id: tt0383574
   title: 加勒比海盗2：亡灵的宝藏
-  title_en: 'Pirates of the Caribbean: Dead Man''s Chest'
+  title_en: "Pirates of the Caribbean: Dead Man's Chest"
   content_type: movie
   rating: 6
   review: ''
@@ -29753,7 +29502,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/DDUpJmJcP7fmQ1xTUNYXU14TRR.jpg
 - id: tt0290334
   title: X战警2
-  title_en: 'X2'
+  title_en: X2
   content_type: movie
   rating: 6
   review: ''
@@ -30638,7 +30387,7 @@ watched:
 - id: tt12458172
   title: 山河令
   title_en: Word of Honor
-  content_type: tvshow
+  content_type: tv
   rating: 2
   review: 骗了十年钱，到现在中国连个原创剧本都拿不出来了，真是鲜活的劣币逐良币案例。
   watched_date: 2021-03-09
@@ -30724,7 +30473,7 @@ watched:
 - id: tt9140560
   title: 旺达幻视
   title_en: WandaVision
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 混乱，就是这部的代名词。无论是剧情设计还是剪辑效果，还是想表达的
   watched_date: 2021-03-16
@@ -30736,7 +30485,7 @@ watched:
 - id: tt9170108
   title: 异星灾变 第一季
   title_en: Raised by Wolves
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 
     下下挠在白左的G点上，宗教、人伦、机器伦理、人性之恶、意外怀孕、阶级、种族（白黑配真是死也要正确）、末世。但是神神叨叨并不能掩盖剧情的薄弱与乏力，几乎所有的主要冲突，都被回避了，与白左一样的策略，只会指责问题，却没有解决的能力
@@ -30879,7 +30628,7 @@ watched:
 - id: 5250330
   title: 快乐的小2B
   title_en: 快乐的小2B
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 低成本网络自制剧集的代表之一。刚毕业迷茫时期曾经追过的
   watched_date: 2021-05-25
@@ -30890,7 +30639,7 @@ watched:
 - id: 6894818
   title: 毛骗 第二季
   title_en: 毛骗 第二季 (2011)
-  content_type: tvshow
+  content_type: tv
   rating: 6
   review: 低成本网络自制剧集的代表之一。刚毕业迷茫时期曾经追过的
   watched_date: 2021-05-25
@@ -30943,13 +30692,12 @@ watched:
     https://img2.doubanio.com/f/frodo/753fa1e93c945e533e52dddab73b2b55a1083083/pics/subject/movie_large.jpg
 - id: 34973877
   title: 武汉日记2020
-  title_en: 武汉2020—手机日记
-  content_type: tvshow
+  title_en: 武汉2020
+  douban_id: 34973877
+  content_type: show
   rating: 2
   review: 消失的一个月，是谁的责任？
   watched_date: 2021-06-27
-  tmdb_id: 1625546
-  douban_id: 34973877
   poster: 
     https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2587891917.jpg
 - id: 35460678
@@ -30965,7 +30713,7 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/8jHuIELtAPEwaPuoUkB7enPodx7.jpg
 - id: 35008143
   title: 令人心动的offer 第二季
-  content_type: tvshow
+  content_type: tv
   rating: 4
   review: 
     方方面面都折射出当前中国社会的浮躁与傲慢，即使经过综艺层层包装美化，资本（君合就是个资本的马仔而已）仍然把自己对资源的那种嗜血欲望暴露了出来。什么简历实习努力，都比不过你出生时自带的那些属性。最后一句话送给制作方，真想认真做律师节目，麻烦找找正常的诉讼律所，不要拉一只吃资本狗屎的红圈所，然后塞根本不会接的“案件”，贻笑大方。
@@ -30976,7 +30724,7 @@ watched:
 - id: 35634613
   title: 决胜21天
   title_en: 决胜21天
-  content_type: tvshow
+  content_type: tv
   rating: 4
   review: 挺好的，从第一次交钱就把中国人那种耍小心眼、贪小便宜的嘴脸展现的淋漓尽致。然后还舔着脸职责别人有刻板印象，呵呵。
   watched_date: 2021-12-29

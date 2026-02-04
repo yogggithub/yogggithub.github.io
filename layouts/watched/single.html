@@ -24,10 +24,10 @@ $item.poster }} {{- else if $item.poster_zh }} {{- $poster = $item.poster_zh }}
         <p style="font-style: italic; color: var(--secondary)">
           {{ $subtitle }}
         </p>
-        {{- end }} {{- if and (eq $item.content_type "tvshow")
-        $item.seasons_data }}
+        {{- end }} {{- if and (or (eq $item.content_type "tv") (eq $item.content_type "tvshow"))
+        $item.seasons }}
         <p style="color: var(--secondary); margin-top: 0.5rem">
-          📺 电视剧 · 已看 {{ len $item.seasons_data }} 季
+          📺 电视剧 · 已看 {{ len $item.seasons }} 季
         </p>
         {{- end }}
         <div style="margin: 1rem 0">
@@ -37,7 +37,7 @@ $item.poster }} {{- else if $item.poster_zh }} {{- $poster = $item.poster_zh }}
           <p>{{ $item.director }}</p>
           {{- end }}
         </div>
-        {{- if and $item.rating (ne $item.content_type "tvshow") }}
+        {{- if and $item.rating (not (or (eq $item.content_type "tv") (eq $item.content_type "tvshow"))) }}
         <div
           style="
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -58,11 +58,11 @@ $item.poster }} {{- else if $item.poster_zh }} {{- $poster = $item.poster_zh }}
     </div>
   </header>
 
-  {{- if $item.seasons_data }}
+  {{- if $item.seasons }}
   <div class="seasons-section">
     <h2>分季评价</h2>
     <div class="seasons-list">
-      {{- range $item.seasons_data }}
+      {{- range $item.seasons }}
       <div class="season-card">
         <div class="season-header">
           {{- if .poster }}

@@ -61,8 +61,8 @@
 
           {{- if .content_type }}
           <div class="poster-badge">
-            {{- if eq .content_type "movie" }} 电影 {{- else if eq .content_type
-            "tvshow" }} 剧集 {{- else if eq .content_type "variety" }} 综艺 {{-
+            {{- if eq .content_type "movie" }} 电影 {{- else if or (eq .content_type "tv") (eq .content_type
+            "tvshow") }} 剧集 {{- else if or (eq .content_type "show") (eq .content_type "variety") }} 综艺 {{-
             end }}
           </div>
           {{- end }} {{- if .rating }}
