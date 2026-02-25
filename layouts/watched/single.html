@@ -9,7 +9,9 @@ $poster := $item.poster }} {{- if eq $lang "en" }} {{- if $item.poster_en }}
 {{- $poster = $item.poster_en }} {{- else if $item.poster }} {{- $poster =
 $item.poster }} {{- end }} {{- else }} {{- if $item.poster }} {{- $poster =
 $item.poster }} {{- else if $item.poster_zh }} {{- $poster = $item.poster_zh }}
-{{- end }} {{- end }}
+{{- end }} {{- end }} {{- $tmdbType := "movie" }} {{- if or (eq
+$item.content_type "tv") (eq $item.content_type "tvshow") (eq
+$item.content_type "show") }} {{- $tmdbType = "tv" }} {{- end }}
 <article class="post-single">
   <header class="post-header">
     <div class="content-header">
@@ -24,6 +26,55 @@ $item.poster }} {{- else if $item.poster_zh }} {{- $poster = $item.poster_zh }}
         <p style="font-style: italic; color: var(--secondary)">
           {{ $subtitle }}
         </p>
+        {{- end }}
+        {{- if or $item.imdb_id $item.douban_id $item.tmdb_id }}
+        <div class="external-links">
+          {{- if $item.imdb_id }}
+          <a
+            class="imdb"
+            href="https://www.imdb.com/title/{{ $item.imdb_id }}/"
+            target="_blank"
+            rel="noopener"
+            aria-label="IMDb"
+          >
+            <svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="2.5" y="4.5" width="19" height="15" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="1.5" />
+              <text x="12" y="15" text-anchor="middle" font-size="8" font-weight="700" fill="currentColor">IMDb</text>
+            </svg>
+            <span>IMDb</span>
+          </a>
+          {{- end }}
+          {{- if $item.douban_id }}
+          <a
+            class="douban"
+            href="https://movie.douban.com/subject/{{ $item.douban_id }}/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Douban"
+          >
+            <svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="2.5" y="4.5" width="19" height="15" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="1.5" />
+              <text x="12" y="15" text-anchor="middle" font-size="8" font-weight="700" fill="currentColor">DB</text>
+            </svg>
+            <span>Douban</span>
+          </a>
+          {{- end }}
+          {{- if $item.tmdb_id }}
+          <a
+            class="tmdb"
+            href="https://www.themoviedb.org/{{ $tmdbType }}/{{ $item.tmdb_id }}/"
+            target="_blank"
+            rel="noopener"
+            aria-label="TMDB"
+          >
+            <svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="2.5" y="4.5" width="19" height="15" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="1.5" />
+              <text x="12" y="15" text-anchor="middle" font-size="8" font-weight="700" fill="currentColor">TMDB</text>
+            </svg>
+            <span>TMDB</span>
+          </a>
+          {{- end }}
+        </div>
         {{- end }} {{- if and (or (eq $item.content_type "tv") (eq $item.content_type "tvshow"))
         $item.seasons }}
         <p style="color: var(--secondary); margin-top: 0.5rem">
@@ -136,6 +187,42 @@ $item.poster }} {{- else if $item.poster_zh }} {{- $poster = $item.poster_zh }}
   .content-header-info {
     flex: 1;
     min-width: 300px;
+  }
+  .external-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.75rem 0 0;
+  }
+  .external-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 999px;
+    background: var(--code-bg);
+    color: var(--primary);
+    border: 1px solid var(--border);
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  .external-links a:hover {
+    text-decoration: none;
+    background: var(--entry);
+  }
+  .external-links a.imdb {
+    color: #b58900;
+  }
+  .external-links a.douban {
+    color: #3ca442;
+  }
+  .external-links a.tmdb {
+    color: #1db4e4;
+  }
+  .external-link-icon {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 auto;
   }
 
   .seasons-section {
