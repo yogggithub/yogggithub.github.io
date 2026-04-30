@@ -2,6 +2,7 @@ watched:
 - id: 
   title: 
   title_en: 
+  content_type: movie
   imdb_id: 
   tmdb_id: 
   douban_id: 
@@ -9,7 +10,6 @@ watched:
   review: |
 
   watched_date: 
-  content_type: movie
   poster: 
   poster_en: 
 - id: 
@@ -34,9 +34,141 @@ watched:
     watched_date: 
     poster: 
     poster_en: 
+- id: tt33265480
+  title: 除恶
+  title_en: The Devil Between Us
+  content_type: tv
+  imdb_id: tt33265480
+  tmdb_id: 281495
+  douban_id: 36566053
+  rating: 5
+  watched_date: 2026-05-02
+  poster: https://media.themoviedb.org/t/p/w440_and_h660_face/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
+  poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
+  seasons: 
+  - season: 1
+    title: 除恶
+    title_en: The Devil Between Us
+    douban_id: 36566053
+    rating: 5
+    review: |
+      有个女主这样的闺蜜，简直是人生悲剧。
+      这个电视剧根本和悬疑没什么关系，一切剧情推进，一切线索，全靠拍脑门。
+
+      1.女主完全体现了中国警察有罪推定的野蛮办案逻辑
+      第一次上门去吃饭，厕所里捡头发拿去化验，第二次从减肥药里偷摸两颗去化验（之前还一个劲的索要减肥药其实是为了证明她闺蜜减肥药有问题）
+      注意，这里的逻辑是，先怀疑再找证据证明；而不是发现线索，再寻证明。首先就是线索都没有，连相关怀疑都没有，先预设有可能，再找证物证明。
+      而且还是从小长到大的闺蜜好友，就这摆明了一定努力证明自己闺蜜得钱不正？
+      我觉得正常人怀疑李晓雅做微商搞传销、卖三无产品、严重偷税漏税、售卖假药都有可能，动不动没由来的把自己闺蜜跟毒联系上，这本身就不合理。
+
+      2.胡文静警察二人组，一没物证、人证，二没线索情报，就这么靠猜靠蒙就能跟现实对上号？
+      比如为什么程恳会跟姓吕的那人联系？因为姓吕的是毒贩，所以程恳是去找他买人的，这逻辑对的上吗？
+      再说，两个警察多次凭借模糊的监控，推断是程恳。，后续搜查、非法秘密跟踪都没有发现嫌疑，还要怀疑程恳就是监控画中人？
+
+      3.曹金川有问题，那之前被骗钱（警察也知道他被骗）的程恳二度去追曹金川，就说明程恳跟曹金川有关系，而且有一定嫌疑？
+      还去程恳进行了询问？社会混子，哪个没上百人的关系网，查来查去，就查了一个追讨钱的程恳。
+      哪怕是县城，在证明程恳没有吸毒贩毒史的情况下，这么郑重其事的进行问询？就又一次为了证明一猜就准，一蒙就对？
+
+      4.没有证据，跟踪被发现，还舔着脸往程恳身边凑？中国警察就是这么野蛮。
+
+      5.程恳、程小东、李晓雅几个人傻了吗？为了一两百万，就是不着急跑？
+
+      6.小作坊加工毒品时掉落的两袋成品，在满屋重新堆码货时，就楞是没发现？
+      屋子格局都变了，之前是空场地摆了个桌子，现在屋子放货架了，都还在哪里？
+
+      7.王萍在减肥药货架下面捡到一袋掉落的小包，那个犹豫不绝，演给谁看？你咋知道这跟毒有关？然后第二天直接碰到胡文静砸门时，开口就说没想到李晓雅如何如何，你也上帝了？
+
+      还有N多点，BUG太多。
+      
+
+      前面还行，多头故事线其实铺垫都还算合理，人物弧光也比较饱满。只是一到剧情要推进下一阶段了，就变成两个傻逼脑补了。
+    watched_date: 2026-05-02
+    poster: https://media.themoviedb.org/t/p/w440_and_h660_face/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
+    poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
+- id: tt29476852
+  title: 黄雀
+  title_en: Stealing Time
+  content_type: tv
+  imdb_id: tt29476852
+  tmdb_id: 42912
+  douban_id: 36512372
+  rating: 4
+  watched_date: 2026-04-15
+  poster: https://media.themoviedb.org/t/p/w440_and_h660_face/o10XwyeaiLMl6MsyV8eAFfOuCSg.jpg
+  poster_en: 
+  seasons: 
+  - season: 1
+    title: 黄雀
+    title_en: Stealing Time
+    douban_id: 36512372
+    rating: 4
+    review: |
+      不是，这剧和破案有什么关系？所有的坏人都必需死，或者杀个人？
+      
+      以一袭犯罪剧的华袍披裹着空洞的创作内核，在中国影视流水线式的悬疑剧赛道上再添一具“精致烂尾”的残骸。
+      郭京飞饰演的警察角色仿佛从十年前的刑侦剧片场走错片场，浮夸的肢体语言与故作深沉的台词形成荒诞对冲，所谓“亦正亦邪”的复杂性被演绎成一场挤眉弄眼的自我感动；
+      秦岚的人设犹如AI拼接的职场爽文模板，戏码充斥着对正常逻辑的傲慢践踏，每一个“反转”都透露出编剧对观众智商的轻蔑；
+      祖峰的反派表演更是沦为阴郁气质的廉价批发，连嘴角抽搐的幅度都精准复刻过往作品，仿佛导演在监视器后循环播放着“请再变态一点”的机械指令。
+      
+      全剧用滤镜美学掩盖叙事贫血，用支离破碎的倒叙制造伪高级感，当镜头反复用慢动作特写渲染“人性挣扎”时，暴露出的是创作者对犯罪类型剧本质的误解。
+      真正的紧张感来自严密逻辑与人性博弈，而非靠配乐轰鸣与明星特写强撑的虚张声势。
+      这场披着现实主义外衣的闹剧，不过是资本将演技派塞进工业化模具后产出的畸形儿，既玷污了犯罪题材的严肃性，也暴露了制作方对“悬疑赛道”的收割心态：
+      只要卡司够亮、热搜够猛，哪怕剧本是用洗稿的过时套路，也能在流量池里搅起一片混浊水花。
+    watched_date: 2026-04-15
+    poster: https://media.themoviedb.org/t/p/w440_and_h660_face/o10XwyeaiLMl6MsyV8eAFfOuCSg.jpg
+    poster_en: 
+- id: tt27543632
+  title: 家弑服务
+  title_en: The Housemaid
+  content_type: movie
+  imdb_id: tt27543632
+  tmdb_id: 1368166
+  douban_id: 36367195
+  rating: 5
+  review: |
+    纠结了一下，我还是觉得这部电影只能给5分，而不是6分。原因有几点：
+    1. 剧情硬伤
+    -  第一个问题是女主的背景。一个10年牢狱的假释犯，想伪装成大学毕业生，但凡雇主要一份无犯罪证明怎么办？即使女二只是想祸水东引，她又是如何通过一次简单的面试确定这个人能吸引男主落入圈套？这个环节被一笔带过，从而形成了第一个巨大的逻辑缺陷。
+    -  第二个问题是男主的表现。在剧情反转，光顾着塑造男主阳光的人设，哪怕铺垫一点点暗线，也能让最后的反转显得不是那么的突兀。全片就是突出一个剧情杀，说你坏你就坏，不给理由不给原因。
+    - 第三个问题是这个家庭之前的女佣去了哪里发生了什么？
+    - 还有很多问题，譬如莫名其妙的配角，包括那个园丁和女儿，他们存在意义是什么？女警就这样荒唐的结案，虽然司法界被左疯掌控，但也不能这样就是糊弄的吧？
+    
+    2. 演技低劣
+    实在不知道这个女主有什么演技在，全片表情木讷，完全跟不上剧情的节奏，给不了观众情绪变化。男主也一样，除了笑和卖肉，你完全看不出来他应有的狠劲。牙都拔了还在笑，尬死了。女二是全片不多的两点。
+    
+    全片专精于刺激女性痒点，放弃了一切的合理性与逻辑性，只剩下浮夸的狂欢。
+  watched_date: 2026-03-07
+  poster: https://media.themoviedb.org/t/p/w440_and_h660_face/scBrLhUMhL5eYgRvyO67AkiS4Fo.jpg
+  poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/scBrLhUMhL5eYgRvyO67AkiS4Fo.jpg
+- id: tt34607637
+  title: 不眠日
+  title_en: Mobius
+  content_type: tv
+  imdb_id: tt34607637
+  tmdb_id: 
+  douban_id: 36663303
+  rating: 5
+  watched_date: 2026-02-28
+  poster: https://media.themoviedb.org/t/p/w220_and_h330_face/8aBqS0qWHbLEhCZ4qjEeCDFbwCC.jpg
+  poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/4ebIeyHZ9Er3qKqzrLPxrLP4ERZ.jpg
+  seasons: 
+  - season: 1
+    title: 不眠日
+    title_en: Mobius
+    douban_id: 36663303
+    rating: 5
+    review: |
+      这剧后1/3注水严重，如果精简到8集，至少能高2分。
+      演员方面，男女主都是pose型演技，完全传递不了任何情绪变化。什么警察天天修身西装白衬衫窄条领带？
+      剧情方面，那么多配角，浪费多少特写，对故事零推动，全是花花架子。然后你还要留线头拍第二季？前4天演练了ABCD共4种解法，结果第5回从裤裆里掏出个Plan Z？那你直接跳过前4回好不好！
+      其实设定还是有点特点的，有收束的无限流，可惜编剧想象力不够。
+    watched_date: 2026-02-28
+    poster: https://media.themoviedb.org/t/p/w220_and_h330_face/8aBqS0qWHbLEhCZ4qjEeCDFbwCC.jpg
+    poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/4ebIeyHZ9Er3qKqzrLPxrLP4ERZ.jpg
 - id: tt32642706
   title: 全信没收
   title_en: The Rip
+  content_type: movie
   imdb_id: tt32642706
   tmdb_id: 1306368
   douban_id: 36932394
@@ -45,7 +177,6 @@ watched:
     剧情其实挺一般的，文戏有些弱了。在传递不同金额时候涉及大量废话场景，甚至话痨到让观众怀疑小队内部是否团结。
     这部最难忘场景，就是装甲车中迷醉的流光在4个角色脸上，流光溢彩，过目难忘。
   watched_date: 2026-01-31
-  content_type: movie
   poster: https://media.themoviedb.org/t/p/w220_and_h330_face/4e0lAnOVXyTN6n5k7o18fqlaeg3.jpg
   poster_en: https://image.tmdb.org/t/p/original/4wsYWH73Hb1B6noGIFaRQSAkuXj.jpg
 - id: tt31227572
