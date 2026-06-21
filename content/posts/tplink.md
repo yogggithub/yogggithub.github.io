@@ -1,8 +1,8 @@
 ---
 title: "避雷TP-LINK 7DR-7290"
 author: 高羽
-date: 2026-06-014T16:00:00-05:00
-lastmod: 2026-06-020T14:30:00-05:00
+date: 2026-06-14T16:00:00-05:00
+lastmod: 2026-06-20T14:30:00-05:00
 draft: false
 tags: ["感想", "吐槽", "TP-LINK"]
 categories: ["剁手割草", "回忆录"]
