@@ -34,6 +34,29 @@ watched:
     watched_date: 
     poster: 
     poster_en: 
+- id: tt32465914
+  title: 钢铁森林
+  title_en: Sunsets Secrets Regrets
+  content_type: tv
+  imdb_id: tt32465914
+  tmdb_id: 281392
+  douban_id: 36513446
+  rating: 
+  watched_date: 
+  poster: https://media.themoviedb.org/t/p/w440_and_h660_face/abKwcuNbavcIGEFGTtLV11GT0dZ.jpg
+  poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/8qwzV5Y24L5Brzi9ycvL2ynubYh.jpg
+  seasons: 
+  - season: 1
+    title: 钢铁森林
+    title_en: Sunsets Secrets Regrets
+    douban_id: 36513446
+    rating: 
+    review: |
+      第一集：差点毒发身亡，剪辑莫名其妙，剧情支离破碎，人物扭曲变态。女主当警察在办公室竟然穿长款风衣，你是来走秀的吗？
+      第二集：穿的比氛围组还敬业，正常单身女性看见殴打，竟然干上去阻止？然后流氓还停手了？尼马流氓是吃素的吗？一打五不跑，流氓真的是吃素的
+    watched_date: 
+    poster: https://media.themoviedb.org/t/p/w440_and_h660_face/abKwcuNbavcIGEFGTtLV11GT0dZ.jpg
+    poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/8qwzV5Y24L5Brzi9ycvL2ynubYh.jpg
 - id: tt33265480
   title: 除恶
   title_en: The Devil Between Us
