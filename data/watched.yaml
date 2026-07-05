@@ -34,6 +34,33 @@ watched:
     watched_date: 
     poster: 
     poster_en: 
+- id: tt35045720
+  title: 扫毒风暴
+  title_en: The Narcotic Operation
+  content_type: tv
+  imdb_id: tt35045720
+  tmdb_id: 292575
+  douban_id: 36721436
+  rating: 5
+  watched_date: 2026-07-05
+  poster: https://media.themoviedb.org/t/p/w440_and_h660_face/1573FCIqFn46QjSNqiQxnJSUiYS.jpg
+  poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/rYUslUWtcetgFbGUamGTiGsbmZ0.jpg
+  seasons: 
+  - season: 1
+    title: 扫毒风暴
+    title_en: The Narcotic Operation
+    douban_id: 36721436
+    rating: 5
+    review: |
+      整体上其实还凑合，秦昊塑造的主角还是有弧光的。只是剧情过于拖沓，压缩到一半时长应该能到7分以上。
+      譬如，于文文那个角色用处是什么？那个越剧旦角只是为了引出一个报纸报道。换成警察透露是不是剧情更加紧凑？
+      类似的问题角色太多了，菊花姐吴燕萍马英子等等。
+      
+      还有就是中共警匪片的老问题了。只有匪徒是人，能让观众感受到人的七情六欲。所有正面角色都是机器，没家庭没人性没欲望。
+
+    watched_date: 2026-07-04
+    poster: https://media.themoviedb.org/t/p/w440_and_h660_face/1573FCIqFn46QjSNqiQxnJSUiYS.jpghttps://media.themoviedb.org/t/p/w440_and_h660_face/1573FCIqFn46QjSNqiQxnJSUiYS.jpg
+    poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/rYUslUWtcetgFbGUamGTiGsbmZ0.jpg
 - id: tt32465914
   title: 钢铁森林
   title_en: Sunsets Secrets Regrets
@@ -50,11 +77,13 @@ watched:
     title: 钢铁森林
     title_en: Sunsets Secrets Regrets
     douban_id: 36513446
-    rating: 
+    rating: 3
     review: |
       第一集：差点毒发身亡，剪辑莫名其妙，剧情支离破碎，人物扭曲变态。女主当警察在办公室竟然穿长款风衣，你是来走秀的吗？
       第二集：穿的比氛围组还敬业，正常单身女性看见殴打，竟然干上去阻止？然后流氓还停手了？尼马流氓是吃素的吗？一打五不跑，流氓真的是吃素的
-    watched_date: 
+
+      后面没继续看了，别的悬疑剧是“戏不够情来凑”，这部剧是都市玛丽苏三角恋，不过是给大女主安了个警察的人设。
+    watched_date: 2026-06-02
     poster: https://media.themoviedb.org/t/p/w440_and_h660_face/abKwcuNbavcIGEFGTtLV11GT0dZ.jpg
     poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/8qwzV5Y24L5Brzi9ycvL2ynubYh.jpg
 - id: tt33265480
