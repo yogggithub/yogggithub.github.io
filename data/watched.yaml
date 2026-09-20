@@ -1,39 +1,217 @@
 watched:
-- id: 
-  title: 
-  title_en: 
-  content_type: movie
-  imdb_id: 
-  tmdb_id: 
-  douban_id: 
-  rating: 
-  review: |
-
-  watched_date: 
-  poster: 
-  poster_en: 
-- id: 
-  title: 
-  title_en: 
+- id: tt42127457
+  title: 金特色：本色回归
+  title_en: Agent Kim Reactivated
   content_type: tv
-  imdb_id: 
-  tmdb_id: 
-  douban_id: 
+  imdb_id: tt42127457
+  tmdb_id: 296206
+  rating: 5
+  watched_date: 2026-09-20
+  poster: https://media.themoviedb.org/t/p/w220_and_h330_face/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg
+  poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/mxa7YxVln3Rwnd2Va82PoclTznj.jpg
+  seasons: 
+  - season: 1
+    douban_id: 37523009
+    rating: 5
+    review: |
+      非常模版化，刻意穿插搞笑桥段的嬉闹片。三人队中，拳师海军负责打闹搞笑，男主负责耍帅。
+      全片基本就是把脑子忘掉，然后看着正派反派打成一锅粥。
+      一股子工业添加剂的味儿，越到后面越是废话连篇，如果能剪成4集，质量能上一个台阶。
+    watched_date: 2026-09-20
+    poster: https://media.themoviedb.org/t/p/w220_and_h330_face/qhQDBIuzNHru06O3q3Q9IC0Nam3.jpg
+    poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/mxa7YxVln3Rwnd2Va82PoclTznj.jpg
+- id: tt34809853
+  title: 铁拳教育
+  title_en: Teach You a Lesson
+  content_type: tv
+  imdb_id: tt34809853
+  tmdb_id: 276161
+  rating: 5
+  watched_date: 2026-09-13
+  poster: https://media.themoviedb.org/t/p/w220_and_h330_face/4GMm608cmS7lmfxLCe2yo9iYoAX.jpg
+  poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/gN7Tq35raryabkPGcKlb4ZKeutm.jpg
+  seasons: 
+  - season: 1
+    douban_id: 
+    rating: 5
+    review: |
+      看两集就会让人迅速审美疲劳的剧集。让我不由自主地想起另外一部同样问题但也高分的《非常律师禹英禑》。
+      都是内容空洞，节奏缓慢，套路肤浅的泛善可陈的套路片。
+      不知道为啥这种只有2集容量的剧集，在豆瓣上竟然可以快9分。到底是有多少水军啊。
+    watched_date: 2026-09-13
+    poster: https://media.themoviedb.org/t/p/w220_and_h330_face/4GMm608cmS7lmfxLCe2yo9iYoAX.jpg
+    poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/gN7Tq35raryabkPGcKlb4ZKeutm.jpg
+- id: tt34885279
+  title: 消失的人
+  title_en: Vanishing Point
+  content_type: movie
+  imdb_id: tt34885279
+  tmdb_id: 1658653
+  douban_id: 36965301
+  rating: 5
+  review: |
+    电影开始铺垫的时候，剧情还算正常。但随着进度条向后，人物事件就开始滑向变态了。
+    两个主要男角色，都是一言难尽的类型。
+  watched_date: 2026-09-11
+  poster: https://media.themoviedb.org/t/p/w220_and_h330_face/v1mXfFXyAQRedKHIg1ji9gGKmSt.jpg
+  poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/v6Wq7P2UvgkEIczgS1fiHBzoJ1m.jpg
+- id: tt36104233
+  title: 夺命许愿
+  title_en: If Wishes Could Kill
+  content_type: tv
+  imdb_id: tt36104233
+  tmdb_id: 285838
+  rating: 6
+  watched_date: 2026-09-08
+  poster: https://media.themoviedb.org/t/p/w220_and_h330_face/zMuisSjF08Fuk5ywZH9k1ab2SiW.jpg
+  poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg
+  seasons: 
+  - season: 1
+    douban_id: 37125831
+    rating: 6
+    review: |
+      故事没什么新意，好好的东亚恐怖片，非要套上美式血浆片的模版。
+      为啥女主一脸的黑暗荣耀宋慧乔的感觉，一个医生做的？
+    watched_date: 2026-09-08
+    poster: https://media.themoviedb.org/t/p/w220_and_h330_face/zMuisSjF08Fuk5ywZH9k1ab2SiW.jpg
+    poster_en:   https://media.themoviedb.org/t/p/w220_and_h330_face/2CfTNVaR8kZQkWtWWE3Cntaiq33.jpg  
+- id: tt32634330
+  title: 抓特务
+  title_en: I Know Who You Are
+  content_type: movie
+  imdb_id: tt32634330
+  tmdb_id: 1305672
+  douban_id: 36812879
+  rating: 4
+  review: |
+    平铺直叙流水账，完全没有什么节奏和起伏，也没有戏剧冲突。
+    完全可以把它看成是创造团队给习近平及其他文革期间塑造三观，并为那场人道毁灭浩劫不断招魂的统治阶级的歌功颂德大字报。
+    全片充满了对人间悲剧的缅怀和颂扬，恨不得让地狱再临人间。
+  watched_date: 2026-09-04
+  poster: https://media.themoviedb.org/t/p/w220_and_h330_face/ozQe6oNmGHvwk2zdCQilMikUTBZ.jpg
+  poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/ozQe6oNmGHvwk2zdCQilMikUTBZ.jpg
+- id: tt4574334
+  title: 怪奇物语
+  title_en: Stranger Things
+  content_type: tv
+  imdb_id: tt4574334
+  tmdb_id: 66732
   rating: 
   watched_date: 
-  poster: 
+  poster: https://image.tmdb.org/t/p/original/iTvTODru3s8A4eGqVZzALcipIft.jpg
   poster_en: 
   seasons: 
   - season: 1
-    title: 
-    title_en: 
-    douban_id: 
-    rating: 
+    douban_id: 26359270
+    rating: 8
     review: |
+      整体风格偏向青少年，质量不及预期，可能是名声太大导致的期望值过高了。
+      第一季构建的世界已经非常完整：80后的复古色调，怀旧的音乐，冷战的压抑，弥漫的政治阴谋。
 
-    watched_date: 
-    poster: 
-    poster_en: 
+      虽然故事架构传统，但氛围营造很有匠心。在保持一定的恐怖感的基础上，尽可能的让感官正面，导演和摄影的功力可见一斑。三条线同时推进，相互穿插剪辑，却不觉得纷乱。
+      整季看下来，人物的行为与动机都和人设基本吻合，相对很少有出格的情节。每个人都有优点缺点，甚至是孩童的争吵都让人觉得年少的自己也会这样。
+      几个小主演的演技都很在线，碾压内娱99%的所谓演员。
+      
+      然后故事的结尾让我非常吃惊，竟然将整个倒影世界的营救全部省略了，直接拉高了对第二季的期待。当然也会让连续看第二季的我都有点怀疑开错链接了。      
+    watched_date: 2026-08-01
+    poster: https://image.tmdb.org/t/p/original/kiHbzDhAWLEHdeE9WCrzpIFqOzi.jpg
+    poster_en: https://image.tmdb.org/t/p/original/uKYUR8GPkKRCksczYDJb3pwZauo.jpg
+  - season: 2
+    douban_id: 26844438
+    rating: 5
+    review: |
+      第二季完全没能接住第一季的势头。
+      从剧情角度谈，这一季没有新意，而且节奏松散，主线不明，甚至女主几乎全程打酱油。不知所谓的感情纠葛就好像注水的国产剧一样垃圾。
+      从人物角度看，新加入两个兄妹角色简直鸡肋，与原有角色没有任何化学反应，也没带动剧情演化发展，纯属是可有可无的状态。而可怜的牛逼鲍勃人物是立住了，但马上就被安排领了便当。
+      从行为角度讲，第一季的疯妈可以认为是寻子心切，这一季把抽象艺术贴满全家是为了什么？根本没有合理动机来解释。
+
+    watched_date: 2026-08-08
+    poster: https://image.tmdb.org/t/p/original/rhek6LTJ7YtMLOlh4m2jTFaUqa8.jpg
+    poster_en: https://image.tmdb.org/t/p/original/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg
+  - season: 3
+    douban_id: 27119156
+    rating: 6
+    review: |
+      相比第二季，剧情收束了不少，但节奏烂成一锅粥。
+      很多场景，尤其是战斗，除了当前特写角色，其他人都仅是围观，一点额外动作都没有。可见剧本之粗糙。
+      此外，还多了许多煽情的桥段，让本来就因为多线叙事而导致的节奏更加笨重。同时，美式的煽情看多了真多令人反胃。
+      举个例子，第一季是多么简洁大胆的直接省略了最后决战。反观本季，决战不单拉长成3集，主角团还喋喋不休导致差点关门失败。
+
+      最后一幕中，哥哥都死了，Maxi还在那唱歌戏弄Dustin，wtf?
+    watched_date: 2026-08-15
+    poster: https://image.tmdb.org/t/p/original/6lwo6GjdSAGbOwD5KCpc6T1RV2l.jpg
+    poster_en: https://image.tmdb.org/t/p/original/g3nzhHBDTrJ7RWhzozFTYFjvRbd.jpg
+  - season: 4
+    douban_id: 27194292
+    rating: 7
+    review: |
+      开篇就天雷滚滚。上一季结束时还快乐无比的Max突然对哥哥的死有感觉了，这是史前恐龙的神经传导速度吗？
+      然后怪物也是石头里面蹦出来的。前两季都是按照蜘蛛渲染的，这下突然变成人形了，还配上一个恶灵复仇的行为模式。前面的铺垫全都吃了呗？
+      
+      看到现在，只有Maxi和Dustin还能算正常人。
+    watched_date: 2026-09-03
+    poster: https://image.tmdb.org/t/p/original/b2tq0D8k5acpciLuqckk1xVOWCx.jpg
+    poster_en: https://image.tmdb.org/t/p/original/zvGTZYDCoMSMIBkXExxRxLYimqN.jpg
+  - season: 5
+    douban_id: 35774681
+    rating: 4
+    review: |
+      第五季烂成屎了。多线叙事，剪辑细碎，屁话和剧情近乎六四开。
+      好不容易一条线要推进了，就切换视角。一切换上来就是屁话5分钟，然后剧情推进2分钟，再切换。
+      设定漏成筛子，补不上也不管了，直接造出个新玩意儿糊上就完事。
+      铺垫好几季的Henry，随随便便5分钟就搞定了；甚至是最后拿出来裱糊的夺心魔，也是降智降力的镶边机器。
+      主角团随便攒个计划，就上天入地无往不利了？
+      蝙蝠魔犬筋肉人全都抛到脑后。甚至本季筋肉人还团灭军队，然后最终决战连一秒镜头都没有，你们是预算全花给至高无上的gay了吗？
+    
+      11必须死这个设定能接受，毕竟已经铺垫过她不能适应普通人的生活。但这个Mike全程内娱水平的木练，导演是怎么忍下来的？
+    watched_date: 2026-09-03
+    poster: https://image.tmdb.org/t/p/original/f6pUm0Rx20vHoESJfzGzplH0Q5q.jpg
+    poster_en: https://image.tmdb.org/t/p/original/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg
+- id: tt24053860
+  title: 豺狼的日子
+  title_en: The Day of the Jackal
+  content_type: tv
+  imdb_id: tt24053860
+  tmdb_id: 36323224
+  rating: 7
+  watched_date: 2026-07-24
+  poster: https://image.tmdb.org/t/p/original/wSiVDqXSsC8diRgw1IgmVkWng8j.jpg
+  poster_en: https://image.tmdb.org/t/p/original/tYLecM3WSEjlkKhkGiH5G68Dprm.jpg
+  seasons: 
+  - season: 1
+    douban_id: 36323224
+    rating: 7
+    review: |
+      看多了国产注水剧，突然转到这么一部节奏明快的爽剧，还有点不适应。
+      整部剧节奏明快不拖沓，剪辑顺畅不乱来，剧情收束不注水。男主塑造的人物还非常丰满，干工作专业肯牺牲，对家庭耐心有温度。
+      但两个主要的女角色都有缺陷。
+      - 扶弟魔老婆相对较好，最大的问题就是对爱人不信任。结局时迅速果断的切割竟然有了一点男主的风范。
+      - 傻逼女主就是全剧最大的败笔了。人丑心黑、只会瞪眼、没有情绪。这个角色堪称是寡廉鲜耻五毒俱全：对工作，自大、抢功、甩锅，害人害己；对家庭，自私、索取、逃避，损人利己。扭着个肥屁股就以为自己是特工了？政治正确是人类的毒瘤。
+    watched_date: 2026-07-24
+    poster: https://image.tmdb.org/t/p/original/wSiVDqXSsC8diRgw1IgmVkWng8j.jpg
+    poster_en: https://image.tmdb.org/t/p/original/tYLecM3WSEjlkKhkGiH5G68Dprm.jpg
+- id: tt32592348
+  title: 低智商犯罪
+  title_en: Born with Luck 
+  content_type: tv
+  imdb_id: tt32592348
+  tmdb_id: 272432
+  douban_id: 35517044
+  rating: 4
+  watched_date: 2026-07-18
+  poster: https://image.tmdb.org/t/p/original/yLmo3LvIZTzfIzswyQyAovfcfdO.jpg
+  poster_en: https://image.tmdb.org/t/p/original/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg
+  seasons: 
+  - season: 1
+    douban_id: 35517044
+    rating: 4
+    review: |
+      这部剧和什么破案、悬疑都没任何关系，就是一个加长版Guy Ritchie多线闹剧。还是那种完全没逻辑硬凑的水平。
+      所有角色没有任何一个是智商逻辑在线的。就是把公众当成低智商儿童肆意摩擦。
+      一堆无用的细枝末节不断穿插，再加上为了多线而纷乱的剪辑。
+    watched_date: 2026-07-18
+    poster: https://image.tmdb.org/t/p/original/yLmo3LvIZTzfIzswyQyAovfcfdO.jpg
+    poster_en: https://image.tmdb.org/t/p/original/3t7xGceBAsSzWMuDdUpa6xS0x7p.jpg
 - id: tt35045720
   title: 扫毒风暴
   title_en: The Narcotic Operation
@@ -43,12 +221,10 @@ watched:
   douban_id: 36721436
   rating: 5
   watched_date: 2026-07-05
-  poster: https://media.themoviedb.org/t/p/w440_and_h660_face/1573FCIqFn46QjSNqiQxnJSUiYS.jpg
-  poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/rYUslUWtcetgFbGUamGTiGsbmZ0.jpg
+  poster: https://image.tmdb.org/t/p/original/1573FCIqFn46QjSNqiQxnJSUiYS.jpg
+  poster_en: https://image.tmdb.org/t/p/original/rYUslUWtcetgFbGUamGTiGsbmZ0.jpg
   seasons: 
   - season: 1
-    title: 扫毒风暴
-    title_en: The Narcotic Operation
     douban_id: 36721436
     rating: 5
     review: |
@@ -59,8 +235,8 @@ watched:
       还有就是中共警匪片的老问题了。只有匪徒是人，能让观众感受到人的七情六欲。所有正面角色都是机器，没家庭没人性没欲望。
 
     watched_date: 2026-07-04
-    poster: https://media.themoviedb.org/t/p/w440_and_h660_face/1573FCIqFn46QjSNqiQxnJSUiYS.jpghttps://media.themoviedb.org/t/p/w440_and_h660_face/1573FCIqFn46QjSNqiQxnJSUiYS.jpg
-    poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/rYUslUWtcetgFbGUamGTiGsbmZ0.jpg
+    poster: https://image.tmdb.org/t/p/original/1573FCIqFn46QjSNqiQxnJSUiYS.jpghttps://image.tmdb.org/t/p/original/1573FCIqFn46QjSNqiQxnJSUiYS.jpg
+    poster_en: https://image.tmdb.org/t/p/original/rYUslUWtcetgFbGUamGTiGsbmZ0.jpg
 - id: tt32465914
   title: 钢铁森林
   title_en: Sunsets Secrets Regrets
@@ -68,14 +244,12 @@ watched:
   imdb_id: tt32465914
   tmdb_id: 281392
   douban_id: 36513446
-  rating: 
+  rating: 3
   watched_date: 
-  poster: https://media.themoviedb.org/t/p/w440_and_h660_face/abKwcuNbavcIGEFGTtLV11GT0dZ.jpg
-  poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/8qwzV5Y24L5Brzi9ycvL2ynubYh.jpg
+  poster: https://image.tmdb.org/t/p/original/abKwcuNbavcIGEFGTtLV11GT0dZ.jpg
+  poster_en: https://image.tmdb.org/t/p/original/8qwzV5Y24L5Brzi9ycvL2ynubYh.jpg
   seasons: 
   - season: 1
-    title: 钢铁森林
-    title_en: Sunsets Secrets Regrets
     douban_id: 36513446
     rating: 3
     review: |
@@ -84,8 +258,8 @@ watched:
 
       后面没继续看了，别的悬疑剧是“戏不够情来凑”，这部剧是都市玛丽苏三角恋，不过是给大女主安了个警察的人设。
     watched_date: 2026-06-02
-    poster: https://media.themoviedb.org/t/p/w440_and_h660_face/abKwcuNbavcIGEFGTtLV11GT0dZ.jpg
-    poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/8qwzV5Y24L5Brzi9ycvL2ynubYh.jpg
+    poster: https://image.tmdb.org/t/p/original/abKwcuNbavcIGEFGTtLV11GT0dZ.jpg
+    poster_en: https://image.tmdb.org/t/p/original/8qwzV5Y24L5Brzi9ycvL2ynubYh.jpg
 - id: tt33265480
   title: 除恶
   title_en: The Devil Between Us
@@ -95,8 +269,8 @@ watched:
   douban_id: 36566053
   rating: 5
   watched_date: 2026-05-02
-  poster: https://media.themoviedb.org/t/p/w440_and_h660_face/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
-  poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
+  poster: https://image.tmdb.org/t/p/original/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
+  poster_en: https://image.tmdb.org/t/p/original/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
   seasons: 
   - season: 1
     title: 除恶
@@ -135,8 +309,8 @@ watched:
 
       前面还行，多头故事线其实铺垫都还算合理，人物弧光也比较饱满。只是一到剧情要推进下一阶段了，就变成两个傻逼脑补了。
     watched_date: 2026-05-02
-    poster: https://media.themoviedb.org/t/p/w440_and_h660_face/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
-    poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
+    poster: https://image.tmdb.org/t/p/original/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
+    poster_en: https://image.tmdb.org/t/p/original/zLm6n7JlMkRB3Z54ZIlCtrjiCWT.jpg
 - id: tt29476852
   title: 黄雀
   title_en: Stealing Time
@@ -146,12 +320,10 @@ watched:
   douban_id: 36512372
   rating: 4
   watched_date: 2026-04-15
-  poster: https://media.themoviedb.org/t/p/w440_and_h660_face/o10XwyeaiLMl6MsyV8eAFfOuCSg.jpg
+  poster: https://image.tmdb.org/t/p/original/o10XwyeaiLMl6MsyV8eAFfOuCSg.jpg
   poster_en: 
   seasons: 
   - season: 1
-    title: 黄雀
-    title_en: Stealing Time
     douban_id: 36512372
     rating: 4
     review: |
@@ -167,7 +339,7 @@ watched:
       这场披着现实主义外衣的闹剧，不过是资本将演技派塞进工业化模具后产出的畸形儿，既玷污了犯罪题材的严肃性，也暴露了制作方对“悬疑赛道”的收割心态：
       只要卡司够亮、热搜够猛，哪怕剧本是用洗稿的过时套路，也能在流量池里搅起一片混浊水花。
     watched_date: 2026-04-15
-    poster: https://media.themoviedb.org/t/p/w440_and_h660_face/o10XwyeaiLMl6MsyV8eAFfOuCSg.jpg
+    poster: https://image.tmdb.org/t/p/original/o10XwyeaiLMl6MsyV8eAFfOuCSg.jpg
     poster_en: 
 - id: tt27543632
   title: 家弑服务
@@ -190,8 +362,8 @@ watched:
     
     全片专精于刺激女性痒点，放弃了一切的合理性与逻辑性，只剩下浮夸的狂欢。
   watched_date: 2026-03-07
-  poster: https://media.themoviedb.org/t/p/w440_and_h660_face/scBrLhUMhL5eYgRvyO67AkiS4Fo.jpg
-  poster_en: https://media.themoviedb.org/t/p/w440_and_h660_face/scBrLhUMhL5eYgRvyO67AkiS4Fo.jpg
+  poster: https://image.tmdb.org/t/p/original/scBrLhUMhL5eYgRvyO67AkiS4Fo.jpg
+  poster_en: https://image.tmdb.org/t/p/original/scBrLhUMhL5eYgRvyO67AkiS4Fo.jpg
 - id: tt34607637
   title: 不眠日
   title_en: Mobius
@@ -201,12 +373,10 @@ watched:
   douban_id: 36663303
   rating: 5
   watched_date: 2026-02-28
-  poster: https://media.themoviedb.org/t/p/w220_and_h330_face/8aBqS0qWHbLEhCZ4qjEeCDFbwCC.jpg
-  poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/4ebIeyHZ9Er3qKqzrLPxrLP4ERZ.jpg
+  poster: https://image.tmdb.org/t/p/original/8aBqS0qWHbLEhCZ4qjEeCDFbwCC.jpg
+  poster_en: https://image.tmdb.org/t/p/original/4ebIeyHZ9Er3qKqzrLPxrLP4ERZ.jpg
   seasons: 
   - season: 1
-    title: 不眠日
-    title_en: Mobius
     douban_id: 36663303
     rating: 5
     review: |
@@ -215,8 +385,8 @@ watched:
       剧情方面，那么多配角，浪费多少特写，对故事零推动，全是花花架子。然后你还要留线头拍第二季？前4天演练了ABCD共4种解法，结果第5回从裤裆里掏出个Plan Z？那你直接跳过前4回好不好！
       其实设定还是有点特点的，有收束的无限流，可惜编剧想象力不够。
     watched_date: 2026-02-28
-    poster: https://media.themoviedb.org/t/p/w220_and_h330_face/8aBqS0qWHbLEhCZ4qjEeCDFbwCC.jpg
-    poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/4ebIeyHZ9Er3qKqzrLPxrLP4ERZ.jpg
+    poster: https://image.tmdb.org/t/p/original/8aBqS0qWHbLEhCZ4qjEeCDFbwCC.jpg
+    poster_en: https://image.tmdb.org/t/p/original/4ebIeyHZ9Er3qKqzrLPxrLP4ERZ.jpg
 - id: tt32642706
   title: 全信没收
   title_en: The Rip
@@ -229,7 +399,7 @@ watched:
     剧情其实挺一般的，文戏有些弱了。在传递不同金额时候涉及大量废话场景，甚至话痨到让观众怀疑小队内部是否团结。
     这部最难忘场景，就是装甲车中迷醉的流光在4个角色脸上，流光溢彩，过目难忘。
   watched_date: 2026-01-31
-  poster: https://media.themoviedb.org/t/p/w220_and_h330_face/4e0lAnOVXyTN6n5k7o18fqlaeg3.jpg
+  poster: https://image.tmdb.org/t/p/original/4e0lAnOVXyTN6n5k7o18fqlaeg3.jpg
   poster_en: https://image.tmdb.org/t/p/original/4wsYWH73Hb1B6noGIFaRQSAkuXj.jpg
 - id: tt31227572
   title: 铁血战士：杀戮之地
@@ -2267,8 +2437,6 @@ watched:
   poster: https://image.tmdb.org/t/p/original/1qLhWdhkuchtoBLmLzvubxqgF8O.jpg
   seasons:
   - season: 1
-    title: 鱿鱼游戏 第一季
-    douban_id: 34812928
     rating: 6
     review: |
       中国的影视行业好好睁开眼看看，在你们只会恰爱国馊饭的同时，韩国连抄袭都能抄的这么漂亮了。
@@ -2277,16 +2445,12 @@ watched:
     poster: 
       https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_SX300.jpg
   - season: 2
-    title: 鱿鱼游戏 第二季
-    douban_id: 35656342
     rating: 5
     review: |
     watched_date: 2025-10-10
     poster: 
       https://m.media-amazon.com/images/M/MV5BMWI4ZWMxMWQtY2RlNC00MmY4LWJkNWUtMDRkZDg1YjcxMjkzXkEyXkFqcGc@._V1_SX300.jpg
   - season: 3
-    title: 鱿鱼游戏 第三季
-    douban_id: 36407380
     watched_date: 2025-10-20
     rating: 5
     review: |
@@ -3705,7 +3869,6 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/vs6nSoq5SEtECttz8FACGfm1c5H.jpg
   seasons:
   - season: 1
-    title: 脱口秀大会 第一季
     douban_id: 34812928
     tmdb_id: 93509
     rating: 6
@@ -3714,7 +3877,6 @@ watched:
     watched_date: 2021-10-24
     poster:
   - season: 2
-    title: 脱口秀大会 第二季
     title_en: 'Episode #2.1'
     content_type: movie
     douban_id: 34431573
@@ -3725,9 +3887,6 @@ watched:
     poster: 
       https://m.media-amazon.com/images/M/MV5BZjZhODZmZjItMGY1ZC00NGRlLWE1Y2YtMDI2NGUxZmE2MGQwXkEyXkFqcGdeQXVyODYyNTM1Nzk@._V1_SX300.jpg
   - season: 3
-    imdb_id: tt12776094
-    title: 脱口秀大会 第三季
-    title_en: 'Episode #3.1'
     content_type: movie
     douban_id: 34840339
     rating: 6
@@ -3737,8 +3896,6 @@ watched:
     poster: 
       https://m.media-amazon.com/images/M/MV5BMTc4NmJkZjctMmJhNi00ZTIwLTg4ZGYtNTI0ZGIwODU1YjI5XkEyXkFqcGdeQXVyODYyNTM1Nzk@._V1_SX300.jpg
   - season: 4
-    title: 脱口秀大会 第四季
-    title_en: Johnny Galagher, Fading Virtues - Pilot (Part 1)
     content_type: movie
     douban_id: 35206452
     rating: 4
@@ -6013,7 +6170,6 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/79SrWiXdxuEmhpXY2MD2e6HPLKs.jpg
   season_data:
   - season: 1
-    title: 我们与恶的距离
     douban_id: 30181230
     rating: 8
     review: |
@@ -6025,7 +6181,6 @@ watched:
     poster_en: 
       https://m.media-amazon.com/images/M/MV5BMzBhYTFjN2QtNGJiOS00NTFhLThmNDItMjJjMDUyOWI0ODEzXkEyXkFqcGc@._V1_SX300.jpg
   - season: 2
-    title: 我们与恶的距离 2
     douban_id: 30181230
     rating: 7
     review: |
@@ -6452,7 +6607,6 @@ watched:
   watched_date: 2022-07-28
   seasons:
   - season: 1
-    title: 秘密森林1
     douban_id: 26934346
     rating: 8
     review: |
@@ -6466,8 +6620,6 @@ watched:
     poster_en: 
       https://image.tmdb.org/t/p/original/blbbtx7DyvZ3JTGyc9MCArDL79b.jpg
   - season: 2
-    title: 秘密森林2
-    title_en: Stranger
     douban_id: 34815544
     rating: 6
     review: |
@@ -21734,7 +21886,6 @@ watched:
   watched_date: 2018-04-15
   seasons:
   - season: 1
-    title: 余罪 第一季
     douban_id: 26363830
     review: |
       第一季还算忠实于原著，改编没有太过。张一山把匪气演绎的还算到位。
@@ -21742,7 +21893,6 @@ watched:
       删除了太多人物，然后把内奸强行挪到第一个案件来了？
     watched_date: 2018-04-15
   - season: 2
-    title: 余罪 第二季
     douban_id: 26802975
     rating: 4
     review: |
@@ -28017,9 +28167,6 @@ watched:
       文案还不错
     watched_date: 2019-07-28
   - season: 2
-    title: 人生一串 第二季
-    title_en: Bogus Skill «Fruitmaster» ~About that time I became able to eat 
-      unlimited numbers of Skill Fruits (that kill you)~
     content_type: tv
     rating: 6
     review: |
@@ -30708,7 +30855,6 @@ watched:
   poster_en: https://image.tmdb.org/t/p/original/dRsiMn3ttveeKAtf867nQ7QLNdJ.jpg
   seasons:
   - season: 5
-    title: 越狱 第五季
     title_en: Resurrection
     content_type: tv
     rating: 6

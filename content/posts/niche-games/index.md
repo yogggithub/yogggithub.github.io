@@ -21,9 +21,9 @@ categories: ["玩物丧志", "回忆录"]
 - 不用搓玻璃。人老了，一切要不断操作的游戏都是反动派。
 
 ## 备选游戏
-- ![Idle MMO](#idle-mmo)
-- ![Idle Guide Master](#idle-guide-master)
-- ![Idle Iktah](#idle-iktah)
+- [Idle MMO](#idle-mmo)
+- [Idle Guide Master](#idle-guide-master)
+- [Idle Iktah](#idle-iktah)
 
 ## Idle MMO
 
@@ -49,11 +49,20 @@ categories: ["玩物丧志", "回忆录"]
 
 
 ### 交友
-欢迎使用我的链接注册，都能拿到碎片（用于兑换头像等）：![注册链接](https://web.idle-mmo.com?source=referral&ref=IMMO703884/)
+欢迎使用我的链接注册，都能拿到碎片（用于兑换头像等）：[注册链接](https://web.idle-mmo.com?source=referral&ref=IMMO703884/)
 
 在游戏里面建立了一个小公会，游戏中搜索公会名'YYDS'即可。目前博主还在提升自己，所以公会等级很低。
 
 ## Idle Guide Master
+
+{{% notice tip %}}
+
+这个游戏有意思，玩久了积累了很多新想法、新内容，所以单独成文：
+[查看完整中文流程攻略](../idle-guild-master/)
+
+{{% /notice %}}
+
+{{% details title="点击展开" %}}
 
 ### 简介
 这是一个纯单机、节奏很慢的放置游戏，只找到了手机端。
@@ -132,6 +141,9 @@ D9: TBD
 - "斗士"、"机会主义"和"野蛮人"都是“快速杀敌”的选项。斗士更适合游戏前期，而另外两个则在后期才能真正发挥作用
 - "明亮"、"诱饵"和"警惕"这三个特性都只在特定的单人刷图策略中才有用途。"诱饵"和"明亮"尤其适合单人 D6
 - "机会主义"和"明亮"是少数适合第三个技能槽位的特性。
+
+
+{{% /details %}}
 
 ## Idle Iktah
 
