@@ -144,7 +144,7 @@ watched:
     watched_date: 2026-09-26
     poster: https://image.tmdb.org/t/p/original/91EIXdWxmp2mHNRsSuDW3WyDJLj.jpg
     poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/1C96KIebESXhEnpeq4BWY0jg4KS.jpg
-    - season: 2
+  - season: 2
     douban_id: 
     rating: 
     review: |
@@ -152,7 +152,7 @@ watched:
     watched_date: 
     poster: https://media.themoviedb.org/t/p/w220_and_h330_face/gEdFxutBDtfY45qR5Um1PtEt4UG.jpg
     poster_en: https://image.tmdb.org/t/p/original/qcBs6JZ3YmOOqk9rzg9hxydfxNj.jpg
-    - season: 3
+  - season: 3
     douban_id: 
     rating: 
     review: |
@@ -160,7 +160,7 @@ watched:
     watched_date: 
     poster: https://media.themoviedb.org/t/p/w220_and_h330_face/sI8Y8JyFchO81Mopd6jWUOmE6so.jpg
     poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/i1v8sYQAzL7Ec24xq2sfo6Lkgcw.jpg
-    - season: 4
+  - season: 4
     douban_id: 
     rating: 
     review: |
@@ -168,7 +168,7 @@ watched:
     watched_date: 
     poster: https://media.themoviedb.org/t/p/w220_and_h330_face/qOHqEcBtFBDSVdCPwurBfMeQ1CX.jpg
     poster_en: https://media.themoviedb.org/t/p/w220_and_h330_face/97GpEcGEv9gaZnjKfE5jCqdJgHo.jpg
-    - season: 5
+  - season: 5
     douban_id: 
     rating: 
     review: |
